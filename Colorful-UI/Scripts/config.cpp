@@ -1,7 +1,7 @@
 
 class CfgPatches
 {
-	class ModTemplate_Scripts
+	class ColorfulUI_Scripts
 	{
         requiredVersion = 0.1;
 		requiredAddons[] = {"DZ_Scripts"};
@@ -10,12 +10,12 @@ class CfgPatches
 
 class CfgMods 
 {
-	class ModTemplate
+	class ColorfulUI
 	{
 		name = "DayZ-Mod-Template";
-		dir = "ModTemplate";
-		creditsJson = "ModTemplate/Scripts/Credits.json";
-		inputs = "ModTemplate/Scripts/Inputs.xml";
+		dir = "Colorful-UI";
+		creditsJson = "Colorful-UI/Scripts/Credits.json";
+		inputs = "Colorful-UI/Scripts/Inputs.xml";
 		type = "mod";
 
 		dependencies[] =
@@ -32,7 +32,7 @@ class CfgMods
 			{
 				files[] =
 				{
-					"ModTemplate/scripts/1_core"
+					"Colorful-UI/scripts/1_core"
 				};
 			};
 
@@ -40,14 +40,14 @@ class CfgMods
 			{
 				files[] = 
 				{
-					"ModTemplate/scripts/3_Game"
+					"Colorful-UI/scripts/3_Game"
 				};
 			};
 			class worldScriptModule
 			{
 				files[] = 
 				{
-					"ModTemplate/scripts/4_World"
+					"Colorful-UI/scripts/4_World"
 				};
 			};
 
@@ -55,7 +55,7 @@ class CfgMods
 			{
 				files[] = 
 				{
-					"ModTemplate/scripts/5_Mission"
+					"Colorful-UI/scripts/5_Mission"
 				};
 			};
 		};
