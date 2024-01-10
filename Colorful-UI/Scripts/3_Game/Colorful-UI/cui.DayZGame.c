@@ -1,38 +1,38 @@
 
-// Prioity Queue ----------------------------------
-modded class LoginQueueBase extends LoginScreenBase
-{
-	override Widget Init()
-	{	
-		// Use CUI Layout	
-		layoutRoot 		= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
-		// Vanillia Casting
-		m_HintPanel	= new UiHintPanelLoading(layoutRoot.FindAnyWidget("hint_frame0"));
-		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtPosition"));
-		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
-		m_btnLeave 		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
-		m_txtNote.Show(true);
-		layoutRoot.FindAnyWidget("notification_root").Show(false);
-		return layoutRoot;
-	}
-};
+// // Prioity Queue ----------------------------------
+// modded class LoginQueueBase extends LoginScreenBase
+// {
+// 	override Widget Init()
+// 	{	
+// 		// Use CUI Layout	
+// 		layoutRoot 		= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
+// 		// Vanillia Casting
+// 		m_HintPanel	= new UiHintPanelLoading(layoutRoot.FindAnyWidget("hint_frame0"));
+// 		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtPosition"));
+// 		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
+// 		m_btnLeave 		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
+// 		m_txtNote.Show(true);
+// 		layoutRoot.FindAnyWidget("notification_root").Show(false);
+// 		return layoutRoot;
+// 	}
+// };
 
-// Loging In Screen ------------------------------
-modded class LoginTimeBase extends LoginScreenBase
-{
-	override Widget Init()
- 	{
- 		// Use CUI Layout
-		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
-		// Vanillia Casting
-		m_txtDescription 	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtDescription"));
-		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
-		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
-		m_txtDescription.Show(true);
-		layoutRoot.FindAnyWidget("notification_root").Show(false);
-		return layoutRoot;
-	}		
- };
+// // Loging In Screen ------------------------------
+// modded class LoginTimeBase extends LoginScreenBase
+// {
+// 	override Widget Init()
+//  	{
+//  		// Use CUI Layout
+// 		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
+// 		// Vanillia Casting
+// 		m_txtDescription 	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtDescription"));
+// 		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
+// 		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
+// 		m_txtDescription.Show(true);
+// 		layoutRoot.FindAnyWidget("notification_root").Show(false);
+// 		return layoutRoot;
+// 	}		
+//  };
 
  // Loading Screen (UH DUH!) --------------------
 modded class LoadingScreen
