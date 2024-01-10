@@ -25,3 +25,8 @@ thing.obf
 *.log
 *.ADM
 *.mdmp
+
+# Dont Store the Server Shit in the repo. 
+Missions/Colorful-UI.ChernarusPlus/storage_1/
+Profiles/Colorful-UI/client/
+Profiles/Colorful-UI/server/
