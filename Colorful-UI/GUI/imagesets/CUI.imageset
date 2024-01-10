@@ -1,5 +1,5 @@
 ImageSetClass {
- Name "CUI"
+ Name "cui"
  RefSize 925 925
  Textures {
   ImageSetTextureClass {

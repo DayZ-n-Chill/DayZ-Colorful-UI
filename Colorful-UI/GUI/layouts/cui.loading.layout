@@ -139,7 +139,7 @@ PanelWidgetClass LoadingFrame {
      hexactsize 1
      vexactsize 1
      scaled 1
-     image0 "set:cui2 image:Bulb"
+     image0 "set:cui image:Bulb"
      imageTexture "{25FFB07A27B4F7E1}Colorful-UX/gui/imagesets/cui2.imageset.edds"
      mode blend
      "src alpha" 1
@@ -188,7 +188,7 @@ PanelWidgetClass LoadingFrame {
          vexactpos 0
          hexactsize 0
          vexactsize 1
-         image0 "set:cui2 image:Tip Line"
+         image0 "set:cui image:TipLine"
          mode blend
          "src alpha" 1
          "clamp mode" clamp
@@ -234,7 +234,7 @@ PanelWidgetClass LoadingFrame {
          vexactpos 0
          hexactsize 0
          vexactsize 1
-         image0 "set:cui2 image:Tip Line"
+         image0 "set:cui image:TipLine"
          mode blend
          "src alpha" 1
          "clamp mode" clamp
