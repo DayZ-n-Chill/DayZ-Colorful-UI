@@ -4,9 +4,9 @@
 string GetRandomBackground()
 {
 	const string images[] = {
-		"Colorful-UX/gui/textures/loading_screens/CUI2-BG1.edds", 
-		"Colorful-UX/gui/textures/loading_screens/CUI2-BG2.edds",
-		"Colorful-UX/gui/textures/loading_screens/CUI2-BG3.edds"
+		"Colorful-UI/gui/textures/loading_screens/CUI2-BG1.edds", 
+		"Colorful-UI/gui/textures/loading_screens/CUI2-BG2.edds",
+		"Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds"
 	};
 	// If you add more images be sure to change the image count
 	const int IMAGES_COUNT = 3;

@@ -8,6 +8,12 @@ ImageSetClass {
   }
  }
  Images {
+  ImageSetDefClass Logo {
+   Name "Logo"
+   Pos 11 15
+   Size 438 261
+   Flags 0
+  }
  }
  Groups {
   ImageSetGroupClass Icons {
@@ -168,12 +174,6 @@ ImageSetClass {
   ImageSetGroupClass Global {
    Name "Global"
    Images {
-    ImageSetDefClass Logo {
-     Name "Logo"
-     Pos 11 15
-     Size 438 261
-     Flags 0
-    }
     ImageSetDefClass MenuDivider {
      Name "MenuDivider"
      Pos 11 298

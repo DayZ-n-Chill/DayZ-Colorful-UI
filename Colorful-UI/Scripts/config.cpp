@@ -26,7 +26,7 @@ class CfgMods
 		{
 			class imageSets
 			{
-				files[]= {};
+				files[]= {"Colorful-UI/GUI/imagesets/CUI.imageset"};
 			};
 			class engineScriptModule
 			{
