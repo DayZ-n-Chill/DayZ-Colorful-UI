@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{06143F1F90CD9898}Colorful-UI/gui/fonts/GB-Regular22.edds"
+ Author "unicron"
+ ChangeDate 1474113578
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "GB-Regular22.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

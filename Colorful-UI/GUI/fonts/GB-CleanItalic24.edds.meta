@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{269E4315ADF44B06}Colorful-UI/gui/fonts/GB-CleanItalic24.edds"
+ Author "unicron"
+ ChangeDate 1593651242
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "GB-CleanItalic24.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

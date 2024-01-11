@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4163A6573A9DC316}Colorful-UI/gui/fonts/GB-CleanRegular18.edds"
+ Author "unicron"
+ ChangeDate -546492374
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "GB-CleanRegular18.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}
