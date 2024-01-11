@@ -41,10 +41,7 @@ modded class LoadingScreen
 	protected ImageWidget m_tShader;
 	protected ImageWidget m_bShader;
 	protected ImageWidget m_tipIcon;
-	protected TextWidget m_tipHeader;
-	protected ImageWidget m_tipLineL;
-	protected ImageWidget m_tipLineR;
-	protected TextWidget m_tipText;
+
 	protected TextWidget m_loadingMsg;
 
 	void LoadingScreen(DayZGame game)
@@ -56,10 +53,6 @@ modded class LoadingScreen
 		Class.CastTo(m_tShader, m_WidgetRoot.FindAnyWidget("TopShader"));
 		Class.CastTo(m_bShader, m_WidgetRoot.FindAnyWidget("BottomShader"));
 		Class.CastTo(m_tipIcon, m_WidgetRoot.FindAnyWidget("hintIcon"));
-		Class.CastTo(m_tipHeader, m_WidgetRoot.FindAnyWidget("TipHeader"));
-		Class.CastTo(m_tipLineL, m_WidgetRoot.FindAnyWidget("LinesImageLeft"));
-		Class.CastTo(m_tipLineR, m_WidgetRoot.FindAnyWidget("LinesImageRight"));
-		Class.CastTo(m_tipText, m_WidgetRoot.FindAnyWidget("Hints"));
 		Class.CastTo(m_loadingMsg, m_WidgetRoot.FindAnyWidget("LoadingMsg"));
 		// Load BG and Progress Bar
 		m_ImageBackground = ImageWidget.Cast(m_WidgetRoot.FindAnyWidget("ImageBackground"));
@@ -73,19 +66,13 @@ modded class LoadingScreen
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
 		m_tipIcon.SetColor(colorScheme.TipIcon());
-		m_tipHeader.SetColor(colorScheme.TipHeader());
-		m_tipLineL.SetColor(colorScheme.TipLine());
-		m_tipLineR.SetColor(colorScheme.TipLine());
-		m_tipText.SetColor(colorScheme.TipText());
 		m_loadingMsg.SetColor(colorScheme.LoadingMsg());
 	}
 
 	override void Show()
 	{
-		// Set default Tip Data
-		m_tipHeader.SetText("Tip Header.");
-		m_tipText.SetText("The tips will show up hear.");
-		m_loadingMsg.SetText("Load Screen Messages.");
+		// I plan to make this timed and show some silly loading comments from the commuinty.
+		m_loadingMsg.SetText("GAME IS LOADING!");
 
 		// Use Random Background Images
 		Widget lIcon = m_Background;
