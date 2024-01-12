@@ -1,4 +1,3 @@
-
 // Prioity Queue ----------------------------------
 modded class LoginQueueBase extends LoginScreenBase
 {
@@ -6,7 +5,7 @@ modded class LoginQueueBase extends LoginScreenBase
 	{	
  		// Use CUI Layout	
  		layoutRoot 		= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
- 		// Vanillia Casting
+ 		// Vanillia Elements
  		m_HintPanel	= new UiHintPanelLoading(layoutRoot.FindAnyWidget("hint_frame0"));
 		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtPosition"));
 		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
@@ -24,6 +23,7 @@ modded class LoginTimeBase extends LoginScreenBase
 	protected ImageWidget m_tShader;
 	protected ImageWidget m_bShader;
 	protected ImageWidget m_tipIcon;
+	protected TextWidget m_loadingMsg;
 
  	override Widget Init()
   	{
@@ -34,26 +34,53 @@ modded class LoginTimeBase extends LoginScreenBase
 		m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
 		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
 		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
-		
+		m_loadingMsg = TextWidget.Cast(layoutRoot.FindAnyWidget("LoadingMsg"));
 		ImageWidget m_Background = ImageWidget.Cast( layoutRoot.FindAnyWidget("ImageBackground"));
-		m_Background.LoadImageFile(0, GetRandomBackground()); 
-		
-		m_tShader.SetColor(colorScheme.TopShader());
-		m_bShader.SetColor(colorScheme.BottomShader());
-		m_tipIcon.SetColor(colorScheme.TipIcon());
-		
- 		// Vanillia Casting
- 		m_txtDescription 	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtDescription"));
+ 		// Vanillia Elements
  		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
  		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
  		m_txtDescription.Show(true);
-		
- 		layoutRoot.FindAnyWidget("notification_root").Show(false);
+ 		layoutRoot.FindAnyWidget("notification_root").Show(false);		
+		// Theme the elements. 
+		// To edit these colors see the "Constant.c" file
+		m_Background.LoadImageFile(0, GetRandomBackground()); 
+		m_tShader.SetColor(colorScheme.TopShader());
+		m_bShader.SetColor(colorScheme.BottomShader());
+		m_tipIcon.SetColor(colorScheme.TipIcon());
+		m_txtLabel.SetColor(colorScheme.LoadingMsg());
 		return layoutRoot;
- 	}		
+ 	}	
+	// Change the wording in the countdown timer text
+	override void SetTime(int time)
+	{
+		string text = "";
+		TimeConversions.ConvertSecondsToFullTime(time, m_FullTime);
+		if (!m_IsRespawn)
+			text = "#menu_loading_in_";
+		else
+			text = "#dayz_game_spawning_in_";
+
+		if (m_FullTime.m_Days > 0)
+			text += "dhms";
+		else if (m_FullTime.m_Hours > 0)
+			text += "hms";
+		else if (m_FullTime.m_Minutes > 0)
+			text += "ms";
+		else
+			text += "s";
+			
+		text = Widget.TranslateString(text);
+		text = string.Format(text, m_FullTime.m_Seconds, m_FullTime.m_Minutes, m_FullTime.m_Hours, m_FullTime.m_Days);
+		m_txtLabel.SetText(text);
+		
+		if (m_IsRespawn && time <= 1)
+			GetGame().SetLoginTimerFinished();
+		// Change this text in quotes to whatever you want.
+		m_txtLabel.SetText("CONNECTING TO SERVER IN" + time.ToString());
+	}	
   };
 
- // Loading Screen (UH DUH!) --------------------
+// Loading Screen (UH DUH!) --------------------
 modded class LoadingScreen
 {
 	protected ImageWidget m_Background;
@@ -91,8 +118,6 @@ modded class LoadingScreen
 
 	override void Show()
 	{
-
-
 		// Use Random Background Images
 		Widget lIcon = m_Background;
 		ImageWidget m_Background = ImageWidget.Cast( m_WidgetRoot.FindAnyWidget("ImageBackground"));		

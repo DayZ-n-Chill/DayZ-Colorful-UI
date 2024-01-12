@@ -101,6 +101,10 @@ class colorScheme
 	static int OptionCaretColors()    { return BrandColor(); };
 }
 
+// Theme Manager Utilities
+
+
+
 // DIALOGS ---------------------------------------------------------------
 // There is No Need to mess with anything below this line. 
 const int COLORFUL_EXIT				= 666;
