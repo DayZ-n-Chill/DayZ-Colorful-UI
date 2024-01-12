@@ -1,38 +1,57 @@
 
-// // Prioity Queue ----------------------------------
-// modded class LoginQueueBase extends LoginScreenBase
-// {
-// 	override Widget Init()
-// 	{	
-// 		// Use CUI Layout	
-// 		layoutRoot 		= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
-// 		// Vanillia Casting
-// 		m_HintPanel	= new UiHintPanelLoading(layoutRoot.FindAnyWidget("hint_frame0"));
-// 		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtPosition"));
-// 		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
-// 		m_btnLeave 		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
-// 		m_txtNote.Show(true);
-// 		layoutRoot.FindAnyWidget("notification_root").Show(false);
-// 		return layoutRoot;
-// 	}
-// };
+// Prioity Queue ----------------------------------
+modded class LoginQueueBase extends LoginScreenBase
+{
+ 	override Widget Init()
+	{	
+ 		// Use CUI Layout	
+ 		layoutRoot 		= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
+ 		// Vanillia Casting
+ 		m_HintPanel	= new UiHintPanelLoading(layoutRoot.FindAnyWidget("hint_frame0"));
+		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtPosition"));
+		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
+		m_btnLeave 		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
+		m_txtNote.Show(true);
+		layoutRoot.FindAnyWidget("notification_root").Show(false);
+		return layoutRoot;
+	}
+};
 
-// // Loging In Screen ------------------------------
-// modded class LoginTimeBase extends LoginScreenBase
-// {
-// 	override Widget Init()
-//  	{
-//  		// Use CUI Layout
-// 		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
-// 		// Vanillia Casting
-// 		m_txtDescription 	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtDescription"));
-// 		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
-// 		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
-// 		m_txtDescription.Show(true);
-// 		layoutRoot.FindAnyWidget("notification_root").Show(false);
-// 		return layoutRoot;
-// 	}		
-//  };
+// Loging In Screen ------------------------------
+modded class LoginTimeBase extends LoginScreenBase
+{
+	protected ImageWidget m_Background;
+	protected ImageWidget m_tShader;
+	protected ImageWidget m_bShader;
+	protected ImageWidget m_tipIcon;
+
+ 	override Widget Init()
+  	{
+  		// Use CUI Layout
+		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
+		// CUI 2.0 Elements
+		m_Background  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Background"));
+		m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
+		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
+		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
+		
+		ImageWidget m_Background = ImageWidget.Cast( layoutRoot.FindAnyWidget("ImageBackground"));
+		m_Background.LoadImageFile(0, GetRandomBackground()); 
+		
+		m_tShader.SetColor(colorScheme.TopShader());
+		m_bShader.SetColor(colorScheme.BottomShader());
+		m_tipIcon.SetColor(colorScheme.TipIcon());
+		
+ 		// Vanillia Casting
+ 		m_txtDescription 	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtDescription"));
+ 		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
+ 		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
+ 		m_txtDescription.Show(true);
+		
+ 		layoutRoot.FindAnyWidget("notification_root").Show(false);
+		return layoutRoot;
+ 	}		
+  };
 
  // Loading Screen (UH DUH!) --------------------
 modded class LoadingScreen
@@ -41,7 +60,6 @@ modded class LoadingScreen
 	protected ImageWidget m_tShader;
 	protected ImageWidget m_bShader;
 	protected ImageWidget m_tipIcon;
-
 	protected TextWidget m_loadingMsg;
 
 	void LoadingScreen(DayZGame game)
@@ -67,12 +85,13 @@ modded class LoadingScreen
 		m_bShader.SetColor(colorScheme.BottomShader());
 		m_tipIcon.SetColor(colorScheme.TipIcon());
 		m_loadingMsg.SetColor(colorScheme.LoadingMsg());
+		// I plan to make this timed and show some silly loading comments from the commuinty.
+		m_loadingMsg.SetText("GAME IS LOADING!");
 	}
 
 	override void Show()
 	{
-		// I plan to make this timed and show some silly loading comments from the commuinty.
-		m_loadingMsg.SetText("GAME IS LOADING!");
+
 
 		// Use Random Background Images
 		Widget lIcon = m_Background;

@@ -24,7 +24,7 @@ PanelWidgetClass LoadingFrame {
    scaled 1
    fixaspect outside
    image0 ""
-   imageTexture "{F3680D43FF90E5A2}Colorful-UI/gui/textures/loading_screens/CUI2-BG1.edds"
+   imageTexture "{F3680D43FF90E5A2}Colorful-UI/GUI/textures/loading_screens/CUI2-BG1.edds"
    mode opaque
    "src alpha" 0
    "clamp mode" invalid
@@ -55,7 +55,7 @@ PanelWidgetClass LoadingFrame {
      vexactpos 1
      hexactsize 0
      vexactsize 0
-     imageTexture "{D8F330A5E09774AE}Colorful-UI/gui/textures/globals/CUI2-Vingette.edds"
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
      mode blend
      "src alpha" 1
      "clamp mode" clamp
@@ -71,7 +71,7 @@ PanelWidgetClass LoadingFrame {
      vexactpos 1
      hexactsize 0
      vexactsize 0
-     imageTexture "{73620301808D311B}Colorful-UI/gui/textures/globals/shader.edds"
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
      mode blend
      "src alpha" 1
      "clamp mode" clamp
@@ -88,7 +88,7 @@ PanelWidgetClass LoadingFrame {
      vexactpos 1
      hexactsize 0
      vexactsize 0
-     imageTexture "{73620301808D311B}Colorful-UI/gui/textures/globals/shader.edds"
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
      mode blend
      "src alpha" 1
      "clamp mode" clamp
@@ -118,7 +118,7 @@ PanelWidgetClass LoadingFrame {
      vexactsize 1
      fixaspect outside
      image0 "set:cui image:Logo"
-     imageTexture "{7CD806F5385DC838}Colorful-UI/gui/imagesets/CUI-Imageset.edds"
+     imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
      mode blend
      "src alpha" 1
      "clamp mode" clamp
@@ -128,6 +128,7 @@ PanelWidgetClass LoadingFrame {
     }
     GridSpacerWidgetClass HintBox {
      ignorepointer 1
+     position 0 0
      size 1 155
      halign center_ref
      valign bottom_ref
@@ -167,7 +168,7 @@ PanelWidgetClass LoadingFrame {
          vexactsize 1
          scaled 1
          image0 "set:cui image:Bulb"
-         imageTexture "{7CD806F5385DC838}Colorful-UI/gui/imagesets/CUI-Imageset.edds"
+         imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
          mode blend
          "src alpha" 1
          "clamp mode" clamp
