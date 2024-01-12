@@ -80,7 +80,7 @@ WindowWidgetClass TextInputDialogRoot {
      visible 1
      clipchildren 0
      ignorepointer 1
-     position 0 0
+     position 0.34095 0
      size 1.01 1
      halign center_ref
      hexactpos 1
@@ -98,7 +98,6 @@ WindowWidgetClass TextInputDialogRoot {
   }
   FrameWidgetClass SafeZone {
    ignorepointer 1
-   position 2.20365 -1.03946
    size 0.9 0.9
    halign center_ref
    valign center_ref
@@ -110,7 +109,8 @@ WindowWidgetClass TextInputDialogRoot {
     ButtonWidgetClass btnLeave {
      visible 1
      color 1 0 0 1
-     size 100 100
+     position -0 0
+     size 147.01199 49.4307
      halign right_ref
      hexactpos 0
      vexactpos 0
@@ -118,10 +118,54 @@ WindowWidgetClass TextInputDialogRoot {
      vexactsize 1
      userID 1
      style EmptyHighlight
-     text "#STR_TextInputDialogRoot_ButtonLeave0"
+     "no focus" 1
      text_proportion 0.55
-     font "gui/fonts/sdf_MetronBook24"
+     text_halign right
+     font "colorful-ui/gui/fonts/GB-Regular42"
      "disabled text color" 0.3412 0.3412 0.3412 1
+     {
+      ImageWidgetClass Exit {
+       visible 1
+       disabled 0
+       clipchildren 0
+       inheritalpha 0
+       ignorepointer 1
+       keepsafezone 0
+       size 24 24
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       image0 "set:cui image:Exit"
+       imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 0
+       nocache 0
+       "Transition width" 0.074
+      }
+      TextWidgetClass ExitText {
+       ignorepointer 1
+       size 162.341 48
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#STR_TextInputDialogRoot_ButtonLeave0"
+       font "colorful-ui/gui/fonts/GB-Regular42"
+       text_proportion 0.55
+       "size to text h" 1
+       "size to text v" 1
+      }
+     }
     }
     ImageWidgetClass Logo {
      visible 1
@@ -229,6 +273,19 @@ WindowWidgetClass TextInputDialogRoot {
      }
     }
    }
+  }
+  ProgressBarWidgetClass LoadingBar {
+   visible 1
+   ignorepointer 1
+   size 1 8
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   style Stamina
+   current 100
   }
  }
 }

@@ -72,6 +72,7 @@ class colorScheme
 
 	// Base Typography 
 	static int PrimaryText()          { return UIColor.White(); }; 	
+	static int TextHover()            { return UIColor.Yellow(); }; 	
 	static int SecondaryText()        { return UIColor.Grey(); }; 
 
 	// Shader Colors 
@@ -83,6 +84,7 @@ class colorScheme
 	static int Separator()       	  { return BrandColor(); };
 	static int TabHover()        	  { return BrandColor(); };
 	static int Loadingbar()      	  { return BrandColor(); };
+	
 
 	// Loading Screen
 	static int TipIcon()         	  { return UIColor.Yellow(); };

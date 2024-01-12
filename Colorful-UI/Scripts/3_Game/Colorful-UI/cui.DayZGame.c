@@ -24,6 +24,10 @@ modded class LoginTimeBase extends LoginScreenBase
 	protected ImageWidget m_bShader;
 	protected ImageWidget m_tipIcon;
 	protected TextWidget m_loadingMsg;
+	protected ImageWidget m_exitIcon;
+	protected TextWidget m_ExitText;
+	protected ProgressBarWidget m_ProgressLoading;
+	
 
  	override Widget Init()
   	{
@@ -32,11 +36,14 @@ modded class LoginTimeBase extends LoginScreenBase
 		// CUI 2.0 Elements
 		m_LSBackground  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Background"));
 		m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
+		m_exitIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Exit"));
 		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
 		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
 		m_loadingMsg = TextWidget.Cast(layoutRoot.FindAnyWidget("LoadingMsg"));
 		ImageWidget m_LSBackground = ImageWidget.Cast( layoutRoot.FindAnyWidget("ImageBackground"));
- 		// Vanillia Elements
+		m_ProgressLoading = ProgressBarWidget.Cast(layoutRoot.FindAnyWidget("LoadingBar"));
+ 		m_ExitText 			= TextWidget.Cast(layoutRoot.FindAnyWidget("ExitText"));
+		// Vanillia Elements
  		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
  		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
  		m_txtDescription.Show(true);
@@ -44,12 +51,37 @@ modded class LoginTimeBase extends LoginScreenBase
 		// Theme the elements. 
 		// To edit these colors see the "Constant.c" file
 		m_LSBackground.LoadImageFile(0, GetRandomBackground()); 
+		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
 		m_tipIcon.SetColor(colorScheme.TipIcon());
+		m_exitIcon.SetColor(colorScheme.TipIcon());
 		m_txtLabel.SetColor(colorScheme.LoadingMsg());
 		return layoutRoot;
  	}	
+	
+	
+	override bool OnMouseEnter( Widget w, int x, int y )
+	{
+		if( w == m_btnLeave )
+		{
+			m_ExitText.SetColor(colorScheme.TipIcon());
+			m_btnLeave.SetColor(UIColor.Transparent());
+			return true;
+		}
+		return false;
+	}
+	
+	override bool OnMouseLeave(Widget w, Widget enterW, int x, int y)
+	{
+		if( w == m_btnLeave )
+		{
+			m_ExitText.SetColor(colorScheme.PrimaryText());
+			return true;
+		}
+		return false;
+	}	
+	
 	// Change the wording in the countdown timer text
 	override void SetTime(int time)
 	{
