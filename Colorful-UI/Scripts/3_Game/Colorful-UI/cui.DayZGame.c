@@ -19,7 +19,7 @@ modded class LoginQueueBase extends LoginScreenBase
 // Loging In Screen ------------------------------
 modded class LoginTimeBase extends LoginScreenBase
 {
-	protected ImageWidget m_Background;
+	protected ImageWidget m_LSBackground;
 	protected ImageWidget m_tShader;
 	protected ImageWidget m_bShader;
 	protected ImageWidget m_tipIcon;
@@ -30,12 +30,12 @@ modded class LoginTimeBase extends LoginScreenBase
   		// Use CUI Layout
 		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
 		// CUI 2.0 Elements
-		m_Background  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Background"));
+		m_LSBackground  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Background"));
 		m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
 		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
 		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
 		m_loadingMsg = TextWidget.Cast(layoutRoot.FindAnyWidget("LoadingMsg"));
-		ImageWidget m_Background = ImageWidget.Cast( layoutRoot.FindAnyWidget("ImageBackground"));
+		ImageWidget m_LSBackground = ImageWidget.Cast( layoutRoot.FindAnyWidget("ImageBackground"));
  		// Vanillia Elements
  		m_txtLabel 			= TextWidget.Cast(layoutRoot.FindAnyWidget("txtLabel"));
  		m_btnLeave 			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
@@ -43,7 +43,7 @@ modded class LoginTimeBase extends LoginScreenBase
  		layoutRoot.FindAnyWidget("notification_root").Show(false);		
 		// Theme the elements. 
 		// To edit these colors see the "Constant.c" file
-		m_Background.LoadImageFile(0, GetRandomBackground()); 
+		m_LSBackground.LoadImageFile(0, GetRandomBackground()); 
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
 		m_tipIcon.SetColor(colorScheme.TipIcon());
@@ -76,7 +76,7 @@ modded class LoginTimeBase extends LoginScreenBase
 		if (m_IsRespawn && time <= 1)
 			GetGame().SetLoginTimerFinished();
 		// Change this text in quotes to whatever you want.
-		m_txtLabel.SetText("CONNECTING TO SERVER IN" + time.ToString());
+		m_txtLabel.SetText("CONNECTING TO SERVER IN " + time.ToString());
 	}	
   };
 
