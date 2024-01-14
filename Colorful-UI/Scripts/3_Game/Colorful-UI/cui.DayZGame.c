@@ -156,3 +156,10 @@ modded class LoadingScreen
 		m_Background.LoadImageFile(0, GetRandomBackground()); 
 	}
 };
+
+[RegisterProfileSetting(TestSettings, "Color Picker")]
+class TestSettings: ProfileSettings
+{
+    [RegisterProfileSettingColor("COLOR", "ColorTesting", "Color Testing")]
+    int ColorTesting = ARGB(255, 125, 125, 30);
+}
