@@ -27,7 +27,6 @@ modded class LoginTimeBase extends LoginScreenBase
 	protected ImageWidget m_exitIcon;
 	protected TextWidget m_ExitText;
 	protected ProgressBarWidget m_ProgressLoading;
-	
 
  	override Widget Init()
   	{
@@ -125,7 +124,7 @@ modded class LoadingScreen
 	{
 		m_DayZGame = game;
 		// Use the CUI 2.0 custom layout 
-		m_WidgetRoot = game.GetLoadingWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.loading.layout");
+		m_WidgetRoot = game.GetLoadingWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
 		// CUI 2.0 Elements
 		Class.CastTo(m_tShader, m_WidgetRoot.FindAnyWidget("TopShader"));
 		Class.CastTo(m_bShader, m_WidgetRoot.FindAnyWidget("BottomShader"));
@@ -157,9 +156,3 @@ modded class LoadingScreen
 	}
 };
 
-[RegisterProfileSetting(TestSettings, "Color Picker")]
-class TestSettings: ProfileSettings
-{
-    [RegisterProfileSettingColor("COLOR", "ColorTesting", "Color Testing")]
-    int ColorTesting = ARGB(255, 125, 125, 30);
-}

@@ -109,7 +109,7 @@ WindowWidgetClass TextInputDialogRoot {
     ButtonWidgetClass btnLeave {
      visible 1
      color 1 0 0 1
-     position -0 0
+     position 0 0
      size 147.01199 49.4307
      halign right_ref
      hexactpos 0
