@@ -7,13 +7,23 @@ modded class LoginQueueBase extends LoginScreenBase
  		layoutRoot 		= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
  		// Vanillia Elements
  		m_HintPanel	= new UiHintPanelLoading(layoutRoot.FindAnyWidget("hint_frame0"));
-		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("txtPosition"));
+		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("LoadingMsg"));
 		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
 		m_btnLeave 		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
 		m_txtNote.Show(true);
 		layoutRoot.FindAnyWidget("notification_root").Show(false);
 		return layoutRoot;
 	}
+
+	override void SetPosition(int position)
+	{
+		if (position != m_iPosition)
+		{
+			m_iPosition = position;
+			m_txtPosition.SetText("Position in Queue" + position.ToString());
+		}
+	}
+
 };
 
 // Loging In Screen ------------------------------
@@ -124,7 +134,7 @@ modded class LoadingScreen
 	{
 		m_DayZGame = game;
 		// Use the CUI 2.0 custom layout 
-		m_WidgetRoot = game.GetLoadingWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_queue_position.layout");
+		m_WidgetRoot = game.GetLoadingWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.loading.layout");
 		// CUI 2.0 Elements
 		Class.CastTo(m_tShader, m_WidgetRoot.FindAnyWidget("TopShader"));
 		Class.CastTo(m_bShader, m_WidgetRoot.FindAnyWidget("BottomShader"));

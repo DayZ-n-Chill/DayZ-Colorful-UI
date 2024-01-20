@@ -14,7 +14,7 @@ PanelWidgetClass LoadingFrame {
   ImageWidgetClass ImageBackground {
    visible 1
    position 0 0
-   size 0.16 0.09
+   size 0.18 0.09
    halign center_ref
    valign center_ref
    hexactpos 0
@@ -27,9 +27,11 @@ PanelWidgetClass LoadingFrame {
    imageTexture "{F3680D43FF90E5A2}Colorful-UI/GUI/textures/loading_screens/CUI2-BG1.edds"
    mode opaque
    "src alpha" 0
-   "clamp mode" invalid
+   "clamp mode" clamp
    "stretch mode" stretch_w_h
    filter 1
+   pivot 0 0
+   "Transition width" 0
    Progress 0
   }
   FrameWidgetClass Shaders {
@@ -99,6 +101,7 @@ PanelWidgetClass LoadingFrame {
   }
   FrameWidgetClass SafeZone {
    ignorepointer 1
+   position 0.96462 0
    size 0.9 0.9
    halign center_ref
    valign center_ref
@@ -135,7 +138,7 @@ PanelWidgetClass LoadingFrame {
      vexactpos 1
      hexactsize 0
      vexactsize 1
-     Padding 15
+     Padding 8
      Margin 0
      "Size To Content V" 1
      content_halign center
@@ -203,8 +206,9 @@ PanelWidgetClass LoadingFrame {
        hexactsize 1
        vexactsize 1
        text "Load screen message"
-       font "colorful-ui/gui/fonts/GB-CleanItalic.fnt"
+       font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
        "exact text" 1
+       "exact text size" 18
        "size to text h" 1
        "size to text v" 1
        "text halign" center
