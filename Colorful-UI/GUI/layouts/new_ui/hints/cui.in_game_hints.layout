@@ -73,8 +73,8 @@ GridSpacerWidgetClass rootFrame {
            image0 "set:dayz_gui image:arrow_left"
            mode blend
            "src alpha" 1
-           "no wrap" 1
-           stretch 1
+           "clamp mode" clamp
+           "stretch mode" stretch_w_h
            filter 1
            nocache 0
           }
@@ -102,7 +102,7 @@ GridSpacerWidgetClass rootFrame {
          hexactsize 0
          vexactsize 0
          text "HINT HEADLINE"
-         font "gui/fonts/sdf_MetronLight36"
+         font "colorful-ui/gui/fonts/GB-Regular.fnt"
          "exact text" 1
          "exact text size" 24
          "size to text h" 0
@@ -150,8 +150,7 @@ GridSpacerWidgetClass rootFrame {
            image0 "set:dayz_gui image:arrow_right"
            mode blend
            "src alpha" 1
-           "no wrap" 0
-           stretch 1
+           "stretch mode" stretch_w_h
           }
          }
         }
@@ -187,10 +186,12 @@ GridSpacerWidgetClass rootFrame {
      vexactpos 1
      hexactsize 1
      vexactsize 1
-     fixaspect inside
+     fixaspect outside
+     imageTexture "{AD802400401D6BAD}Colorful-UI/GUI/textures/loading_screens/CUI2-BG2.edds"
      mode blend
      "src alpha" 1
-     stretch 1
+     "clamp mode" clamp
+     "stretch mode" fit_h_center
     }
     RichTextWidgetClass HintDescLabel {
      visible 1
@@ -203,11 +204,11 @@ GridSpacerWidgetClass rootFrame {
      hexactsize 0
      vexactsize 1
      text "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-     font "gui/fonts/sdf_MetronLight72"
-     "text offset" 5 0
+     font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
+     "text spacing" 0 5
      "italic text" 0
      "exact text" 1
-     "exact text size" 16
+     "exact text size" 18
      "size to text h" 0
      "size to text v" 1
      wrap 1
@@ -222,7 +223,7 @@ GridSpacerWidgetClass rootFrame {
      hexactsize 0
      vexactsize 1
      text "13 / 54"
-     font "gui/fonts/sdf_MetronLight72"
+     font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
      "size to text v" 0
      "text halign" right
     }

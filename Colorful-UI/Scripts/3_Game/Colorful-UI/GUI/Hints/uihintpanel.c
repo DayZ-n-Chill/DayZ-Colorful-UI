@@ -1,6 +1,7 @@
 modded class UiHintPanel extends ScriptedWidgetEventHandler
 {	
 	protected const string m_DataPath = "Colorful-UI/Scripts/data/hints.json";
+	protected string m_RootPath       = "Colorful-UI/Gui/layouts/new_ui/hints/cui.in_game_hints.layout";	
 }
 
 
