@@ -263,7 +263,7 @@ WindowWidgetClass TextInputDialogRoot {
        hexactsize 1
        vexactsize 1
        text "Load screen message"
-       font "colorful-ui/gui/fonts/GB-CleanRegular18"
+       font "colorful-ui/gui/fonts/GB-CleanItalic.fnt"
        "exact text" 1
        "size to text h" 1
        "size to text v" 1
