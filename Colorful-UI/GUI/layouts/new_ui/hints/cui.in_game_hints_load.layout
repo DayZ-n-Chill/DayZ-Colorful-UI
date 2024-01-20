@@ -179,7 +179,7 @@ GridSpacerWidgetClass rootFrame {
        hexactsize 0
        vexactsize 0
        text "HINT HEADLINE"
-       font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
+       font "colorful-ui/gui/fonts/GB-Regular.fnt"
        "exact text" 1
        "exact text size" 18
        "size to text h" 1
@@ -226,7 +226,7 @@ GridSpacerWidgetClass rootFrame {
     RichTextWidgetClass HintDescLabel {
      visible 1
      disabled 0
-     clipchildren 1
+     clipchildren 0
      inheritalpha 0
      ignorepointer 1
      ignoregloballv 0
