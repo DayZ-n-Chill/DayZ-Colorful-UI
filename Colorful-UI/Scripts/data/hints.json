@@ -1,0 +1,28 @@
+
+[
+    {
+        "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG1.edds",
+        "m_Headline": "Vanilla Hint System works, But.....",
+        "m_Description": "It will reset the font. New Solution Coming in 2.1 update"
+    },
+    {
+        "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG2.edds",
+        "m_Headline": "Guess who's back?",
+        "m_Description": "Back again. The code's back. Tell a friend!"
+    },
+    {
+        "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds",
+        "m_Headline": "Hello, World!",
+        "m_Description": "Spoiler alert: This isn't just another 'Hello, World!' program."
+    },
+    {
+        "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG1.edds",
+        "m_Headline": "Code's cooking!",
+        "m_Description": "If code could cook, it would serve bugs. Luckily, this one's a gourmet exception!"
+    },
+    {
+        "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG2.edds",
+        "m_Headline": "It's alive!",
+        "m_Description": "Like Frankenstein's monster but less scary and more functional. This code is ALIVE!"
+    }
+]

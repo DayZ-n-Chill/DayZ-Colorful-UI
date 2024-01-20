@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+ Author "unicron"
+ ChangeDate 1195077674
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "shader.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

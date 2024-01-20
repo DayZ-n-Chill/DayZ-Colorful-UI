@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F3680D43FF90E5A2}Colorful-UI/GUI/textures/loading_screens/CUI2-BG1.edds"
+ Author "unicron"
+ ChangeDate 20672554
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "CUI2-BG1.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
