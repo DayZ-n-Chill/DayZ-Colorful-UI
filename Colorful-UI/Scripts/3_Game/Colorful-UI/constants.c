@@ -80,7 +80,7 @@ class colorScheme
 	static int BottomShader()    	  { return UIColor.CUI2Blue(); };
 
 	// Global UI Elements 
-	static int ButtonHover()     	  { return BrandColor(); };	
+	static int ButtonHover()     	  { return UIColor.Yellow(); };	
 	static int Separator()       	  { return BrandColor(); };
 	static int TabHover()        	  { return BrandColor(); };
 	static int Loadingbar()      	  { return BrandColor(); };
@@ -96,7 +96,7 @@ class colorScheme
  	// Priority Queue Screen
 		
 	// Main Menu
-
+	
 	// Options Page 
 	static int OptionInputColors()    { return BrandColor(); };
 	static int OptionSliderColors()   { return BrandColor(); };
