@@ -169,6 +169,12 @@ ImageSetClass {
      Size 24 24
      Flags 0
     }
+    ImageSetDefClass Leave {
+     Name "Leave"
+     Pos 305 329
+     Size 24 24
+     Flags 0
+    }
    }
   }
   ImageSetGroupClass Global {

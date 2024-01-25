@@ -13,26 +13,36 @@ modded class MainMenu extends UIScriptedMenu
 	private Widget m_FacebookImg;
 	private Widget m_Meta;
 	private Widget m_MetaImg;
+	
 	private Widget m_Website;
 	private Widget m_PriorityQueue
+
 	private Widget m_CharacterBtn;
+	private Widget m_CharacterImg;
 	
+	private Widget m_ExitBtn;
+	private Widget m_ExitImg
+
+	private Widget m_SettingsImg
+
 	private Widget m_TopShader;
 	private Widget m_BottomShader;
 	
-	private Widget m_Separator1
-	private Widget m_Separator2
-	private Widget m_SeparatorPanel
+	private Widget m_SurvivorDivider
+	private Widget m_MenuDivider
+	// private Widget m_SeparatorPanel
 	private Widget m_ProgressLoading
 	private	Widget m_shader
+	private	Widget m_welcomeBack
 	
 	override Widget Init()
 	{
 		// Load the layout file
 		layoutRoot					= GetGame().GetWorkspace().CreateWidgets( "Colorful-UI/gui/layouts/new_ui/cui.main_menu.layout" );
 
-		// Custom Buttons  
-		// NOTE: THe "NameBtn" is the name of the widget in the layout file.
+		// Social Buttons  
+		// NOTE: The "NameBtn" is the name of the widget in the layout file.
+		// I use both an image and the btn to seperate them so you can color them individually. 
 		m_Discord 					= layoutRoot.FindAnyWidget( "DiscordBtn" );
 		m_DiscordImg 				= layoutRoot.FindAnyWidget( "DiscordBtn_img" );
 		m_Twitter 					= layoutRoot.FindAnyWidget( "TwitterBtn" );
@@ -46,16 +56,26 @@ modded class MainMenu extends UIScriptedMenu
 		m_Meta 						= layoutRoot.FindAnyWidget( "MetaBtn" );
 		m_MetaImg 					= layoutRoot.FindAnyWidget( "MetaBtn_img" );
 		
+		// Shaders
 		m_TopShader 			    = layoutRoot.FindAnyWidget( "TopShader" );
 		m_BottomShader 			    = layoutRoot.FindAnyWidget( "BottomShader" );
 
-		
+		// Call to action Buttons
 		m_Website					= layoutRoot.FindAnyWidget( "WebsiteBtn" );
 		m_PriorityQueue				= layoutRoot.FindAnyWidget( "QueueBtn" );
-		m_CharacterBtn 				= layoutRoot.FindAnyWidget( "CharacterBtn" );
-		m_Separator1				= layoutRoot.FindAnyWidget( "separator_1" );
-		m_Separator2				= layoutRoot.FindAnyWidget( "separator_2" );
-		m_SeparatorPanel			= layoutRoot.FindAnyWidget( "SeparatorPanel" );
+		m_CharacterBtn 				= layoutRoot.FindAnyWidget( "character_button" );
+
+		// Top Naviagtion Buttons
+		m_ExitBtn		 		    = layoutRoot.FindAnyWidget( "exit_buton_text" );
+		m_ExitImg		 		    = layoutRoot.FindAnyWidget( "exit_buton_icon" );
+		
+		m_SettingsButton			= layoutRoot.FindAnyWidget( "settings_button" );
+
+		// Misc Elements
+		m_welcomeBack				= layoutRoot.FindAnyWidget( "WelcomeBack" );
+		m_SurvivorDivider			= layoutRoot.FindAnyWidget( "SurvivorDivider" );
+		m_MenuDivider				= layoutRoot.FindAnyWidget( "MenuDivider" );
+		// m_SeparatorPanel			= layoutRoot.FindAnyWidget( "SeparatorPanel" );
 		
 		// Required Vanilla Code (Most are just hidden in the layout file.)
 		m_Play						= layoutRoot.FindAnyWidget( "play" );
@@ -65,7 +85,6 @@ modded class MainMenu extends UIScriptedMenu
 		m_Tutorials					= layoutRoot.FindAnyWidget( "tutorials" );
 		m_TutorialButton			= layoutRoot.FindAnyWidget( "tutorial_button" );
 		m_MessageButton				= layoutRoot.FindAnyWidget( "message_button" );
-		m_SettingsButton			= layoutRoot.FindAnyWidget( "settings_button" );
 		m_Exit						= layoutRoot.FindAnyWidget( "exit_button" );
 		m_PrevCharacter				= layoutRoot.FindAnyWidget( "prev_character" );
 		m_NextCharacter				= layoutRoot.FindAnyWidget( "next_character" );
@@ -81,8 +100,9 @@ modded class MainMenu extends UIScriptedMenu
 		m_Stats						= new MainMenuStats( layoutRoot.FindAnyWidget( "character_stats_root" ) );
 		m_Mission					= MissionMainMenu.Cast( GetGame().GetMission() );
 		m_ScenePC					= m_Mission.GetIntroScenePC();
-
+		m_PlayerName				= TextWidget.Cast(layoutRoot.FindAnyWidget("character_name_text"));
 		string version;
+		
 		GetGame().GetVersion( version );
 		m_Version.SetText( "#main_menu_version" + " " + version );
 		GetGame().GetUIManager().ScreenFadeOut(0);
@@ -94,6 +114,7 @@ modded class MainMenu extends UIScriptedMenu
 		// Colorful UI Theming
 		Class.CastTo(m_shader, layoutRoot.FindAnyWidget("Colorful_Shader"));
 		m_shader.SetColor(colorScheme.TopShader());
+		
 		// Social Icons
 		m_DiscordImg.SetColor(UIColor.discord());
 		m_TwitterImg.SetColor(UIColor.twitter());
@@ -102,13 +123,18 @@ modded class MainMenu extends UIScriptedMenu
 		m_FacebookImg.SetColor(UIColor.meta());
 		m_MetaImg.SetColor(UIColor.meta());
 		
+
+		m_welcomeBack.SetColor(UIColor.Yellow());
+
 		m_TopShader.SetColor(colorScheme.TopShader());
 		m_BottomShader.SetColor(colorScheme.BottomShader());
 
 		g_Game.SetLoadState( DayZLoadState.MAIN_MENU_CONTROLLER_SELECT );
-		m_Separator1.SetColor(colorScheme.Separator());
-		m_Separator2.SetColor(colorScheme.Separator());
-		m_SeparatorPanel.SetColor(colorScheme.Separator());
+		// m_Separator1.SetColor(colorScheme.Separator());
+		// m_Separator2.SetColor(colorScheme.Separator());
+
+
+		// m_SeparatorPanel.SetColor(colorScheme.Separator());
 		// This progress bar is just used as trim. 
 		m_ProgressLoading      = ProgressBarWidget.Cast( layoutRoot.FindAnyWidget("LoadingBar") );
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
