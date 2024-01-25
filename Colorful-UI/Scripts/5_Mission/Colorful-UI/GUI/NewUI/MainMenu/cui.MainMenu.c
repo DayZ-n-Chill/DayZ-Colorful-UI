@@ -207,6 +207,11 @@ modded class MainMenu extends UIScriptedMenu
 			OpenSettings();
 			return true;
 		}
+		else if ( w == m_MessageBtn )
+		{
+			OpenCredits();
+			return true;
+		}	
 		else if ( w == m_ExitBtn )
 		{
 			Exit();

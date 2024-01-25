@@ -1540,7 +1540,7 @@ FrameWidgetClass main_menu_root {
          vexactsize 0
          style DayZDefaultPanel
          {
-          ImageWidgetClass customize_character_label {
+          ImageWidgetClass customize_character_Img {
            ignorepointer 1
            position 0 0
            size 1 1
