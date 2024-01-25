@@ -175,6 +175,12 @@ ImageSetClass {
      Size 24 24
      Flags 0
     }
+    ImageSetDefClass EditUser {
+     Name "EditUser"
+     Pos 343 328
+     Size 30 25
+     Flags 0
+    }
    }
   }
   ImageSetGroupClass Global {

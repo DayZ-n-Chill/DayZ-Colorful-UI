@@ -2,12 +2,15 @@ modded class CharacterCreationMenu extends UIScriptedMenu
 {
 	private Widget m_TopShader;
 	private Widget m_BottomShader;
+	private Widget m_CharacterHeader
 
 	override Widget Init()
 	{
 
 		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "Colorful-UI/gui/layouts/new_ui/character_creation/pc/cui.character_creation.layout" );
 
+		
+		m_CharacterHeader					= layoutRoot.FindAnyWidget( "CharacterCreationTextWidget" );
 		m_CharacterRotationFrame			= layoutRoot.FindAnyWidget( "character_rotation_frame" );
 		m_Apply								= layoutRoot.FindAnyWidget( "apply" );
 		m_Save 								= layoutRoot.FindAnyWidget( "save" );
@@ -22,6 +25,7 @@ modded class CharacterCreationMenu extends UIScriptedMenu
 		m_TopShader 			    = layoutRoot.FindAnyWidget( "TopShader" );
 		m_BottomShader 			    = layoutRoot.FindAnyWidget( "BottomShader" );
 
+		m_CharacterHeader.SetColor(colorScheme.OptionHeaders());
 		m_TopShader.SetColor(colorScheme.TopShader());
 		m_BottomShader.SetColor(colorScheme.BottomShader());
 
