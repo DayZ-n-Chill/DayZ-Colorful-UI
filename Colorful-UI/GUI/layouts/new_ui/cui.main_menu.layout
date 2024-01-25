@@ -13,7 +13,7 @@ FrameWidgetClass main_menu_root {
   ImageWidgetClass ImageBackground {
    visible 1
    position 0 0
-   size 0.16 0.09
+   size 0.18 0.09
    halign center_ref
    valign center_ref
    hexactpos 0
@@ -353,7 +353,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass CharacterBtn {
-         visible 0
+         visible 1
          color 0 0 0 0
          position 0 0
          size 293 38
@@ -408,7 +408,7 @@ FrameWidgetClass main_menu_root {
          }
         }
         ButtonWidgetClass customize_character {
-         visible 0
+         visible 1
          color 0 0 0 1
          position 0 0
          size 293 49
@@ -442,6 +442,7 @@ FrameWidgetClass main_menu_root {
            "no focus" 1
            {
             TextWidgetClass customize_character_label {
+             visible 1
              clipchildren 0
              ignorepointer 1
              size 1 1
@@ -1165,7 +1166,7 @@ FrameWidgetClass main_menu_root {
       ImageWidgetClass ImageWidget0 {
        clipchildren 0
        ignorepointer 1
-       color 0.0196 0.0627 0.1843 1
+       color 0 0 0 1
        position 0 -1.36379
        size 1 1
        hexactpos 1
@@ -1472,7 +1473,7 @@ FrameWidgetClass main_menu_root {
     }
     ImageWidgetClass SurvivorBox {
      ignorepointer 1
-     color 0.0196 0.0627 0.1843 1
+     color 0 0 0 1
      position 0 110
      size 500 100
      valign center_ref
@@ -1489,8 +1490,8 @@ FrameWidgetClass main_menu_root {
       TextWidgetClass character_stats_textImg0 {
        ignorepointer 1
        keepsafezone 0
-       position 20 15.8913
-       size 0.0283 11.2174
+       position 20 15.6427
+       size 0.0283 11.7145
        valign center_ref
        hexactpos 1
        vexactpos 1
@@ -1507,7 +1508,7 @@ FrameWidgetClass main_menu_root {
       TextWidgetClass character_stats_textImg1 {
        ignorepointer 1
        keepsafezone 0
-       position 21.5135 -21.9451
+       position 20 -21.9451
        size 0.0283 11.2174
        valign center_ref
        hexactpos 1

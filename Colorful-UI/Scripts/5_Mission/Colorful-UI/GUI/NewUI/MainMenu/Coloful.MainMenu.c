@@ -20,7 +20,6 @@ modded class MainMenu extends UIScriptedMenu
 	private Widget m_TopShader;
 	private Widget m_BottomShader;
 	
-	
 	private Widget m_Separator1
 	private Widget m_Separator2
 	private Widget m_SeparatorPanel
@@ -49,7 +48,7 @@ modded class MainMenu extends UIScriptedMenu
 		
 		m_TopShader 			    = layoutRoot.FindAnyWidget( "TopShader" );
 		m_BottomShader 			    = layoutRoot.FindAnyWidget( "BottomShader" );
-		
+
 		
 		m_Website					= layoutRoot.FindAnyWidget( "WebsiteBtn" );
 		m_PriorityQueue				= layoutRoot.FindAnyWidget( "QueueBtn" );
@@ -365,7 +364,6 @@ modded class MainMenu extends UIScriptedMenu
 			return true;
 		}
 
-		
 		if( IsFocusable( w ) )
 		{
 			ColorHighlight( w );
