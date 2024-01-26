@@ -23,8 +23,8 @@ FrameWidgetClass keybindings_root {
    imageTexture "{E6B3EF816E067499}Gui/textures/inventory_bgvignette.edds"
    mode blend
    "src alpha" 1
-   "no wrap" 1
-   stretch 1
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
    filter 0
    nocache 1
   }
@@ -358,6 +358,7 @@ FrameWidgetClass keybindings_root {
    }
   }
   WrapSpacerWidgetClass Licensing {
+   visible 0
    clipchildren 0
    position 0.05 0.062
    size 0.45 30
@@ -492,8 +493,7 @@ FrameWidgetClass keybindings_root {
          image0 "set:xbox_buttons image:LB"
          mode blend
          "src alpha" 1
-         "no wrap" 1
-         stretch 0
+         "clamp mode" clamp
         }
         ImageWidgetClass TabRightControl {
          visible 1
@@ -510,8 +510,7 @@ FrameWidgetClass keybindings_root {
          image0 "set:xbox_buttons image:RB"
          mode blend
          "src alpha" 1
-         "no wrap" 1
-         stretch 0
+         "clamp mode" clamp
         }
        }
       }

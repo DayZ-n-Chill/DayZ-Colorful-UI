@@ -1073,6 +1073,7 @@ FrameWidgetClass settings_menu_root {
    nocache 1
   }
   WrapSpacerWidgetClass Licensing {
+   visible 0
    clipchildren 0
    ignorepointer 1
    position 0.05 0.062
