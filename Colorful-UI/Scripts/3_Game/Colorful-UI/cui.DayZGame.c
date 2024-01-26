@@ -135,17 +135,20 @@ modded class LoadingScreen
 		m_DayZGame = game;
 		// Use the CUI 2.0 custom layout 
 		m_WidgetRoot = game.GetLoadingWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.loading.layout");
+		
 		// CUI 2.0 Elements
 		Class.CastTo(m_tShader, m_WidgetRoot.FindAnyWidget("TopShader"));
 		Class.CastTo(m_bShader, m_WidgetRoot.FindAnyWidget("BottomShader"));
 		Class.CastTo(m_tipIcon, m_WidgetRoot.FindAnyWidget("hintIcon"));
 		Class.CastTo(m_loadingMsg, m_WidgetRoot.FindAnyWidget("LoadingMsg"));
+		
 		// Load BG and Progress Bar
 		m_ImageBackground = ImageWidget.Cast(m_WidgetRoot.FindAnyWidget("ImageBackground"));
 		m_ProgressLoading = ProgressBarWidget.Cast(m_WidgetRoot.FindAnyWidget("LoadingBar"));
 		ProgressAsync.SetProgressData(m_ProgressLoading);
 		ProgressAsync.SetUserData(m_ImageBackground);
 		m_ImageWidgetBackground.Show(true);
+		
 		// Theme the elements. 
 		// To edit these colors see the "Constant.c" file
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
@@ -153,6 +156,7 @@ modded class LoadingScreen
 		m_bShader.SetColor(colorScheme.BottomShader());
 		m_tipIcon.SetColor(colorScheme.TipIcon());
 		m_loadingMsg.SetColor(colorScheme.LoadingMsg());
+		
 		// I plan to make this timed and show some silly loading comments from the commuinty.
 		m_loadingMsg.SetText("GAME IS LOADING!");
 	}
