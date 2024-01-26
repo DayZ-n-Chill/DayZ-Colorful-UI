@@ -144,7 +144,7 @@ FrameWidgetClass DialogRoot {
        "no focus" 1
        text "#message_dialog_yes"
        text_proportion 0.5
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        {
         ImageWidgetClass XboxHintYes {
          visible 0
@@ -177,7 +177,7 @@ FrameWidgetClass DialogRoot {
        style EmptyHighlight
        text "#message_dialog_no"
        text_proportion 0.5
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        {
         ImageWidgetClass XboxHintNo {
          visible 0
@@ -270,7 +270,7 @@ FrameWidgetClass DialogRoot {
        hexactsize 0
        vexactsize 1
        text "#menu_default_desc"
-       font "Colorful-ui/gui/fonts/SquareFont20"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        "exact text" 0
        "exact text size" 22
        "size to text h" 1
@@ -290,7 +290,7 @@ FrameWidgetClass DialogRoot {
        vexactsize 1
        style Bold
        text "#menu_default_cap"
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        "text color" 1 1 1 1
        "exact text" 0
        "text halign" center

@@ -3,7 +3,7 @@ FrameWidgetClass DialogRoot {
  clipchildren 1
  inheritalpha 0
  color 0.1176 0.1176 0.1176 0.9804
- position 0 -0.00096
+ position 0 0
  size 1 1
  halign center_ref
  valign center_ref
@@ -26,7 +26,7 @@ FrameWidgetClass DialogRoot {
    scaled 1
    fixaspect outside
    image0 ""
-   imageTexture "{BCDEF8AF12180544}Colorful-UI/gui/textures/loading_screens/Colorful-BG-11.edds"
+   imageTexture "{105076873F0677B3}Colorful-UI/GUI/textures/loading_screens/CUI2-BG4.edds"
    mode opaque
    "src alpha" 1
    "clamp mode" clamp
@@ -143,7 +143,7 @@ FrameWidgetClass DialogRoot {
        "no focus" 1
        text "#message_dialog_yes"
        text_proportion 0.5
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        {
         ImageWidgetClass XboxHintYes {
          visible 0
@@ -176,7 +176,7 @@ FrameWidgetClass DialogRoot {
        "no focus" 1
        text "#message_dialog_yes"
        text_proportion 0.5
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        {
         ImageWidgetClass XboxHintYes0 {
          visible 0
@@ -209,7 +209,7 @@ FrameWidgetClass DialogRoot {
        style EmptyHighlight
        text "BACK"
        text_proportion 0.5
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        {
         ImageWidgetClass XboxHintNo {
          visible 0
@@ -302,7 +302,7 @@ FrameWidgetClass DialogRoot {
        hexactsize 0
        vexactsize 1
        text " Please go back and apply them. "
-       font "Colorful-ui/gui/fonts/SquareFont20"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        "exact text" 0
        "exact text size" 22
        "size to text h" 1
@@ -322,7 +322,7 @@ FrameWidgetClass DialogRoot {
        vexactsize 1
        style Bold
        text "Unsaved Changes"
-       font "Colorful-ui/gui/fonts/RobotoSlabBold28"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
        "text color" 1 1 1 1
        "exact text" 0
        "text halign" center
