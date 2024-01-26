@@ -3,7 +3,7 @@ modded class TutorialsMenu extends UIScriptedMenu
 	private	Widget m_shader
 	override Widget Init()
 	{
-		layoutRoot	= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/new_ui/tutorials/pc/colorful.tutorials.layout");
+		layoutRoot	= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/new_ui/tutorials/pc/cui.tutorials.layout");
 	
 		m_InfoTextLeft	= layoutRoot.FindAnyWidget("InfoTextLeft");
 		m_InfoTextRight	= layoutRoot.FindAnyWidget("InfoTextRight");
