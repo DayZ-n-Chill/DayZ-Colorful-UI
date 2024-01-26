@@ -8,7 +8,7 @@ modded class OptionsMenu extends UIScriptedMenu
 	{
 		m_Options		= new GameOptions();
 		
-		layoutRoot		= GetGame().GetWorkspace().CreateWidgets("Colorful-ui/gui/layouts/new_ui/options/pc/options_menu.layout", null);
+		layoutRoot		= GetGame().GetWorkspace().CreateWidgets("Colorful-ui/gui/layouts/new_ui/options/pc/cui.options_menu.layout", null);
 		
 		layoutRoot.FindAnyWidget("Tabber").GetScript(m_Tabber);
 		
