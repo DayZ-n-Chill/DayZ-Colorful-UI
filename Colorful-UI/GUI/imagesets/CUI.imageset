@@ -4,7 +4,7 @@ ImageSetClass {
  Textures {
   ImageSetTextureClass {
    mpix 1
-   path "{7CD806F5385DC838}Colorful-UI/gui/imagesets/CUI-Imageset.edds"
+   path "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
   }
  }
  Images {
@@ -167,6 +167,18 @@ ImageSetClass {
      Name "CodeBranch"
      Pos 725 419
      Size 24 24
+     Flags 0
+    }
+    ImageSetDefClass Leave {
+     Name "Leave"
+     Pos 305 329
+     Size 24 24
+     Flags 0
+    }
+    ImageSetDefClass EditUser {
+     Name "EditUser"
+     Pos 343 328
+     Size 30 25
      Flags 0
     }
    }

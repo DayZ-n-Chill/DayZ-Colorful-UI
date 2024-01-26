@@ -293,7 +293,7 @@ PanelWidgetClass LoadingFrame {
    hexactsize 0
    vexactsize 1
    style Stamina
-   current 45
+   current 100
   }
  }
 }
