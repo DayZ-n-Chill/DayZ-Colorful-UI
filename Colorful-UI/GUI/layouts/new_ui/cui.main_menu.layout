@@ -1515,7 +1515,7 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass customize_character {
        visible 1
        color 0 0 0 1
-       position 20 27
+       position 20 23
        size 24 20
        halign right_ref
        hexactpos 1
