@@ -30,13 +30,13 @@ modded class InGameMenu extends UIScriptedMenu
 		m_PlayerNameText            = TextWidget.Cast(layoutRoot.FindAnyWidget("PlayerNameText"));
 		m_KillCountText 			= TextWidget.Cast(layoutRoot.FindAnyWidget("KillCountText"));				
 		
-		m_ContinueButton			= layoutRoot.FindAnyWidget( "continuebtn" );
-		m_ExitButton				= layoutRoot.FindAnyWidget( "exitbtn" );
-		m_RestartButton				= layoutRoot.FindAnyWidget( "restartbtn" );
+		m_ContinueButton			= layoutRoot.FindAnyWidget( "ContinueBtn" );
+		m_ExitButton				= layoutRoot.FindAnyWidget( "ExitBtn" );
+		m_RestartButton				= layoutRoot.FindAnyWidget( "RestartBtn" );
 		m_RespawnButton 			= layoutRoot.FindAnyWidget( "respawn_button" );
 		m_RestartDeadRandomButton	= layoutRoot.FindAnyWidget( "respawn_button_random" );
 		m_RestartDeadCustomButton	= layoutRoot.FindAnyWidget( "respawn_button_custom" );
-		m_OptionsButton				= layoutRoot.FindAnyWidget( "optionsbtn" );
+		m_OptionsButton				= layoutRoot.FindAnyWidget( "OptionsBtn" );
 		m_ModdedWarning				= TextWidget.Cast( layoutRoot.FindAnyWidget( "ModdedWarning" ) );
 		m_HintPanel					= new UiHintPanel(layoutRoot.FindAnyWidget( "hint_frame" ));
 		m_ServerInfoPanel 			= layoutRoot.FindAnyWidget( "server_info" );

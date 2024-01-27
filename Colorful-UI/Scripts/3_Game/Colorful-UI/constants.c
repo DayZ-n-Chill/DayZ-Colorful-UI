@@ -59,7 +59,7 @@ class UIColor
 	// Custom Colors (Use to add your own branding colors)
 	static int CUI2Teal()             { return ARGB(255, 102, 153, 153); };
 	static int CUI2Blue()             { return ARGB(255, 1, 5, 74); };
-	static int CUI2DarkBlue()         { return ARGB(255, 0, 0, 32); };
+	static int CUI2DarkBlue()         { return ARGB(155, 0, 0, 32); };
 	static int CUI2SubtleRed()        { return ARGB(255, 100, 35, 35); };
 	static int CUI2BrightRed()        { return ARGB(255, 152, 0, 0); };
 }

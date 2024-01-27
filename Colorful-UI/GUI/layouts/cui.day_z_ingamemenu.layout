@@ -72,7 +72,7 @@ FrameWidgetClass InGameMenuRoot {
   }
   FrameWidgetClass SafeZone {
    ignorepointer 1
-   position -0.00049 -0.00234
+   position 0 0
    size 0.9 0.9
    halign center_ref
    valign center_ref
@@ -99,6 +99,17 @@ FrameWidgetClass InGameMenuRoot {
      filter 1
      nocache 0
     }
+    FrameWidgetClass hint_frame {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 400 460
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
     GridSpacerWidgetClass ActionItems {
      visible 1
      ignorepointer 1
@@ -110,10 +121,12 @@ FrameWidgetClass InGameMenuRoot {
      vexactpos 0
      hexactsize 1
      vexactsize 1
+     Padding 0
+     Margin 0
      "Size To Content V" 1
      Columns 1
      {
-      GridSpacerWidgetClass play_panel_roots {
+      GridSpacerWidgetClass "Btn Area" {
        ignorepointer 1
        position 0 0
        size 0 0
@@ -123,17 +136,18 @@ FrameWidgetClass InGameMenuRoot {
        vexactpos 0
        hexactsize 0
        vexactsize 0
+       Padding 0
+       Margin 0
        "Size To Content H" 1
        "Size To Content V" 1
        content_halign right
        Columns 1
        Rows 5
        {
-        ButtonWidgetClass exitbtn {
-         visible 1
+        ButtonWidgetClass ExitBtn {
          color 0 0 0 0
          position 0 0
-         size 293 42
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -147,7 +161,7 @@ FrameWidgetClass InGameMenuRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass exitbtn_panel {
+          PanelWidgetClass ExitBtn_panel {
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -159,11 +173,9 @@ FrameWidgetClass InGameMenuRoot {
            vexactsize 0
            style DayZDefaultPanel
            {
-            TextWidgetClass exitbtn_label {
-             visible 1
+            TextWidgetClass ExitBtn_label {
              clipchildren 0
              ignorepointer 1
-             position 8 0
              size 1 1
              halign right_ref
              valign center_ref
@@ -171,9 +183,11 @@ FrameWidgetClass InGameMenuRoot {
              vexactpos 0
              hexactsize 0
              vexactsize 0
-             text "Exit"
+             text "#main_menu_exit"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
              "exact text" 1
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -183,10 +197,10 @@ FrameWidgetClass InGameMenuRoot {
           }
          }
         }
-        ButtonWidgetClass restartbtn {
+        ButtonWidgetClass RestartBtn {
          color 0 0 0 0
          position 0 0
-         size 293 42
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -200,7 +214,7 @@ FrameWidgetClass InGameMenuRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass restartbtn_panel {
+          PanelWidgetClass RestartBtn_panel {
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -212,10 +226,9 @@ FrameWidgetClass InGameMenuRoot {
            vexactsize 0
            style DayZDefaultPanel
            {
-            TextWidgetClass restartbtn_label {
+            TextWidgetClass RestartBtn_label {
              clipchildren 0
              ignorepointer 1
-             position 6.98056 0
              size 1 1
              halign right_ref
              valign center_ref
@@ -223,60 +236,11 @@ FrameWidgetClass InGameMenuRoot {
              vexactpos 0
              hexactsize 0
              vexactsize 0
-             text "Restart"
+             text "#main_menu_restart"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
              "exact text" 1
-             "size to text h" 1
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass optionsbtn {
-         color 0 0 0 0
-         position 0 0
-         size 293 42
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass optionsbtn_panel {
-           ignorepointer 1
-           color 0 0 0 0
-           size 1 1
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 0
-           vexactsize 0
-           style DayZDefaultPanel
-           {
-            TextWidgetClass optionsbtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 8 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 0
-             hexactsize 0
-             vexactsize 0
-             text "Options"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -286,10 +250,10 @@ FrameWidgetClass InGameMenuRoot {
           }
          }
         }
-        ButtonWidgetClass continuebtn {
+        ButtonWidgetClass OptionsBtn {
          color 0 0 0 0
          position 0 0
-         size 293 42
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -303,7 +267,7 @@ FrameWidgetClass InGameMenuRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass continuebtn_panel {
+          PanelWidgetClass OptionsBtn_panel {
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -315,10 +279,9 @@ FrameWidgetClass InGameMenuRoot {
            vexactsize 0
            style DayZDefaultPanel
            {
-            TextWidgetClass continuebtn_label {
+            TextWidgetClass OptionsBtn_label {
              clipchildren 0
              ignorepointer 1
-             position 8 0
              size 1 1
              halign right_ref
              valign center_ref
@@ -326,9 +289,64 @@ FrameWidgetClass InGameMenuRoot {
              vexactpos 0
              hexactsize 0
              vexactsize 0
-             text "Continue"
+             text "#layout_xbox_ingame_menu_options"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
              "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass ContinueBtn {
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass ContinueBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass ContinueBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_continue"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -342,7 +360,7 @@ FrameWidgetClass InGameMenuRoot {
          visible 0
          color 0 0 0 0
          position 0 0
-         size 293 42
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -369,10 +387,8 @@ FrameWidgetClass InGameMenuRoot {
            style DayZDefaultPanel
            {
             TextWidgetClass respawn_button_custom_label {
-             visible 1
              clipchildren 0
              ignorepointer 1
-             position 8 0
              size 1 1
              halign right_ref
              valign center_ref
@@ -380,9 +396,11 @@ FrameWidgetClass InGameMenuRoot {
              vexactpos 0
              hexactsize 0
              vexactsize 0
-             text "Custom Respawn "
+             text "#main_menu_respawn_custom"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
              "exact text" 1
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -396,7 +414,7 @@ FrameWidgetClass InGameMenuRoot {
          visible 0
          color 0 0 0 0
          position 0 0
-         size 293 42
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -425,7 +443,6 @@ FrameWidgetClass InGameMenuRoot {
             TextWidgetClass respawn_button_random_label {
              clipchildren 0
              ignorepointer 1
-             position 8 0
              size 1 1
              halign right_ref
              valign center_ref
@@ -433,9 +450,11 @@ FrameWidgetClass InGameMenuRoot {
              vexactpos 0
              hexactsize 0
              vexactsize 0
-             text "Random Respawn"
+             text "#main_menu_respawn_random"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
              "exact text" 1
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -448,7 +467,7 @@ FrameWidgetClass InGameMenuRoot {
         ButtonWidgetClass respawn_button {
          color 0 0 0 0
          position 0 0
-         size 293 42
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -477,7 +496,6 @@ FrameWidgetClass InGameMenuRoot {
             TextWidgetClass respawn_button_label {
              clipchildren 0
              ignorepointer 1
-             position 8 0
              size 1 1
              halign right_ref
              valign center_ref
@@ -485,9 +503,117 @@ FrameWidgetClass InGameMenuRoot {
              vexactpos 0
              hexactsize 0
              vexactsize 0
-             text "Respawn"
+             text "#main_menu_respawn"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
              "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass QueueBtn {
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass QueueBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass QueueBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Priority Queue"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass WebsiteBtn {
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass WebsiteBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass WebsiteBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Website"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -499,31 +625,36 @@ FrameWidgetClass InGameMenuRoot {
         }
        }
       }
-      FrameWidgetClass Spacer {
+      FrameWidgetClass TopSpacer {
+       visible 1
        ignorepointer 1
        position 174.92999 0.3113
-       size 48 10
+       size 48 15
        hexactpos 1
        vexactpos 1
        hexactsize 1
        vexactsize 1
       }
-      PanelWidgetClass actionItems_separator {
+      ImageWidgetClass MenuDivider {
        visible 1
        ignorepointer 1
-       color 0.7843 0 0 1
-       size 293 2
+       size 293 3
        valign center_ref
        hexactpos 1
        vexactpos 1
        hexactsize 1
        vexactsize 1
-       style rover_sim_colorable
+       image0 "set:cui image:MenuDivider"
+       mode blend
+       "src alpha" 1
+       "flip u" 1
+       "flip v" 0
       }
-      FrameWidgetClass Spacer {
+      FrameWidgetClass BottomSpacer {
+       visible 1
        ignorepointer 1
        position 174.92999 0.3113
-       size 48 9
+       size 48 15
        hexactpos 1
        vexactpos 1
        hexactsize 1
@@ -539,6 +670,7 @@ FrameWidgetClass InGameMenuRoot {
        vexactpos 0
        hexactsize 1
        vexactsize 1
+       Padding 0
        Margin 0
        "Size To Content H" 1
        "Size To Content V" 1
@@ -547,7 +679,7 @@ FrameWidgetClass InGameMenuRoot {
        {
         ButtonWidgetClass DiscordBtn {
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -577,7 +709,7 @@ FrameWidgetClass InGameMenuRoot {
             ImageWidgetClass DiscordBtn_img {
              clipchildren 0
              ignorepointer 1
-             size 27 24
+             size 30 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -605,7 +737,7 @@ FrameWidgetClass InGameMenuRoot {
              text "Discord"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -618,7 +750,7 @@ FrameWidgetClass InGameMenuRoot {
         ButtonWidgetClass YoutubeBtn {
          visible 1
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -648,7 +780,7 @@ FrameWidgetClass InGameMenuRoot {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 27 22
+             size 30 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -676,7 +808,7 @@ FrameWidgetClass InGameMenuRoot {
              text "YouTube"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "text halign" right
              "text valign" center
@@ -687,7 +819,7 @@ FrameWidgetClass InGameMenuRoot {
         }
         ButtonWidgetClass TwitterBtn {
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -717,7 +849,7 @@ FrameWidgetClass InGameMenuRoot {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 27 22
+             size 27 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -745,7 +877,7 @@ FrameWidgetClass InGameMenuRoot {
              text "Twitter"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -758,7 +890,7 @@ FrameWidgetClass InGameMenuRoot {
         ButtonWidgetClass RedditBtn {
          visible 1
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -788,7 +920,7 @@ FrameWidgetClass InGameMenuRoot {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 27 22
+             size 27 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -816,7 +948,7 @@ FrameWidgetClass InGameMenuRoot {
              text "Reddit"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -829,7 +961,7 @@ FrameWidgetClass InGameMenuRoot {
         ButtonWidgetClass FacebookBtn {
          visible 1
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -859,7 +991,7 @@ FrameWidgetClass InGameMenuRoot {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 25 22
+             size 24 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -887,7 +1019,7 @@ FrameWidgetClass InGameMenuRoot {
              text "Facebook"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "text halign" right
              "text valign" center
@@ -899,7 +1031,7 @@ FrameWidgetClass InGameMenuRoot {
         ButtonWidgetClass MetaBtn {
          visible 0
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -968,17 +1100,6 @@ FrameWidgetClass InGameMenuRoot {
        }
       }
      }
-    }
-    FrameWidgetClass hint_frame {
-     visible 1
-     clipchildren 0
-     ignorepointer 1
-     size 400 460
-     halign right_ref
-     hexactpos 1
-     vexactpos 1
-     hexactsize 1
-     vexactsize 1
     }
    }
   }

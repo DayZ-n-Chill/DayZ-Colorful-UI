@@ -1,6 +1,7 @@
 FrameWidgetClass main_menu_root {
  visible 1
  ignorepointer 1
+ position 0 0
  size 1 1
  halign center_ref
  valign center_ref
@@ -101,6 +102,7 @@ FrameWidgetClass main_menu_root {
   }
   FrameWidgetClass SafeZone {
    ignorepointer 1
+   position 0 0
    size 0.9 0.9
    halign center_ref
    valign center_ref
@@ -968,7 +970,8 @@ FrameWidgetClass main_menu_root {
             ImageWidgetClass DiscordBtn_img {
              clipchildren 0
              ignorepointer 1
-             size 27 24
+             position 0 0
+             size 30 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -1039,7 +1042,7 @@ FrameWidgetClass main_menu_root {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 27 22
+             size 30 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -1108,7 +1111,7 @@ FrameWidgetClass main_menu_root {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 27 22
+             size 27 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -1250,7 +1253,7 @@ FrameWidgetClass main_menu_root {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 25 22
+             size 24 24
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -1417,10 +1420,10 @@ FrameWidgetClass main_menu_root {
       PanelWidgetClass character {
        visible 1
        ignorepointer 0
-       position 20 23
+       position 20 16
        size 48 20
        halign right_ref
-       valign bottom_ref
+       valign center_ref
        hexactpos 1
        vexactpos 1
        hexactsize 1
@@ -1518,9 +1521,10 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass customize_character {
        visible 1
        color 0 0 0 1
-       position 20 15
+       position 20 -16
        size 24 20
        halign right_ref
+       valign center_ref
        hexactpos 1
        vexactpos 1
        hexactsize 1
@@ -1599,7 +1603,7 @@ FrameWidgetClass main_menu_root {
        vexactpos 1
        hexactsize 1
        vexactsize 1
-       text "SURIVOR STATISTICS"
+       text "SURVIVOR STATISTICS"
        font "Colorful-UI/gui/fonts/GB-Regular.fnt"
        "italic text" 0
        "bold text" 0
