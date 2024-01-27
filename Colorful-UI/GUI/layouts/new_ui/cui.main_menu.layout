@@ -691,7 +691,7 @@ FrameWidgetClass main_menu_root {
      visible 1
      ignorepointer 1
      keepsafezone 1
-     size 300 618.29999
+     size 293 618.29999
      halign right_ref
      valign bottom_ref
      hexactpos 0
