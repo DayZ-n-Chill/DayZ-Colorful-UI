@@ -2,6 +2,8 @@ modded class OptionsMenu extends UIScriptedMenu
 {
 	private Widget m_Separator
 	private	Widget m_shader
+	private Widget m_TopShader;
+	private Widget m_BottomShader;
 
 		
 	override Widget Init()
@@ -26,6 +28,14 @@ modded class OptionsMenu extends UIScriptedMenu
 		m_Reset			= ButtonWidget.Cast(layoutRoot.FindAnyWidget("reset"));
 		m_Defaults		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("defaults"));
 		
+		m_TopShader 			    = layoutRoot.FindAnyWidget( "TopShader" );
+		m_BottomShader 			    = layoutRoot.FindAnyWidget( "BottomShader" );
+		
+		m_TopShader.SetColor(colorScheme.TopShader());
+		m_BottomShader.SetColor(colorScheme.BottomShader());
+		
+
+
 		m_ModalLock = false;
 		m_CanApplyOrReset = false;
 		

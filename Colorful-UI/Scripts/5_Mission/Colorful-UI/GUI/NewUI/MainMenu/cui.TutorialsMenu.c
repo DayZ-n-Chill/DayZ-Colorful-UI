@@ -1,6 +1,8 @@
 modded class TutorialsMenu extends UIScriptedMenu
 {
 	private	Widget m_shader
+	private Widget m_TopShader;
+	private Widget m_BottomShader;
 	override Widget Init()
 	{
 		layoutRoot	= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/new_ui/tutorials/pc/cui.tutorials.layout");
@@ -18,6 +20,12 @@ modded class TutorialsMenu extends UIScriptedMenu
 		m_tab_images[2] = ImageWidget.Cast(layoutRoot.FindAnyWidget("InventoryTabBackdropImageWidget"));
 		m_tab_images[3] = ImageWidget.Cast(layoutRoot.FindAnyWidget("MenusTabBackdropImageWidget"));
 		
+		m_TopShader 			    = layoutRoot.FindAnyWidget( "TopShader" );
+		m_BottomShader 			    = layoutRoot.FindAnyWidget( "BottomShader" );
+		
+		m_TopShader.SetColor(colorScheme.TopShader());
+		m_BottomShader.SetColor(colorScheme.BottomShader());
+
 		PPERequesterBank.GetRequester(PPERequester_TutorialMenu).Start(new Param1<float>(0.6));
 		DrawConnectingLines(0);
 
