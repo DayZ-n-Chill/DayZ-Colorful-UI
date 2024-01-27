@@ -101,7 +101,6 @@ FrameWidgetClass main_menu_root {
   }
   FrameWidgetClass SafeZone {
    ignorepointer 1
-   position 0.2491 0
    size 0.9 0.9
    halign center_ref
    valign center_ref
@@ -131,7 +130,7 @@ FrameWidgetClass main_menu_root {
     }
     GridSpacerWidgetClass TopNavigation {
      ignorepointer 1
-     size 700 40
+     size 699 40
      halign right_ref
      hexactpos 1
      vexactpos 1
@@ -148,7 +147,7 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass MessageBtn {
        color 0 0 0 0
        position 0 0
-       size 154 40
+       size 139 40
        valign center_ref
        hexactpos 1
        vexactpos 1
@@ -165,11 +164,11 @@ FrameWidgetClass main_menu_root {
          ignorepointer 1
          color 0 0 0 0
          position 0 0
-         size 154 40
+         size 1 40
          valign center_ref
          hexactpos 0
          vexactpos 0
-         hexactsize 1
+         hexactsize 0
          vexactsize 1
          style DayZDefaultPanel
          {
@@ -203,7 +202,7 @@ FrameWidgetClass main_menu_root {
            text "Credits"
            font "Colorful-UI/gui/fonts/GB-Regular.fnt"
            "exact text" 1
-           "exact text size" 34
+           "exact text size" 30
            "size to text h" 1
            "size to text v" 0
            "text halign" right
@@ -215,7 +214,7 @@ FrameWidgetClass main_menu_root {
       }
       ButtonWidgetClass TutorialBtn {
        color 0 0 0 0
-       size 178 40
+       size 163 40
        halign right_ref
        valign center_ref
        hexactpos 1
@@ -233,12 +232,12 @@ FrameWidgetClass main_menu_root {
          ignorepointer 1
          color 0 0 0 0
          position 0 0
-         size 178 40
+         size 1 40
          halign right_ref
          valign center_ref
          hexactpos 0
          vexactpos 0
-         hexactsize 1
+         hexactsize 0
          vexactsize 1
          style DayZDefaultPanel
          {
@@ -262,6 +261,7 @@ FrameWidgetClass main_menu_root {
           TextWidgetClass TutorialBtn_label {
            clipchildren 0
            ignorepointer 1
+           position 0 0
            size 1 1
            valign center_ref
            hexactpos 1
@@ -271,7 +271,7 @@ FrameWidgetClass main_menu_root {
            text "Tutorial"
            font "Colorful-UI/gui/fonts/GB-Regular.fnt"
            "exact text" 1
-           "exact text size" 34
+           "exact text size" 30
            "size to text h" 1
            "size to text v" 0
            "text halign" right
@@ -284,7 +284,7 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass SettingsBtn {
        visible 1
        color 0 0 0 0
-       size 170 40
+       size 154 40
        halign right_ref
        valign center_ref
        hexactpos 1
@@ -302,12 +302,12 @@ FrameWidgetClass main_menu_root {
          ignorepointer 1
          color 0 0 0 0
          position 0 0
-         size 170 40
+         size 1 40
          halign right_ref
          valign center_ref
          hexactpos 0
          vexactpos 0
-         hexactsize 1
+         hexactsize 0
          vexactsize 1
          style DayZDefaultPanel
          {
@@ -315,6 +315,7 @@ FrameWidgetClass main_menu_root {
            visible 1
            clipchildren 0
            ignorepointer 1
+           position 0 0
            size 24 24
            halign right_ref
            valign center_ref
@@ -333,6 +334,7 @@ FrameWidgetClass main_menu_root {
            visible 1
            clipchildren 0
            ignorepointer 1
+           position 0 0
            size 1 1
            valign center_ref
            hexactpos 1
@@ -342,7 +344,7 @@ FrameWidgetClass main_menu_root {
            text "Settings"
            font "Colorful-UI/gui/fonts/GB-Regular.fnt"
            "exact text" 1
-           "exact text size" 34
+           "exact text size" 30
            "size to text h" 1
            "size to text v" 0
            "text halign" right
@@ -354,7 +356,7 @@ FrameWidgetClass main_menu_root {
       }
       ButtonWidgetClass ExitBtn {
        color 0 0 0 0
-       size 95 40
+       size 92 40
        halign right_ref
        valign center_ref
        hexactpos 1
@@ -373,12 +375,12 @@ FrameWidgetClass main_menu_root {
          ignorepointer 1
          color 0 0 0 0
          position 0 0
-         size 95 40
+         size 1 40
          halign right_ref
          valign center_ref
          hexactpos 0
          vexactpos 0
-         hexactsize 1
+         hexactsize 0
          vexactsize 1
          style DayZDefaultPanel
          {
@@ -402,6 +404,7 @@ FrameWidgetClass main_menu_root {
           TextWidgetClass ExitBtn_label {
            clipchildren 0
            ignorepointer 1
+           position 0 0
            size 1 1
            valign center_ref
            hexactpos 1
@@ -411,7 +414,7 @@ FrameWidgetClass main_menu_root {
            text "Exit"
            font "Colorful-UI/gui/fonts/GB-Regular.fnt"
            "exact text" 1
-           "exact text size" 34
+           "exact text size" 30
            "size to text h" 1
            "size to text v" 0
            "text halign" right
@@ -708,7 +711,7 @@ FrameWidgetClass main_menu_root {
        vexactpos 0
        hexactsize 0
        vexactsize 0
-       Padding 4
+       Padding 0
        Margin 0
        "Size To Content H" 1
        "Size To Content V" 1
@@ -776,7 +779,7 @@ FrameWidgetClass main_menu_root {
         ButtonWidgetClass QueueBtn {
          color 0 0 0 0
          position 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -816,7 +819,7 @@ FrameWidgetClass main_menu_root {
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "text sharpness" 1.5
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -829,7 +832,7 @@ FrameWidgetClass main_menu_root {
         ButtonWidgetClass WebsiteBtn {
          color 0 0 0 0
          position 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -869,7 +872,7 @@ FrameWidgetClass main_menu_root {
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "text sharpness" 1.5
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -885,7 +888,7 @@ FrameWidgetClass main_menu_root {
        visible 1
        ignorepointer 1
        position 174.92999 0.3113
-       size 48 20
+       size 48 15
        hexactpos 1
        vexactpos 1
        hexactsize 1
@@ -910,7 +913,7 @@ FrameWidgetClass main_menu_root {
        visible 1
        ignorepointer 1
        position 174.92999 0.3113
-       size 48 20
+       size 48 15
        hexactpos 1
        vexactpos 1
        hexactsize 1
@@ -926,6 +929,7 @@ FrameWidgetClass main_menu_root {
        vexactpos 0
        hexactsize 1
        vexactsize 1
+       Padding 0
        Margin 0
        "Size To Content H" 1
        "Size To Content V" 1
@@ -934,7 +938,7 @@ FrameWidgetClass main_menu_root {
        {
         ButtonWidgetClass DiscordBtn {
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -992,7 +996,7 @@ FrameWidgetClass main_menu_root {
              text "Discord"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -1005,7 +1009,7 @@ FrameWidgetClass main_menu_root {
         ButtonWidgetClass YoutubeBtn {
          visible 1
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -1063,7 +1067,7 @@ FrameWidgetClass main_menu_root {
              text "YouTube"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "text halign" right
              "text valign" center
@@ -1074,7 +1078,7 @@ FrameWidgetClass main_menu_root {
         }
         ButtonWidgetClass TwitterBtn {
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -1132,7 +1136,7 @@ FrameWidgetClass main_menu_root {
              text "Twitter"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -1145,7 +1149,7 @@ FrameWidgetClass main_menu_root {
         ButtonWidgetClass RedditBtn {
          visible 1
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -1175,7 +1179,7 @@ FrameWidgetClass main_menu_root {
              clipchildren 0
              ignorepointer 1
              position 0 0
-             size 27 22
+             size 27 25
              halign right_ref
              valign center_ref
              hexactpos 1
@@ -1203,7 +1207,7 @@ FrameWidgetClass main_menu_root {
              text "Reddit"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -1216,7 +1220,7 @@ FrameWidgetClass main_menu_root {
         ButtonWidgetClass FacebookBtn {
          visible 1
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -1274,7 +1278,7 @@ FrameWidgetClass main_menu_root {
              text "Facebook"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
              "exact text" 1
-             "exact text size" 34
+             "exact text size" 30
              "size to text h" 1
              "text halign" right
              "text valign" center
@@ -1286,7 +1290,7 @@ FrameWidgetClass main_menu_root {
         ButtonWidgetClass MetaBtn {
          visible 0
          color 0 0 0 0
-         size 293 40
+         size 293 38
          halign right_ref
          valign center_ref
          hexactpos 1
@@ -1359,8 +1363,8 @@ FrameWidgetClass main_menu_root {
     ImageWidgetClass SurvivorBox {
      ignorepointer 1
      color 1 1 1 0.6078
-     position 0 110
-     size 500 100
+     position 0 140
+     size 500 90
      valign center_ref
      hexactpos 1
      vexactpos 1
@@ -1375,9 +1379,8 @@ FrameWidgetClass main_menu_root {
       TextWidgetClass WelcomeBack {
        ignorepointer 1
        keepsafezone 0
-       position 20 -15
+       position 20 15
        size 0 27
-       valign center_ref
        hexactpos 1
        vexactpos 1
        hexactsize 0
@@ -1395,9 +1398,9 @@ FrameWidgetClass main_menu_root {
        clipchildren 0
        ignorepointer 1
        keepsafezone 0
-       position 20 18
+       position 20 15
        size 0.0283 28.71
-       valign center_ref
+       valign bottom_ref
        hexactpos 1
        vexactpos 1
        hexactsize 0
@@ -1415,7 +1418,7 @@ FrameWidgetClass main_menu_root {
        visible 1
        ignorepointer 0
        position 20 23
-       size 48 24
+       size 48 20
        halign right_ref
        valign bottom_ref
        hexactpos 1
@@ -1515,7 +1518,7 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass customize_character {
        visible 1
        color 0 0 0 1
-       position 20 23
+       position 20 15
        size 24 20
        halign right_ref
        hexactpos 1
@@ -1563,7 +1566,7 @@ FrameWidgetClass main_menu_root {
      visible 1
      ignorepointer 1
      position 0.00078 0.0014
-     size 500 315
+     size 500 291
      valign bottom_ref
      hexactpos 0
      vexactpos 0
@@ -1575,7 +1578,7 @@ FrameWidgetClass main_menu_root {
        clipchildren 0
        ignorepointer 1
        color 1 1 1 0.6078
-       position 1.11112 0
+       position 0 0
        size 1 1
        hexactpos 1
        vexactpos 1
@@ -1584,12 +1587,14 @@ FrameWidgetClass main_menu_root {
        image0 "set:cui image:StatsBox"
        mode blend
        "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
       }
       TextWidgetClass character_stats_textImg {
        ignorepointer 1
        keepsafezone 0
-       position 20 0
-       size 16 75
+       position 20 22
+       size 16 34
        hexactpos 1
        vexactpos 1
        hexactsize 1
@@ -1600,7 +1605,7 @@ FrameWidgetClass main_menu_root {
        "bold text" 0
        "text sharpness" 1.5
        "exact text" 1
-       "exact text size" 42
+       "exact text size" 34
        "size to text h" 1
        "size to text v" 0
        "text valign" center
@@ -1622,7 +1627,7 @@ FrameWidgetClass main_menu_root {
       GridSpacerWidgetClass character_stats_content {
        ignorepointer 1
        color 0 0 0 0
-       size 1 230
+       size 1 215
        halign center_ref
        valign bottom_ref
        hexactpos 1
@@ -1638,7 +1643,7 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass PlayersKilled {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 32
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -1648,7 +1653,7 @@ FrameWidgetClass main_menu_root {
            visible 1
            ignorepointer 1
            position 0 0
-           size 301 32
+           size 300 32
            valign center_ref
            hexactpos 1
            vexactpos 1
@@ -1774,7 +1779,7 @@ FrameWidgetClass main_menu_root {
          clipchildren 0
          ignorepointer 1
          position 0 0
-         size 443 48
+         size 443 40
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -1820,11 +1825,12 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass LongRangeShot {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 32
          hexactpos 1
          vexactpos 1
          hexactsize 1
          vexactsize 1
+         scaled 1
          {
           TextWidgetClass LongRangeShotLabel {
            ignorepointer 1

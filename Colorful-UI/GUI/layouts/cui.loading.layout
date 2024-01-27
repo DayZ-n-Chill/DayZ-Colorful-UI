@@ -138,7 +138,7 @@ PanelWidgetClass LoadingFrame {
      vexactpos 1
      hexactsize 0
      vexactsize 1
-     Padding 8
+     Padding 0
      Margin 0
      "Size To Content V" 1
      content_halign center
