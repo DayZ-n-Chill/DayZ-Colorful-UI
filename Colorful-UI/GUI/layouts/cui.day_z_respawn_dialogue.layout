@@ -28,7 +28,7 @@ WindowWidgetClass WindowWidget {
      visible 1
      clipchildren 0
      ignorepointer 1
-     position 9.3913 -4.69565
+     position 0 0
      size 1 1
      halign center_ref
      hexactpos 1
@@ -63,6 +63,7 @@ WindowWidgetClass WindowWidget {
      visible 1
      clipchildren 0
      ignorepointer 1
+     position 0 0
      size 1 1
      halign center_ref
      valign center_ref
