@@ -53,19 +53,14 @@ modded class MainMenu extends UIScriptedMenu
 		// Social Buttons  
 		m_Discord 					= layoutRoot.FindAnyWidget( "DiscordBtn" );
 		m_DiscordImg 				= layoutRoot.FindAnyWidget( "DiscordBtn_img" );
-	
 		m_Twitter 					= layoutRoot.FindAnyWidget( "TwitterBtn" );
 		m_TwitterImg 				= layoutRoot.FindAnyWidget( "TwitterBtn_img" );
-
 		m_Youtube 					= layoutRoot.FindAnyWidget( "YoutubeBtn" );
 		m_YoutubeImg 				= layoutRoot.FindAnyWidget( "YoutubeBtn_img" );
-
 		m_Reddit 					= layoutRoot.FindAnyWidget( "RedditBtn" );
 		m_RedditImg 				= layoutRoot.FindAnyWidget( "RedditBtn_img" );
-
 		m_Facebook 					= layoutRoot.FindAnyWidget( "FacebookBtn" );
 		m_FacebookImg 				= layoutRoot.FindAnyWidget( "FacebookBtn_img" );
-
 		m_Meta 						= layoutRoot.FindAnyWidget( "MetaBtn" );
 		m_MetaImg 					= layoutRoot.FindAnyWidget( "MetaBtn_img" );
 		
@@ -88,13 +83,10 @@ modded class MainMenu extends UIScriptedMenu
 		// Top Naviagtion Buttons
 		m_ExitBtn		 		    = layoutRoot.FindAnyWidget( "ExitBtn" );
 		m_ExitBtnImg		 		= layoutRoot.FindAnyWidget( "ExitBtn_img" );
-
 		m_SettingsBtn				= layoutRoot.FindAnyWidget( "SettingsBtn" );
 		m_SettingsBtnImg		 	= layoutRoot.FindAnyWidget( "SettingsBtn_img" );
-
 		m_TutorialBtn				= layoutRoot.FindAnyWidget( "TutorialBtn" );
 		m_TutorialBtnImg		 	= layoutRoot.FindAnyWidget( "TutorialBtn_img" );
-
 		m_MessageBtn				= layoutRoot.FindAnyWidget( "MessageBtn" );
 		m_MessageBtnImg		 		= layoutRoot.FindAnyWidget( "MessageBtn_img" );
 
@@ -105,10 +97,9 @@ modded class MainMenu extends UIScriptedMenu
 		m_StatsBox					= layoutRoot.FindAnyWidget( "StatisticsBoxBG" );
 		m_MenuDivider				= layoutRoot.FindAnyWidget( "MenuDivider" );
 		
-		// Required Vanilla Code (Most are just hidden in the layout file.)
+		// Vanilla 
 		m_Play						= layoutRoot.FindAnyWidget( "play" );
 		m_ChooseServer				= layoutRoot.FindAnyWidget( "choose_server" );
-		
 		m_Stats						= new MainMenuStats( layoutRoot.FindAnyWidget("StatsBox"));
 		m_Mission					= MissionMainMenu.Cast( GetGame().GetMission() );
 		m_ScenePC					= m_Mission.GetIntroScenePC();
