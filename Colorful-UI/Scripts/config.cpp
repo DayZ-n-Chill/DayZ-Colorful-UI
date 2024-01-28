@@ -4,7 +4,19 @@ class CfgPatches
 	class ColorfulUI_Scripts
 	{
         requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Scripts"};
+		requiredAddons[] = {"DZ_Data","DZ_Scripts","DZ_Sounds_Effects"};
+	};
+};
+
+class CfgAddons
+{
+	class PreloadBanks{};
+	class PreloadAddons
+	{
+		class DayZ
+		{
+			list[] = {"DZ_Data","DZ_Scripts","DZ_UI","DZ_UIFonts","DZ_Sounds_Effects","COLORFUL_HUD"};
+		};
 	};
 };
 
@@ -59,5 +71,24 @@ class CfgMods
 				};
 			};
 		};
+	};	
+};
+
+class CfgSoundSets
+{
+	class Main_Music_Menu_SoundSet
+	{
+		soundShaders[] = {"Main_Music_Menu_SoundShader"};
+		volumeFactor = 1;
+		frequencyFactor = 1;
+		spatial = 0;
+	};
+};	
+class CfgSoundShaders
+{
+	class Main_Music_Menu_SoundShader
+	{
+		samples[] = {{"\Colorful-UI\GUI\sounds\MainMenu.ogg", 1}};
+		volume = 0.5;
 	};
 };

@@ -46,23 +46,6 @@ PanelWidgetClass LoadingFrame {
    hexactsize 0
    vexactsize 0
    {
-    ImageWidgetClass Vingette {
-     visible 1
-     clipchildren 0
-     ignorepointer 1
-     size 1 1
-     halign center_ref
-     valign center_ref
-     hexactpos 1
-     vexactpos 1
-     hexactsize 0
-     vexactsize 0
-     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
-     mode blend
-     "src alpha" 1
-     "clamp mode" clamp
-     "stretch mode" stretch_w_h
-    }
     ImageWidgetClass TopShader {
      visible 1
      clipchildren 0
@@ -96,6 +79,23 @@ PanelWidgetClass LoadingFrame {
      "clamp mode" clamp
      "stretch mode" stretch_w_h
      "flip v" 1
+    }
+    ImageWidgetClass Vingette {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
     }
    }
   }
@@ -138,7 +138,7 @@ PanelWidgetClass LoadingFrame {
      vexactpos 1
      hexactsize 0
      vexactsize 1
-     Padding 8
+     Padding 0
      Margin 0
      "Size To Content V" 1
      content_halign center

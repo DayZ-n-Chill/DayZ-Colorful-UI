@@ -59,7 +59,9 @@ class UIColor
 	// Custom Colors (Use to add your own branding colors)
 	static int CUI2Teal()             { return ARGB(255, 102, 153, 153); };
 	static int CUI2Blue()             { return ARGB(255, 1, 5, 74); };
-	static int CUI2Red()              { return ARGB(255, 100, 35, 35); };
+	static int CUI2DarkBlue()         { return ARGB(155, 0, 0, 32); };
+	static int CUI2SubtleRed()        { return ARGB(255, 100, 35, 35); };
+	static int CUI2BrightRed()        { return ARGB(255, 152, 0, 0); };
 }
 
 // UI THEME ---------------------------------------------------------------
@@ -67,7 +69,7 @@ class UIColor
 class colorScheme 
 {
 	// Brand Specific (Set your primary & secondary colors)
-	static int BrandColor() 		  { return UIColor.CUI2Red(); };
+	static int BrandColor() 		  { return UIColor.CUI2SubtleRed(); };
 	static int AccentColor()  		  { return UIColor.CUI2Teal(); };
 
 	// Base Typography 
@@ -80,27 +82,30 @@ class colorScheme
 	static int BottomShader()    	  { return UIColor.CUI2Blue(); };
 
 	// Global UI Elements 
-	static int ButtonHover()     	  { return BrandColor(); };	
+	static int ButtonHover()     	  { return UIColor.Yellow(); };	
 	static int Separator()       	  { return BrandColor(); };
 	static int TabHover()        	  { return BrandColor(); };
 	static int Loadingbar()      	  { return BrandColor(); };
-	
 
 	// Loading Screen
 	static int TipIcon()         	  { return UIColor.Yellow(); };
 	static int TipHeader()       	  { return UIColor.Yellow(); };
 	static int TipLine()         	  { return UIColor.Yellow(); };
 	static int TipText()       	 	  { return PrimaryText(); };
-	static int LoadingMsg()       	  { return ARGB(255, 204, 255, 204);};
+	static int LoadingMsg()       	  { return ARGB(255, 204, 255, 204); };
 	
  	// Priority Queue Screen
-		
-	// Main Menu
 
+	// Main Menu
+	static int NavIcon()         	  { return UIColor.Yellow(); };
+	static int SurvivorBox()       	  { return UIColor.CUI2DarkBlue(); };
+	static int StatsBox()     	 	  { return UIColor.CUI2DarkBlue(); };
+	
 	// Options Page 
-	static int OptionInputColors()    { return BrandColor(); };
-	static int OptionSliderColors()   { return BrandColor(); };
-	static int OptionCaretColors()    { return BrandColor(); };
+	static int OptionHeaders()		  { return TextHover(); };
+	static int OptionInputColors()    { return TextHover(); };
+	static int OptionSliderColors()   { return TextHover(); };
+	static int OptionCaretColors()    { return TextHover(); };
 }
 
 // DIALOGS ---------------------------------------------------------------
