@@ -115,7 +115,7 @@ FrameWidgetClass character_creation_root {
        vexactsize 0
        style Normal
        text "#layout_character_creation_character"
-       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+       font "gui/fonts/sdf_MetronLight72"
        "exact text" 0
        "text halign" center
        "text valign" center
@@ -186,7 +186,7 @@ FrameWidgetClass character_creation_root {
              hexactsize 0
              vexactsize 0
              text "#layout_character_creation_name"
-             font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+             font "gui/fonts/sdf_MetronLight24"
              "text offset" 15 0
              "exact text" 0
              "exact text size" 18
@@ -265,7 +265,7 @@ FrameWidgetClass character_creation_root {
              hexactsize 0
              vexactsize 0
              text "#layout_character_creation_gender"
-             font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+             font "gui/fonts/sdf_MetronLight24"
              "text offset" 15 0
              "exact text" 0
              "exact text size" 18
@@ -342,7 +342,7 @@ FrameWidgetClass character_creation_root {
              hexactsize 0
              vexactsize 0
              text "#layout_character_creation_head"
-             font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+             font "gui/fonts/sdf_MetronLight24"
              "text offset" 15 0
              "exact text" 0
              "exact text size" 18
@@ -419,7 +419,7 @@ FrameWidgetClass character_creation_root {
              hexactsize 0
              vexactsize 0
              text "#layout_character_creation_top"
-             font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+             font "gui/fonts/sdf_MetronLight24"
              "text offset" 15 0
              "exact text" 0
              "exact text size" 18
@@ -496,7 +496,7 @@ FrameWidgetClass character_creation_root {
              hexactsize 0
              vexactsize 0
              text "#layout_character_creation_bottom"
-             font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+             font "gui/fonts/sdf_MetronLight24"
              "text offset" 15 0
              "exact text" 0
              "exact text size" 18
@@ -573,7 +573,7 @@ FrameWidgetClass character_creation_root {
              hexactsize 0
              vexactsize 0
              text "#layout_character_creation_shoes"
-             font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+             font "gui/fonts/sdf_MetronLight24"
              "text offset" 15 0
              "exact text" 0
              "exact text size" 18

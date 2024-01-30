@@ -59,7 +59,7 @@ class UIColor
 	// Custom Colors (Use to add your own branding colors)
 	static int CUI2Teal()             { return ARGB(255, 102, 153, 153); };
 	static int CUI2Blue()             { return ARGB(255, 1, 5, 74); };
-	static int CUI2DarkBlue()         { return ARGB(255, 0, 0, 32); };
+	static int CUI2DarkBlue()         { return ARGB(155, 0, 0, 32); };
 	static int CUI2SubtleRed()        { return ARGB(255, 100, 35, 35); };
 	static int CUI2BrightRed()        { return ARGB(255, 152, 0, 0); };
 }
@@ -69,7 +69,7 @@ class UIColor
 class colorScheme 
 {
 	// Brand Specific (Set your primary & secondary colors)
-	static int BrandColor() 		  { return UIColor.CUI2BrightRed(); };
+	static int BrandColor() 		  { return UIColor.CUI2SubtleRed(); };
 	static int AccentColor()  		  { return UIColor.CUI2Teal(); };
 
 	// Base Typography 
@@ -102,10 +102,10 @@ class colorScheme
 	static int StatsBox()     	 	  { return UIColor.CUI2DarkBlue(); };
 	
 	// Options Page 
-	static int OptionHeaders()		  { return BrandColor(); };
-	static int OptionInputColors()    { return BrandColor(); };
-	static int OptionSliderColors()   { return BrandColor(); };
-	static int OptionCaretColors()    { return BrandColor(); };
+	static int OptionHeaders()		  { return TextHover(); };
+	static int OptionInputColors()    { return TextHover(); };
+	static int OptionSliderColors()   { return TextHover(); };
+	static int OptionCaretColors()    { return TextHover(); };
 }
 
 // DIALOGS ---------------------------------------------------------------

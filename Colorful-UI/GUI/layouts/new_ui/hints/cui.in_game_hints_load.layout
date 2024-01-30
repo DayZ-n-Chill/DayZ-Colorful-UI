@@ -7,8 +7,8 @@ GridSpacerWidgetClass rootFrame {
  vexactpos 0
  hexactsize 0
  vexactsize 0
- Padding 12
- Margin 0
+ Padding 4
+ Margin 10
  "Size To Content V" 1
  Columns 1
  {
