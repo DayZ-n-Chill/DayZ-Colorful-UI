@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F9EFB9216827F89A}Colorful-UI/GUI/sounds/MainMenu.wav"
+ Author "unicron"
+ ChangeDate -1355993027
+ Configurations {
+  OGGResourceClass PC {
+   SourceFile "MainMenu.ogg"
+  }
+  OGGResourceClass XBOX_ONE : PC {
+  }
+  OGGResourceClass PS4 : PC {
+  }
+  OGGResourceClass LINUX : PC {
+  }
+ }
+}
