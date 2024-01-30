@@ -91,590 +91,6 @@ WindowWidgetClass LogoutDialogRoot {
    hexactsize 0
    vexactsize 0
    {
-    GridSpacerWidgetClass "ActionItems.old" {
-     visible 0
-     ignorepointer 1
-     keepsafezone 1
-     size 300 618.29999
-     halign center_ref
-     valign bottom_ref
-     hexactpos 0
-     vexactpos 0
-     hexactsize 1
-     vexactsize 1
-     "Size To Content V" 1
-     Columns 1
-     {
-      GridSpacerWidgetClass ExitButtons {
-       visible 0
-       ignorepointer 1
-       position 0 0
-       size 0 0
-       halign right_ref
-       valign bottom_ref
-       hexactpos 0
-       vexactpos 0
-       hexactsize 0
-       vexactsize 0
-       "Size To Content H" 1
-       "Size To Content V" 1
-       content_halign right
-       Columns 1
-       Rows 5
-       {
-        ButtonWidgetClass bLogoutNow {
-         visible 1
-         color 0 0 0 0
-         position 0 0
-         size 293 42
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass exitbtn_Panel {
-           ignorepointer 1
-           size 1 1
-           halign right_ref
-           valign center_ref
-           hexactpos 1
-           vexactpos 1
-           hexactsize 0
-           vexactsize 0
-           {
-            TextWidgetClass exitbtn_label {
-             visible 1
-             clipchildren 0
-             ignorepointer 1
-             position 8 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 0
-             hexactsize 0
-             vexactsize 0
-             text "Exit Now"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "size to text v" 0
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass "bCancel.,ols" {
-         color 0 0 0 0
-         position 0 0
-         size 293 42
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          TextWidgetClass Cancelbtn_label {
-           clipchildren 0
-           ignorepointer 1
-           position 6.98056 0
-           size 1 1
-           halign right_ref
-           valign center_ref
-           hexactpos 1
-           vexactpos 0
-           hexactsize 0
-           vexactsize 0
-           text "Cancel"
-           font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-           "exact text" 1
-           "size to text h" 1
-           "text halign" right
-           "text valign" center
-          }
-         }
-        }
-       }
-      }
-      FrameWidgetClass Spacer0 {
-       ignorepointer 1
-       position 174.92999 0.3113
-       size 48 10
-       hexactpos 1
-       vexactpos 1
-       hexactsize 1
-       vexactsize 1
-      }
-      PanelWidgetClass actionItems_separator {
-       visible 1
-       ignorepointer 1
-       color 0.7843 0 0 1
-       size 293 2
-       valign center_ref
-       hexactpos 1
-       vexactpos 1
-       hexactsize 1
-       vexactsize 1
-       style rover_sim_colorable
-      }
-      FrameWidgetClass Spacer {
-       ignorepointer 1
-       position 174.92999 0.3113
-       size 48 9
-       hexactpos 1
-       vexactpos 1
-       hexactsize 1
-       vexactsize 1
-      }
-      GridSpacerWidgetClass Socials {
-       ignorepointer 1
-       position 0 0
-       size 0 0
-       halign right_ref
-       valign bottom_ref
-       hexactpos 0
-       vexactpos 0
-       hexactsize 1
-       vexactsize 1
-       "Size To Content H" 1
-       "Size To Content V" 1
-       Columns 1
-       Rows 5
-       {
-        ButtonWidgetClass TwitterBtn {
-         visible 1
-         color 0 0 0 0
-         size 293 39
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass TwitterBtn_panel {
-           ignorepointer 1
-           color 0 0 0 0
-           size 293 39
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 1
-           vexactsize 1
-           style DayZDefaultPanel
-           {
-            TextWidgetClass TwitterBtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 60 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 0
-             vexactsize 0
-             text "Store"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "size to text v" 0
-             "text halign" right
-             "text valign" center
-            }
-            ImageWidgetClass TwitterBtn_img0 {
-             clipchildren 0
-             ignorepointer 1
-             position 12 0
-             size 27 24
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 1
-             vexactsize 1
-             imageTexture "{1EF9969CA41F08E4}Colorful-UI/gui/textures/globals/Shop_Icon.edds"
-             mode blend
-             "src alpha" 1
-             "clamp mode" clamp
-             "stretch mode" stretch_w_h
-             filter 0
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass DiscordBtn {
-         color 0 0 0 0
-         size 293 39
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass DiscordBtn_panel {
-           ignorepointer 1
-           color 0 0 0 0
-           size 293 39
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 1
-           vexactsize 1
-           style DayZDefaultPanel
-           {
-            ImageWidgetClass DiscordBtn_img {
-             clipchildren 0
-             ignorepointer 1
-             size 47 39
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 1
-             vexactsize 1
-             imageTexture "{4E98404B3EE57BD9}Colorful-UI/gui/textures/main_menu/Colorful.Discord.edds"
-             mode blend
-             "src alpha" 1
-             "clamp mode" clamp
-             "stretch mode" stretch_w_h
-             filter 0
-            }
-            TextWidgetClass DiscordBtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 60 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 0
-             vexactsize 0
-             text "Discord"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "size to text v" 0
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass RedditBtn {
-         visible 0
-         color 0 0 0 0
-         size 293 39
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass RedditBtn_panel {
-           ignorepointer 1
-           color 0 0 0 0
-           size 293 39
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 1
-           vexactsize 1
-           style DayZDefaultPanel
-           {
-            ImageWidgetClass RedditBtn_img {
-             clipchildren 0
-             ignorepointer 1
-             size 47 39
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 1
-             vexactsize 1
-             imageTexture "{042531BECC696FCF}Colorful-UI/gui/textures/main_menu/Colorful.Reddit.edds"
-             mode blend
-             "src alpha" 1
-             "clamp mode" clamp
-             "stretch mode" stretch_w_h
-             filter 0
-            }
-            TextWidgetClass RedditBtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 60 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 0
-             vexactsize 0
-             text "Reddit"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "size to text v" 0
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass YoutubeBtn {
-         visible 1
-         color 0 0 0 0
-         size 293 39
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass YoutubeBtn_panel {
-           ignorepointer 1
-           color 0 0 0 0
-           size 293 39
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 1
-           vexactsize 1
-           style DayZDefaultPanel
-           {
-            ImageWidgetClass YoutubeBtn_img {
-             clipchildren 0
-             ignorepointer 1
-             size 47 39
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 1
-             vexactsize 1
-             imageTexture "{FDBC9A6B3BB8B821}Colorful-UI/gui/textures/main_menu/Colorful.Youtube.edds"
-             mode blend
-             "src alpha" 1
-             "clamp mode" clamp
-             "stretch mode" stretch_w_h
-             filter 0
-            }
-            TextWidgetClass YoutubeBtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 60 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 0
-             vexactsize 0
-             text "YouTube"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass FacebookBtn {
-         visible 0
-         color 0 0 0 0
-         size 293 39
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass FacebookBtn_panel {
-           visible 0
-           ignorepointer 1
-           color 0 0 0 0
-           size 293 39
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 1
-           vexactsize 1
-           style DayZDefaultPanel
-           {
-            ImageWidgetClass FacebookBtn_img {
-             clipchildren 0
-             ignorepointer 1
-             size 47 39
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 1
-             vexactsize 1
-             imageTexture "{25DB8D90C00B0710}Colorful-UI/gui/textures/main_menu/Colorful.Facebook.edds"
-             mode blend
-             "src alpha" 1
-             "clamp mode" clamp
-             "stretch mode" stretch_w_h
-             filter 0
-            }
-            TextWidgetClass FacebookBtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 60 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 0
-             vexactsize 0
-             text "Facebook"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-        ButtonWidgetClass MetaBtn {
-         visible 0
-         color 0 0 0 0
-         size 293 39
-         halign right_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 1
-         vexactsize 1
-         style Empty
-         "no focus" 0
-         "next left" "news_main"
-         "next right" "news_main"
-         "next up" "choose_server"
-         "next down" "play_video"
-         {
-          PanelWidgetClass MetaBtn_panel {
-           visible 0
-           ignorepointer 1
-           color 0 0 0 0
-           size 293 39
-           halign right_ref
-           valign center_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 1
-           vexactsize 1
-           style DayZDefaultPanel
-           {
-            ImageWidgetClass MetaBtn_img {
-             clipchildren 0
-             ignorepointer 1
-             size 47 39
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 1
-             vexactsize 1
-             imageTexture "{F74D2BABB67517C4}Colorful-UI/gui/textures/main_menu/Colorful.meta.edds"
-             mode blend
-             "src alpha" 1
-             "clamp mode" clamp
-             "stretch mode" stretch_w_h
-             filter 0
-            }
-            TextWidgetClass MetaBtn_label {
-             clipchildren 0
-             ignorepointer 1
-             position 60 0
-             size 1 1
-             halign right_ref
-             valign center_ref
-             hexactpos 1
-             vexactpos 1
-             hexactsize 0
-             vexactsize 0
-             text "Meta"
-             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
-             "exact text" 1
-             "size to text h" 1
-             "text halign" right
-             "text valign" center
-            }
-           }
-          }
-         }
-        }
-       }
-      }
-     }
-    }
     GridSpacerWidgetClass ActionItems {
      visible 1
      ignorepointer 1
@@ -1275,7 +691,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass respawn_button_random_panel0 {
+          PanelWidgetClass respawn_button_random_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -1287,7 +703,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 0
            style DayZDefaultPanel
            {
-            TextWidgetClass respawn_button_random_label0 {
+            TextWidgetClass respawn_button_random_label {
              clipchildren 0
              ignorepointer 1
              size 1 1
@@ -1329,7 +745,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass respawn_button_panel0 {
+          PanelWidgetClass respawn_button_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -1341,7 +757,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 0
            style DayZDefaultPanel
            {
-            TextWidgetClass respawn_button_label0 {
+            TextWidgetClass respawn_button_label {
              clipchildren 0
              ignorepointer 1
              size 1 1
@@ -1366,6 +782,7 @@ WindowWidgetClass LogoutDialogRoot {
          }
         }
         ButtonWidgetClass QueueBtn {
+         visible 0
          color 0 0 0 0
          position 0 0
          size 293 38
@@ -1419,6 +836,7 @@ WindowWidgetClass LogoutDialogRoot {
          }
         }
         ButtonWidgetClass WebsiteBtn {
+         visible 0
          color 0 0 0 0
          position 0 0
          size 293 38
@@ -1436,6 +854,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next down" "play_video"
          {
           PanelWidgetClass WebsiteBtn_panel {
+           visible 0
            ignorepointer 1
            color 0 0 0 0
            size 1 1
@@ -1508,7 +927,7 @@ WindowWidgetClass LogoutDialogRoot {
        hexactsize 1
        vexactsize 1
       }
-      GridSpacerWidgetClass Socials0 {
+      GridSpacerWidgetClass Socials {
        ignorepointer 1
        position 0 0
        size 0 0
@@ -1525,7 +944,7 @@ WindowWidgetClass LogoutDialogRoot {
        Columns 1
        Rows 5
        {
-        ButtonWidgetClass DiscordBtn0 {
+        ButtonWidgetClass DiscordBtn {
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -1541,7 +960,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass DiscordBtn_panel0 {
+          PanelWidgetClass DiscordBtn_panel {
            ignorepointer 1
            color 0 0 0 0
            position 0 0
@@ -1554,7 +973,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass DiscordBtn_img0 {
+            ImageWidgetClass DiscordBtn_img {
              clipchildren 0
              ignorepointer 1
              size 30 24
@@ -1571,7 +990,7 @@ WindowWidgetClass LogoutDialogRoot {
              "stretch mode" stretch_w_h
              filter 0
             }
-            TextWidgetClass DiscordBtn_label0 {
+            TextWidgetClass DiscordBtn_label {
              clipchildren 0
              ignorepointer 1
              position 50 0
@@ -1595,7 +1014,7 @@ WindowWidgetClass LogoutDialogRoot {
           }
          }
         }
-        ButtonWidgetClass YoutubeBtn0 {
+        ButtonWidgetClass YoutubeBtn {
          visible 1
          color 0 0 0 0
          size 293 38
@@ -1612,7 +1031,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass YoutubeBtn_panel0 {
+          PanelWidgetClass YoutubeBtn_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 293 40
@@ -1624,7 +1043,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass YoutubeBtn_img0 {
+            ImageWidgetClass YoutubeBtn_Img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1642,7 +1061,7 @@ WindowWidgetClass LogoutDialogRoot {
              "stretch mode" stretch_w_h
              filter 1
             }
-            TextWidgetClass YoutubeBtn_label0 {
+            TextWidgetClass YoutubeBtn_label {
              clipchildren 0
              ignorepointer 1
              position 50 0
@@ -1665,7 +1084,7 @@ WindowWidgetClass LogoutDialogRoot {
           }
          }
         }
-        ButtonWidgetClass TwitterBtn0 {
+        ButtonWidgetClass TwitterBtn {
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -1681,7 +1100,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass TwitterBtn_panel0 {
+          PanelWidgetClass TwitterBtn_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 293 40
@@ -1711,7 +1130,7 @@ WindowWidgetClass LogoutDialogRoot {
              "stretch mode" stretch_w_h
              filter 1
             }
-            TextWidgetClass TwitterBtn_label0 {
+            TextWidgetClass TwitterBtn_label {
              clipchildren 0
              ignorepointer 1
              position 50 0
@@ -1735,7 +1154,7 @@ WindowWidgetClass LogoutDialogRoot {
           }
          }
         }
-        ButtonWidgetClass RedditBtn0 {
+        ButtonWidgetClass RedditBtn {
          visible 1
          color 0 0 0 0
          size 293 38
@@ -1752,7 +1171,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass RedditBtn_panel0 {
+          PanelWidgetClass RedditBtn_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 293 40
@@ -1764,7 +1183,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass RedditBtn_img0 {
+            ImageWidgetClass RedditBtn_Img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1782,7 +1201,7 @@ WindowWidgetClass LogoutDialogRoot {
              "stretch mode" stretch_w_h
              filter 1
             }
-            TextWidgetClass RedditBtn_label0 {
+            TextWidgetClass RedditBtn_label {
              clipchildren 0
              ignorepointer 1
              position 50 0
@@ -1806,7 +1225,7 @@ WindowWidgetClass LogoutDialogRoot {
           }
          }
         }
-        ButtonWidgetClass FacebookBtn0 {
+        ButtonWidgetClass FacebookBtn {
          visible 1
          color 0 0 0 0
          size 293 38
@@ -1823,7 +1242,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass FacebookBtn_panel0 {
+          PanelWidgetClass FacebookBtn_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 293 40
@@ -1835,7 +1254,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass FacebookBtn_img0 {
+            ImageWidgetClass FacebookBtn_Img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1853,7 +1272,7 @@ WindowWidgetClass LogoutDialogRoot {
              "stretch mode" stretch_w_h
              filter 1
             }
-            TextWidgetClass FacebookBtn_label0 {
+            TextWidgetClass FacebookBtn_label {
              clipchildren 0
              ignorepointer 1
              position 50 0
@@ -1876,7 +1295,7 @@ WindowWidgetClass LogoutDialogRoot {
           }
          }
         }
-        ButtonWidgetClass MetaBtn0 {
+        ButtonWidgetClass MetaBtn {
          visible 0
          color 0 0 0 0
          size 293 38
@@ -1893,7 +1312,7 @@ WindowWidgetClass LogoutDialogRoot {
          "next up" "choose_server"
          "next down" "play_video"
          {
-          PanelWidgetClass MetaBtn_panel0 {
+          PanelWidgetClass MetaBtn_Panel {
            ignorepointer 1
            color 0 0 0 0
            size 293 39
@@ -1905,7 +1324,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass MetaBtn_img0 {
+            ImageWidgetClass MetaBtn_Img {
              clipchildren 0
              ignorepointer 1
              size 39 32
@@ -1922,7 +1341,7 @@ WindowWidgetClass LogoutDialogRoot {
              "stretch mode" stretch_w_h
              filter 1
             }
-            TextWidgetClass MetaBtn_label0 {
+            TextWidgetClass MetaBtn_label {
              clipchildren 0
              ignorepointer 1
              position 60 0

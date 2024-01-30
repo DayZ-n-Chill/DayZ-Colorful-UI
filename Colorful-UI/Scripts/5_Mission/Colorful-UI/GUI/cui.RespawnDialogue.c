@@ -1,13 +1,24 @@
 modded class RespawnDialogue extends UIScriptedMenu
 {
 
-	private Widget m_Separator
-	private	Widget m_shader
 	private Widget m_Discord;
 	private Widget m_Twitter;
 	private Widget m_Youtube;
 	private Widget m_Reddit;
 	private Widget m_Facebook;
+	private Widget m_Separator
+	private	Widget m_shader
+
+	private Widget m_DiscordImg;
+	private Widget m_TwitterImg;
+	private Widget m_YoutubeImg;
+	private Widget m_RedditImg;
+	private Widget m_FacebookImg;
+	private Widget m_MetaImg;
+
+	private Widget m_TopShader;
+	private Widget m_BottomShader;
+	private Widget m_MenuDivider;
 
 	override Widget Init()
 	{
@@ -25,7 +36,28 @@ modded class RespawnDialogue extends UIScriptedMenu
 		m_Youtube 					= layoutRoot.FindAnyWidget( "YoutubeBtn" );
 		m_Reddit 					= layoutRoot.FindAnyWidget( "RedditBtn" );
 		m_Facebook 					= layoutRoot.FindAnyWidget( "FacebookBtn" );
-		
+		m_DiscordImg 				= layoutRoot.FindAnyWidget( "DiscordBtn_img" );
+	    m_TwitterImg 				= layoutRoot.FindAnyWidget( "TwitterBtn_img" );
+		m_YoutubeImg 				= layoutRoot.FindAnyWidget( "YoutubeBtn_img" );
+		m_RedditImg 				= layoutRoot.FindAnyWidget( "RedditBtn_img" );
+		m_FacebookImg 				= layoutRoot.FindAnyWidget( "FacebookBtn_img" );
+		m_MetaImg 					= layoutRoot.FindAnyWidget( "MetaBtn_img" );
+		m_TopShader 			    = layoutRoot.FindAnyWidget( "TopShader" );
+		m_BottomShader 			    = layoutRoot.FindAnyWidget( "BottomShader" );
+		m_MenuDivider				= layoutRoot.FindAnyWidget( "MenuDivider" );
+
+		m_TopShader.SetColor(colorScheme.TopShader());
+		m_BottomShader.SetColor(colorScheme.BottomShader());
+		m_MenuDivider.SetColor(colorScheme.Separator());
+		// Social Icons
+		m_DiscordImg.SetColor(UIColor.discord());
+		m_TwitterImg.SetColor(UIColor.twitter());
+		m_YoutubeImg.SetColor(UIColor.youtube());
+		m_RedditImg.SetColor(UIColor.reddit());
+		m_FacebookImg.SetColor(UIColor.meta());
+		m_MetaImg.SetColor(UIColor.meta());
+
+
 		return layoutRoot;
 	}
 	

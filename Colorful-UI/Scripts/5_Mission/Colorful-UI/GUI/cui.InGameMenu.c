@@ -14,6 +14,7 @@ modded class InGameMenu extends UIScriptedMenu
 	private Widget m_RedditImg;
 	private Widget m_FacebookImg;
 	private Widget m_MetaImg;
+	private Widget m_MenuDivider;
 	
 	private Widget m_KillCountText
 	private Widget DeathScreen;
@@ -32,6 +33,7 @@ modded class InGameMenu extends UIScriptedMenu
 		
 		m_ContinueButton			= layoutRoot.FindAnyWidget( "ContinueBtn" );
 		m_ExitButton				= layoutRoot.FindAnyWidget( "ExitBtn" );
+		m_MenuDivider				= layoutRoot.FindAnyWidget( "MenuDivider" );
 		m_RestartButton				= layoutRoot.FindAnyWidget( "RestartBtn" );
 		m_RespawnButton 			= layoutRoot.FindAnyWidget( "respawn_button" );
 		m_RestartDeadRandomButton	= layoutRoot.FindAnyWidget( "respawn_button_random" );
@@ -69,7 +71,7 @@ modded class InGameMenu extends UIScriptedMenu
 		m_FacebookImg.SetColor(UIColor.meta());
 		m_MetaImg.SetColor(UIColor.meta());
 
-   		m_Separator.SetColor( colorScheme.Separator() );
+   		m_MenuDivider.SetColor(colorScheme.Separator());
 		m_TopShader.SetColor(colorScheme.TopShader());
 		m_BottomShader.SetColor(colorScheme.BottomShader());
 
