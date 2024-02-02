@@ -83,6 +83,7 @@ class colorScheme
 
 	// Global UI Elements 
 	static int ButtonHover()     	  { return UIColor.Yellow(); };	
+	static int LogOutTimer()     	  { return UIColor.Yellow(); };	
 	static int Separator()       	  { return BrandColor(); };
 	static int TabHover()        	  { return BrandColor(); };
 	static int Loadingbar()      	  { return BrandColor(); };
@@ -94,8 +95,6 @@ class colorScheme
 	static int TipText()       	 	  { return PrimaryText(); };
 	static int LoadingMsg()       	  { return ARGB(255, 204, 255, 204); };
 	
- 	// Priority Queue Screen
-
 	// Main Menu
 	static int NavIcon()         	  { return UIColor.Yellow(); };
 	static int SurvivorBox()       	  { return UIColor.CUI2DarkBlue(); };

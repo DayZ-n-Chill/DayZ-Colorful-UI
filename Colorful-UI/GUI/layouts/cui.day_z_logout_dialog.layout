@@ -1043,7 +1043,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass YoutubeBtn_Img {
+            ImageWidgetClass YoutubeBtn_img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1183,7 +1183,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass RedditBtn_Img {
+            ImageWidgetClass RedditBtn_img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1254,7 +1254,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass FacebookBtn_Img {
+            ImageWidgetClass FacebookBtn_img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1324,7 +1324,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass MetaBtn_Img {
+            ImageWidgetClass MetaBtn_img {
              clipchildren 0
              ignorepointer 1
              size 39 32
