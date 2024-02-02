@@ -2,6 +2,9 @@ modded class KeybindingsMenu extends UIScriptedMenu
 {
 	protected Widget m_Separator
 	private	Widget m_shader
+	protected ImageWidget m_tShader;
+	protected ImageWidget m_bShader;
+	
 	override Widget Init()
 	{
 		Input input = GetGame().GetInput();
@@ -12,6 +15,8 @@ modded class KeybindingsMenu extends UIScriptedMenu
 		m_Back				= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "back" ) );
 		m_Undo				= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "reset" ) );
 		m_Defaults			= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "defaults" ) );
+		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
+		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
 		
 		layoutRoot.FindAnyWidget( "Tabber" ).GetScript( m_Tabber );
 		
@@ -29,6 +34,8 @@ modded class KeybindingsMenu extends UIScriptedMenu
 		g_Game.SetKeyboardHandle( this );
 		m_Tabber.RefreshTab(true);
 		
+		m_tShader.SetColor(colorScheme.TopShader());
+		m_bShader.SetColor(colorScheme.BottomShader());
 		ColorDisabled( m_Apply );
 		m_Apply.SetFlags( WidgetFlags.IGNOREPOINTER );
 		ColorDisabled( m_Undo );

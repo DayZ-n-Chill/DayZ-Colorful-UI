@@ -93,7 +93,7 @@ FrameWidgetClass rootFrame {
   GridSpacerWidgetClass Hints {
    ignorepointer 1
    position 0 35
-   size 0.9 1
+   size 0.8 1
    halign center_ref
    valign bottom_ref
    hexactpos 1
@@ -244,7 +244,7 @@ FrameWidgetClass rootFrame {
      ignoregloballv 0
      keepsafezone 0
      position 0 0
-     size 1 98
+     size 1 115
      halign center_ref
      valign bottom_ref
      hexactpos 1

@@ -8,25 +8,71 @@ FrameWidgetClass keybindings_root {
  vexactsize 0
  priority 951
  {
-  ImageWidgetClass vignette {
+  FrameWidgetClass Shaders {
    visible 1
-   ignorepointer 0
-   color 0 0 0 0.7843
-   position 0 0
-   size 1.6 0.9
+   clipchildren 0
+   ignorepointer 1
+   size 1 1
    halign center_ref
+   valign center_ref
    hexactpos 1
    vexactpos 1
    hexactsize 0
    vexactsize 0
-   fixaspect outside
-   imageTexture "{E6B3EF816E067499}Gui/textures/inventory_bgvignette.edds"
-   mode blend
-   "src alpha" 1
-   "clamp mode" clamp
-   "stretch mode" stretch_w_h
-   filter 0
-   nocache 1
+   {
+    ImageWidgetClass TopShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+    ImageWidgetClass BottomShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1.01 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     "flip v" 1
+    }
+    ImageWidgetClass Vingette {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+   }
   }
   TextWidgetClass KeybindingsTextWidget {
    ignorepointer 1

@@ -25,16 +25,6 @@
       "m_Description": "Stay hydrated to stay alive. Carry sufficient water supplies on your journey."
     },
     {
-      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG6.edds",
-      "m_Headline": "Choose your weapon wisely.",
-      "m_Description": "Find the weapon that suits your playstyle and maximizes your chances of survival."
-    },
-    {
-      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG7.edds",
-      "m_Headline": "Be Stealthy",
-      "m_Description": "Silence is golden. Avoid unnecessary attention by moving quietly and using stealth tactics."
-    },
-    {
       "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG8.edds",
       "m_Headline": "They Hunger!",
       "m_Description": "Zombies hate fast food! When in doubt, run!"
