@@ -265,8 +265,9 @@ WindowWidgetClass LogoutDialogRoot {
              vexactsize 0
              text "time to log"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "italic text" 1
              "exact text" 1
-             "exact text size" 30
+             "exact text size" 24
              "size to text h" 1
              "size to text v" 0
              "text halign" right

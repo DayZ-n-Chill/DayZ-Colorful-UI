@@ -28,7 +28,7 @@ FrameWidgetClass rootFrame {
    visible 1
    clipchildren 0
    ignorepointer 1
-   size 1.02 1
+   size 1.02 1.02
    halign center_ref
    valign center_ref
    hexactpos 1
@@ -40,7 +40,7 @@ FrameWidgetClass rootFrame {
      visible 1
      clipchildren 0
      ignorepointer 1
-     size 1.02 1
+     size 1 1
      halign center_ref
      hexactpos 1
      vexactpos 1
@@ -57,7 +57,7 @@ FrameWidgetClass rootFrame {
      clipchildren 0
      ignorepointer 1
      position 0 0
-     size 1.02 1
+     size 1 1
      halign center_ref
      hexactpos 1
      vexactpos 1
@@ -111,11 +111,12 @@ FrameWidgetClass rootFrame {
     FrameWidgetClass IconFrame {
      ignorepointer 1
      position 0 0
-     size 48 48
+     size 26 20
      hexactpos 1
      vexactpos 1
      hexactsize 1
      vexactsize 1
+     fixaspect inside
      {
       ImageWidgetClass hintIcon {
        visible 1
@@ -124,13 +125,13 @@ FrameWidgetClass rootFrame {
        inheritalpha 0
        ignorepointer 1
        keepsafezone 0
-       size 30 24
+       size 1 1
        halign center_ref
        valign center_ref
        hexactpos 1
        vexactpos 1
-       hexactsize 1
-       vexactsize 1
+       hexactsize 0
+       vexactsize 0
        scaled 1
        image0 "set:cui image:Bulb"
        imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
@@ -150,7 +151,7 @@ FrameWidgetClass rootFrame {
      ignorepointer 1
      color 0 0 0 0
      position 0 0
-     size 1 35
+     size 1 48
      halign center_ref
      valign bottom_ref
      hexactpos 1
@@ -209,7 +210,7 @@ FrameWidgetClass rootFrame {
          "shadow offset" 3 3
          "shadow opacity" 0.5
          "exact text" 1
-         "exact text size" 18
+         "exact text size" 24
          "size to text h" 1
          "size to text v" 1
          "text halign" center
@@ -242,8 +243,8 @@ FrameWidgetClass rootFrame {
      ignorepointer 1
      ignoregloballv 0
      keepsafezone 0
-     position 0 40
-     size 1 110
+     position 0 0
+     size 1 98
      halign center_ref
      valign bottom_ref
      hexactpos 1
