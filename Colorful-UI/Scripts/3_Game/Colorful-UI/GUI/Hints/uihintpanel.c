@@ -47,21 +47,13 @@ modded class UiHintPanelLoading extends UiHintPanel
 			m_UiDescLabel		= RichTextWidget.Cast(m_RootFrame.FindAnyWidget("HintDescLabel"));
 			m_UiHintImage		= ImageWidget.Cast(m_RootFrame.FindAnyWidget("HintImage"));
 			m_UiPageingLabel	= TextWidget.Cast(m_RootFrame.FindAnyWidget("PageInfoLabel"));
-			m_RootFrame.SetHandler(this);
-		}
-	}
-
-	override protected void PopulateLayout()
-    {
-        if (m_RootFrame)
-        {
-            SetHintHeadline();
-            SetHintDescription();
-            SetHintPaging();
+            
             m_UiHeadlineLabel.SetColor(colorScheme.TipHeader());
             m_tipLineL.SetColor(colorScheme.TipLine());
             m_tipLineR.SetColor(colorScheme.TipLine());
             m_UiDescLabel.SetColor(colorScheme.TipText());
-        }
-    }
+			
+            m_RootFrame.SetHandler(this);
+		}
+	}
 }
