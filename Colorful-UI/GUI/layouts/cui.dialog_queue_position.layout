@@ -256,6 +256,9 @@ PanelWidgetClass LoadingFrame {
          vexactsize 0
          text "Exit"
          font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+         "shadow size" 3
+         "shadow offset" 3 3
+         "shadow opacity" 0.25
          "exact text" 1
          "exact text size" 30
          "size to text h" 1
