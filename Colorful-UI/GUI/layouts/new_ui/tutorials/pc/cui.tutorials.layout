@@ -5166,13 +5166,13 @@ FrameWidgetClass rootFrame {
       ButtonWidgetClass back {
        color 0 0 0 0
        position 0 0
-       size 1 60
+       size 1 1
        halign center_ref
        valign bottom_ref
        hexactpos 1
        vexactpos 1
        hexactsize 0
-       vexactsize 1
+       vexactsize 0
        style Empty
        "no focus" 0
        "next left" "news_main"
@@ -5194,17 +5194,17 @@ FrameWidgetClass rootFrame {
         TextWidgetClass back_label {
          clipchildren 0
          ignorepointer 1
-         size 1 60
+         size 1 1
          halign center_ref
          valign center_ref
          hexactpos 1
          vexactpos 1
          hexactsize 0
-         vexactsize 1
+         vexactsize 0
          text "#layout_pc_keybinding_play_pannel_back"
          font "colorful-ui/gui/fonts/GB-Regular.fnt"
          "exact text" 1
-         "exact text size" 42
+         "exact text size" 52
          "text halign" right
          "text valign" center
         }
