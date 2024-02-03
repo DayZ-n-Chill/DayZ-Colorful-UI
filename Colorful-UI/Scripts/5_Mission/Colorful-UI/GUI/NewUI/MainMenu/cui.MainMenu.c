@@ -312,6 +312,11 @@ modded class MainMenu extends UIScriptedMenu
 	override bool OnMouseEnter( Widget w, int x, int y )
 	{
 		
+		if( w == m_CharacterBtn )
+		{
+			TwitterHighlight( w );
+			return true;
+		}
 		if( w == m_Twitter )
 		{
 			TwitterHighlight( w );
