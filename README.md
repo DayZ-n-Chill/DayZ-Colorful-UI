@@ -6,8 +6,8 @@
 - Fully Responsive Design (UHD & Ultrawide Supported)
 - Loading Screen with Synced BG Images, & Tips
 - Main Menu with Static BG Image and Custom Music.
-- Moddified layout on all Default Layouts. 
-- Easily Editiably Layout Files with Prefab Elements.
+- Modified layout on all Default Layouts. 
+- Easily Editable Layout Files with Prefab Elements.
 - Simple Configuration
 - Customize EVERY ELEMENT INDIVIDUALLY!
 - NO MOD DEPENDANCIES!
@@ -24,14 +24,14 @@
 - Killfeed
 
 ## Open Source:  
-Lets build together. This project is open source under MIT Licsence. If you have things you would like to see improve on this template base. Send me a pull request on GITHUB.
+Let's build together. This project is open-source under MIT License. If you have things you would like to see improve on this template base. Send me a pull request on GITHUB.
 
 ### Artistic Freedom:  
 In addition to the Source Code, there are also some art files. Here is the original PSD file Used to create this layout. Use it to learn more about how I put these layouts together.
 
 # Installation Guide:  
 A Comprehensive Mod Template for DayZ. Optimized with Workbench for Advanced Scripting and pboProject for Efficient Building.
-This is my personal template, that I ues for all projects
+This is my personal template, that I use for all projects
 
 # Repository Setup
 
