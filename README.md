@@ -1,5 +1,35 @@
-# DayZ-Mod-Template
+![Header Image](https://cdn.discordapp.com/attachments/787056181784477777/1202646357362614342/dayznchill_A_logo_for_the_dayz_ui_system_called_face_the_camera_cb5670ce-be43-44ed-890d-2125c6da2674.png?ex=65ce36b3&is=65bbc1b3&hm=d54893d7e230abe6e996a6f08e83ff903918a7c2af466ba4a6b3dfe0fdc9af68&)
 
+# Colorful UI - Community Edition Template
+
+## Features
+- Fully Responsive Design (UHD & Ultrawide Supported)
+- Loading Screen with Synced BG Images, & Tips
+- Main Menu with Static BG Image and Custom Music.
+- Moddified layout on all Default Layouts. 
+- Easily Editiably Layout Files with Prefab Elements.
+- Simple Configuration
+- Customize EVERY ELEMENT INDIVIDUALLY!
+- NO MOD DEPENDANCIES!
+
+## Coming Soon
+- Server Panel
+- Multiple Prefab, & Custom Theme Colors.
+- Customizable Stamina Colors
+- Customizable Status Icon Colors
+- Death Screen with Random BG Images, & Death Quotes
+- MultiLanguage
+- Player Stats
+- Leaderboards
+- Killfeed
+
+## Open Source:  
+Lets build together. This project is open source under MIT Licsence. If you have things you would like to see improve on this template base. Send me a pull request on GITHUB.
+
+### Artistic Freedom:  
+In addition to the Source Code, there are also some art files. Here is the original PSD file Used to create this layout. Use it to learn more about how I put these layouts together.
+
+# Installation Guide:  
 A Comprehensive Mod Template for DayZ. Optimized with Workbench for Advanced Scripting and pboProject for Efficient Building.
 This is my personal template, that I ues for all projects
 
