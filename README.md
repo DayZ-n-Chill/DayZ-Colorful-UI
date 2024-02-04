@@ -109,6 +109,6 @@ This step only needs to be completed one time, unless you change your DayZ insta
 
 ## License
 
-Your tool is licensed under [MIT License](LICENSE.md).
+Your UI is licensed under [MIT License](LICENSE.md).
 
-For any additional questions or feedback, please raise an issue in this repository or contact [Dab](mailto:inclementdab@gmail.com).
+For any additional questions or feedback, please raise an issue in this repository or contact [DayZ n Chill](discord.gg/dayznchill).
