@@ -10,11 +10,11 @@ Follow these steps to clone the DayZ Mod Template, set up your project environme
 #### Creating Your Project from a Template
 
 1. **Use the Template Repository**:
-   - Navigate to the DayZ Mod Template repository on GitHub: `https://github.com/InclementDab/DayZ-Mod-Template`
+   - Navigate to the DayZ Mod Template repository on GitHub: `[https://github.com/DayZ-n-Chill/DayZ-Colorful-UI/](https://github.com/DayZ-n-Chill/DayZ-Colorful-UI/)`
    - Click on the "Use this template" button near the top of the repository page.
 
 2. **Set Up Your New Repository**:
-   - Enter a name for your new repository, like `DayZ-Mod-Name`.
+   - Enter a name for your new repository, like `DayZ-MyServerName-UI`.
    - Optionally, provide a description.
    - Choose the repository visibility (public or private).
    - Click on "Create repository from template" to generate your new repository.
@@ -33,13 +33,6 @@ Follow these steps to clone the DayZ Mod Template, set up your project environme
      ```bash
      cd DayZ-Mod-Name
      ```
-
-5. **Run the Installation Script**:
-   - If the template includes an installation script (`Install.ps1`), run it:
-     ```bash
-     ./Install.ps1
-     ```
-
 # Workbench
 
 #### Mounting to the Workdrive
