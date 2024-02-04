@@ -1500,22 +1500,6 @@ FrameWidgetClass main_menu_root {
           }
          }
         }
-        TextWidgetClass character_name_text0 {
-         clipchildren 1
-         inheritalpha 1
-         ignorepointer 1
-         size 1 0.55
-         halign center_ref
-         valign center_ref
-         hexactpos 1
-         vexactpos 1
-         hexactsize 0
-         vexactsize 0
-         font "gui/fonts/sdf_MetronLight24"
-         "exact text" 0
-         "text halign" center
-         "text valign" center
-        }
        }
       }
       ButtonWidgetClass customize_character {
@@ -1546,21 +1530,19 @@ FrameWidgetClass main_menu_root {
          hexactsize 0
          vexactsize 0
          style DayZDefaultPanel
-         {
-          ImageWidgetClass customize_character_Img {
-           ignorepointer 1
-           position 0 0
-           size 1 1
-           halign right_ref
-           hexactpos 0
-           vexactpos 0
-           hexactsize 0
-           vexactsize 0
-           image0 "set:cui image:EditUser"
-           mode blend
-           "src alpha" 1
-          }
-         }
+        }
+        ImageWidgetClass customize_character_image {
+         ignorepointer 1
+         position 0 0
+         size 1 1
+         halign right_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         image0 "set:cui image:EditUser"
+         mode blend
+         "src alpha" 1
         }
        }
       }

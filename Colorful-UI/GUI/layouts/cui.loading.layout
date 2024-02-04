@@ -67,7 +67,7 @@ PanelWidgetClass LoadingFrame {
      clipchildren 0
      ignorepointer 1
      position 0 0
-     size 1.01 1
+     size 1 1
      halign center_ref
      hexactpos 1
      vexactpos 1
@@ -99,6 +99,19 @@ PanelWidgetClass LoadingFrame {
     }
    }
   }
+  FrameWidgetClass hint_frame {
+   visible 1
+   clipchildren 0
+   ignorepointer 1
+   position 0 0
+   size 1 1
+   halign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+  }
   FrameWidgetClass SafeZone {
    ignorepointer 1
    position 0.96462 0
@@ -129,6 +142,7 @@ PanelWidgetClass LoadingFrame {
      nocache 0
     }
     GridSpacerWidgetClass HintBox {
+     visible 0
      ignorepointer 1
      position 0 0
      size 1 155
@@ -146,6 +160,7 @@ PanelWidgetClass LoadingFrame {
      Columns 1
      {
       FrameWidgetClass Icons {
+       visible 0
        ignorepointer 1
        position 317.77103 64.6788
        size 48 24
@@ -182,39 +197,26 @@ PanelWidgetClass LoadingFrame {
         }
        }
       }
-      FrameWidgetClass hint_frame {
-       visible 1
-       clipchildren 0
-       ignorepointer 1
-       position 0 0
-       size 1 1
-       halign center_ref
-       hexactpos 0
-       vexactpos 0
-       hexactsize 0
-       vexactsize 0
-       scaled 1
-      }
-      TextWidgetClass LoadingMsg {
-       ignorepointer 1
-       position 0 0
-       size 0 0
-       halign center_ref
-       valign bottom_ref
-       hexactpos 1
-       vexactpos 1
-       hexactsize 1
-       vexactsize 1
-       text "Load screen message"
-       font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
-       "exact text" 1
-       "exact text size" 18
-       "size to text h" 1
-       "size to text v" 1
-       "text halign" center
-       "text valign" center
-      }
      }
+    }
+    TextWidgetClass LoadingMsg {
+     ignorepointer 1
+     position 0 0
+     size 0 0
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Load screen message"
+     font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
+     "exact text" 1
+     "exact text size" 18
+     "size to text h" 1
+     "size to text v" 1
+     "text halign" center
+     "text valign" center
     }
    }
   }

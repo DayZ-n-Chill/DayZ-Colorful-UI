@@ -1,9 +1,15 @@
 {
     "Departments": [{
-        "DepartmentName": "Scripting",
-        "Sections": [{
-            "SectionName": "Developers",
-            "SectionLines": []
-        }]
+        "DepartmentName": "Colorful-UI",
+        "Sections": [
+            {
+                "SectionName": "UX/UI Designer",
+                "SectionLines": ["DayZ n' Chill"]
+            },
+            {
+                "SectionName": "Audio",
+                "SectionLines": ["BigDeano"]
+            }
+        ]
     }]
 }

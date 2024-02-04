@@ -265,8 +265,9 @@ WindowWidgetClass LogoutDialogRoot {
              vexactsize 0
              text "time to log"
              font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "italic text" 1
              "exact text" 1
-             "exact text size" 30
+             "exact text size" 24
              "size to text h" 1
              "size to text v" 0
              "text halign" right
@@ -1043,7 +1044,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass YoutubeBtn_Img {
+            ImageWidgetClass YoutubeBtn_img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1183,7 +1184,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass RedditBtn_Img {
+            ImageWidgetClass RedditBtn_img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1254,7 +1255,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass FacebookBtn_Img {
+            ImageWidgetClass FacebookBtn_img {
              clipchildren 0
              ignorepointer 1
              position 0 0
@@ -1324,7 +1325,7 @@ WindowWidgetClass LogoutDialogRoot {
            vexactsize 1
            style DayZDefaultPanel
            {
-            ImageWidgetClass MetaBtn_Img {
+            ImageWidgetClass MetaBtn_img {
              clipchildren 0
              ignorepointer 1
              size 39 32

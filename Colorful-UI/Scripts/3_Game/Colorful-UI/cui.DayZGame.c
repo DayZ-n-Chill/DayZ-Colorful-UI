@@ -44,7 +44,7 @@ modded class LoginTimeBase extends LoginScreenBase
 		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
 		// CUI 2.0 Elements
 		m_LSBackground  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Background"));
-		m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
+		// m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
 		m_exitIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Exit"));
 		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
 		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
@@ -63,7 +63,7 @@ modded class LoginTimeBase extends LoginScreenBase
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
-		m_tipIcon.SetColor(colorScheme.TipIcon());
+		// m_tipIcon.SetColor(colorScheme.TipIcon());
 		m_exitIcon.SetColor(colorScheme.TipIcon());
 		m_txtLabel.SetColor(colorScheme.LoadingMsg());
 		return layoutRoot;
@@ -139,7 +139,7 @@ modded class LoadingScreen
 		// CUI 2.0 Elements
 		Class.CastTo(m_tShader, m_WidgetRoot.FindAnyWidget("TopShader"));
 		Class.CastTo(m_bShader, m_WidgetRoot.FindAnyWidget("BottomShader"));
-		Class.CastTo(m_tipIcon, m_WidgetRoot.FindAnyWidget("hintIcon"));
+		// Class.CastTo(m_tipIcon, m_WidgetRoot.FindAnyWidget("hintIcon"));
 		Class.CastTo(m_loadingMsg, m_WidgetRoot.FindAnyWidget("LoadingMsg"));
 		
 		// Load BG and Progress Bar
