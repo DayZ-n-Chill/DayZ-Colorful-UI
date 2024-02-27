@@ -73,6 +73,12 @@ modded class MissionBase
 			menu = new TraderMenu;
 			break;
 		#endif
+			
+		#ifdef 	BasicSpawnSelect		
+			case BASIC_SPAWNSELECTMENU:
+            menu = new BasicSpawnSelectMenu;
+            break;
+		#endif
 				
 		case MENU_STARTUP:
 			menu = new StartupMenu;
