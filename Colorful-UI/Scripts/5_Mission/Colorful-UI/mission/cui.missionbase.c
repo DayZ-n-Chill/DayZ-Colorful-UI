@@ -42,6 +42,38 @@ modded class MissionBase
 				break;
 		#endif
 		
+		#ifdef VanillaPPMap
+		case VPP_MENU_MAP:
+			menu = new VPPMapMenu;
+			break;
+		#endif
+			
+		#ifdef SERVERPANEL
+			switch (id)	{
+				case SERVER_PANEL:
+				menu = GetServerPanelMenu();
+				break;
+			}
+		#endif
+		
+		#ifdef DayZInformationPanel
+		case DIP_PANEL:
+			menu = new DayZInformationPanelUI;
+			break;
+		#endif
+			
+		#ifdef SchanaModParty
+			case SCHANA_PARTY_MENU:
+			menu = new SchanaPartyMenu;
+			break;
+		#endif	
+	
+		#ifdef Trader
+			case TRADERMENU_UI:
+			menu = new TraderMenu;
+			break;
+		#endif
+				
 		case MENU_STARTUP:
 			menu = new StartupMenu;
 			break;
