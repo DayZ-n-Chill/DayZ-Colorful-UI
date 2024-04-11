@@ -23,6 +23,14 @@ modded class InGameMenu extends UIScriptedMenu
 	private Widget m_TopShader;
 	private Widget m_BottomShader;
 
+	Widget m_DeadScreen;
+	ImageWidget m_DeadScreenImage;
+	float m_DeadScreenFadeInIncrement = 1.3 / 2.75;
+	float m_DeadScreenFadeInLevel;
+	float m_DeadScreenImageFadeInIncrement = 1.2 / 1.45;
+	float m_DeadScreenImageFadeInLevel;
+	float m_ShowAlpha;
+	float m_TimerSlice;
 
 	override Widget Init()
 	{
@@ -79,8 +87,56 @@ modded class InGameMenu extends UIScriptedMenu
 		Class.CastTo(m_shader, layoutRoot.FindAnyWidget("Colorful_Shader"));
 		// m_shader.SetColor(colorScheme.ShaderColor());
 		// m_Separator.SetColor(colorScheme.SeparatorColor());
+		
+		m_DeadScreen = Widget.Cast(layoutRoot.FindAnyWidget("DeathScreen"));
+		m_DeadScreen.SetAlpha(0);
+		m_DeadScreen.Show(false);
+		m_DeadScreenImage = ImageWidget.Cast(m_DeadScreen.FindAnyWidget("DeadImage"));
+		m_DeadScreenImage.LoadImageFile(0, Images.Death());
+		m_DeadScreenImage.SetAlpha(0);
+
 		return layoutRoot;
 	}
+
+	override void Update(float timeslice)
+	{
+		if (ShowDeadScreen)
+		{
+			m_TimerSlice += timeslice;
+			if (m_TimerSlice >= 0.01)
+			{
+				DeathFunction(timeslice);
+				m_TimerSlice = 0;
+			}
+		}
+		super.Update(timeslice);
+	};
+
+	void DeathFunction(float timeslice)
+	{
+		float new_deadscreen_val;
+
+		if (m_DeadScreenImageFadeInLevel != 1)
+		{
+			m_DeadScreen.Show(true);
+			new_deadscreen_val = m_DeadScreenFadeInLevel + m_DeadScreenFadeInIncrement * timeslice;
+			if (new_deadscreen_val < 1)
+				m_DeadScreenFadeInLevel = new_deadscreen_val;
+			else
+				m_DeadScreenFadeInLevel = 1;
+
+			if (m_DeadScreenFadeInLevel > 0.5)
+			{
+				float new_logo_val = m_DeadScreenImageFadeInLevel + m_DeadScreenImageFadeInIncrement * timeslice;
+				if (new_deadscreen_val < 1)
+					m_DeadScreenImageFadeInLevel = new_logo_val;
+				else
+					m_DeadScreenImageFadeInLevel = 1;
+			}
+			m_DeadScreen.SetAlpha(m_DeadScreenFadeInLevel);
+			m_DeadScreenImage.SetAlpha(m_DeadScreenImageFadeInLevel);
+		};
+	};
 
 	void UpdatePlayerName() {
 	    PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());

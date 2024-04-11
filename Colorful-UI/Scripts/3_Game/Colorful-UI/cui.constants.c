@@ -15,6 +15,27 @@ string GetRandomBackground()
 	return images[bgIndex];
 }
 
+static bool ShowDeadScreen = false;
+
+string GetRandomDeathScreen()
+{
+	const string images[] = {
+		"Colorful-UI/gui/textures/loading_screens/CUI2-BG1.edds", 
+		"Colorful-UI/gui/textures/loading_screens/CUI2-BG2.edds",
+		"Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds"
+	};
+	// If you add more images be sure to change the image count. 
+	const int IMAGES_COUNT = 3;
+	int bgIndex = Math.RandomInt(0, IMAGES_COUNT - 1);
+	return images[bgIndex];
+}
+
+class Images
+{
+    static string Death() { return "Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds"; };
+    static string Respawn() { return "Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds"; };
+};
+
 // SOCIALS & LINKS ---------------------------------------------------------------
 // Set your links Here
 class MenuURLS {
