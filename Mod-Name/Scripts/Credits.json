@@ -1,0 +1,11 @@
+{
+    "Departments": [{
+        "DepartmentName": "DayZ-Project-Template",
+        "Sections": [
+            {
+                "SectionName": "Template",
+                "SectionLines": ["DayZ n' Chill"]
+            }
+        ]
+    }]
+}

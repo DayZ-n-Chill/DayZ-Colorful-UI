@@ -1,0 +1,12 @@
+{
+    "m_Version": 5,
+    "m_ZoneName": "Safezone",
+    "m_DisplayName": "Trading Zone",
+    "Position": [
+        12619.600000, 881.620000, 263.103000
+    ],
+    "Radius": 100.0,
+    "BuyPricePercent": 100.0,
+    "SellPricePercent": -1.0,
+    "Stock": {}
+}

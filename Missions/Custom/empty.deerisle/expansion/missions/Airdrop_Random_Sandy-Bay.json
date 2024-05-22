@@ -1,0 +1,25 @@
+{
+    "m_Version": 0,
+    "Enabled": 1,
+    "Weight": 214.0,
+    "MissionMaxTime": 1200,
+    "MissionName": "Random_Sandy Bay",
+    "Difficulty": 0,
+    "Objective": 0,
+    "Reward": "",
+    "ShowNotification": 1,
+    "Height": 450.0,
+    "Speed": 25.0,
+    "Container": "Random",
+    "FallSpeed": 4.5,
+    "DropLocation": {
+        "x": 4627.0,
+        "z": 7507.0,
+        "Name": "Sandy Bay",
+        "Radius": 100.0
+    },
+    "Infected": [],
+    "ItemCount": -1,
+    "InfectedCount": -1,
+    "Loot": []
+}

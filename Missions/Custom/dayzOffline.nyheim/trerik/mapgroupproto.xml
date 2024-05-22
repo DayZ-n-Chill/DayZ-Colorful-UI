@@ -1,0 +1,121 @@
+<!-- TRERIK PROTO from trerik/mapgroupproto.xml -->
+<group name="Land_typehouse" lootmax="4">
+	<usage name="Village" />
+	<usage name="Town" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-2.300053 -2.671742 2.342095" range="0.5" height="1.5" /> 
+		<point pos="2.239476 -2.721743 2.026958" range="0.5" height="1.5" /> 
+		<point pos="2.398315 -2.721743 -0.699385" range="0.5" height="1.5" /> 
+		<point pos="-1.583703 0.378258 2.255426" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_typehouse_brown" lootmax="4">
+	<usage name="Village" />
+	<usage name="Town" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-2.300053 -2.671742 2.342095" range="0.5" height="1.5" /> 
+		<point pos="2.239476 -2.721743 2.026958" range="0.5" height="1.5" /> 
+		<point pos="2.398315 -2.721743 -0.699385" range="0.5" height="1.5" /> 
+		<point pos="-1.583703 0.378258 2.255426" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_typehouse_green" lootmax="4">
+	<usage name="Village" />
+	<usage name="Town" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-2.300053 -2.671742 2.342095" range="0.5" height="1.5" /> 
+		<point pos="2.239476 -2.721743 2.026958" range="0.5" height="1.5" /> 
+		<point pos="2.398315 -2.721743 -0.699385" range="0.5" height="1.5" /> 
+		<point pos="-1.583703 0.378258 2.255426" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_typehouse_yellow" lootmax="4">
+	<usage name="Village" />
+	<usage name="Town" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-2.300053 -2.671742 2.342095" range="0.5" height="1.5" /> 
+		<point pos="2.239476 -2.721743 2.026958" range="0.5" height="1.5" /> 
+		<point pos="2.398315 -2.721743 -0.699385" range="0.5" height="1.5" /> 
+		<point pos="-1.583703 0.378258 2.255426" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+		<point pos="1.167704 0.378258 -1.583941" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_tower" lootmax="4">
+	<usage name="City" />
+	<usage name="Police" />
+	<usage name="Military" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="0.276736 -7.797147 -0.631957" range="0.5" height="1.5" /> 
+		<point pos="0.618217 0.408461 0.437358" range="0.5" height="1.5" /> 
+		<point pos="-2.655564 4.549213 -1.070071" range="0.5" height="1.5" /> 
+		<point pos="2.673939 4.545320 -0.744006" range="0.5" height="1.5" /> 
+		<point pos="-0.870930 -7.768873 1.280235" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_tower_right" lootmax="4">
+	<usage name="City" />
+	<usage name="Police" />
+	<usage name="Military" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="1.184684 -7.768873 -0.812878" range="0.5" height="1.5" /> 
+		<point pos="-6.678955 -7.977622 -1.083883" range="0.5" height="1.5" /> 
+		<point pos="0.277845 0.312926 -0.523896" range="0.5" height="1.5" /> 
+		<point pos="-1.541713 4.574200 1.611676" range="0.5" height="1.5" /> 
+		<point pos="1.888211 4.506939 0.254474" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_wall" lootmax="1">
+	<usage name="City" />
+	<usage name="Police" />
+	<usage name="Military" />
+	<container name="lootFloor" lootmax="1">
+		<point pos="0.676987 2.744229 -0.117703" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_bigcity_1" lootmax="4">
+	<usage name="Town" />
+	<usage name="Office" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-3.710217 6.593788 0.999670" range="0.5" height="1.5" /> 
+		<point pos="7.494656 6.648472 1.576340" range="0.5" height="1.5" /> 
+		<point pos="6.017464 -9.462098 -1.852065" range="0.5" height="1.5" /> 
+		<point pos="3.578640 -9.449991 -0.059930" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="bldr_wreck_hmmwv" lootmax="4">
+	<usage name="Military" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-0.423920 -0.252928 0.740940" range="0.5" height="1.5" /> 
+		<point pos="-1.928430 -0.172898 -0.159913" range="0.5" height="1.5" /> 
+		<point pos="0.510000 -0.269898 -0.813300" range="0.5" height="1.5" /> 
+	</container>
+</group>
+<group name="Land_bigcity_2" lootmax="4">
+	<usage name="Town" />
+	<usage name="Office" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="-1.985019 -21.731091 -4.453202" range="0.5" height="1.5" /> 
+		<point pos="-1.985019 -21.731091 -4.453202" range="0.5" height="1.5" /> 
+		<point pos="-1.985019 -21.731091 -4.453202" range="0.5" height="1.5" /> 
+		<point pos="-6.425179 -21.731091 -3.471702" range="0.5" height="1.5" /> 
+		<point pos="-1.985019 -21.731091 -4.453202" range="0.5" height="1.5" /> 
+	</container>
+</group><group name="Land_statebuilding" lootmax="4">
+	<usage name="City" />
+	<usage name="Police" />
+	<container name="lootFloor" lootmax="4">
+		<point pos="0.318231 0.278152 8.355753" range="0.5" height="1.5" /> 
+		<point pos="0.123393 0.278152 -8.382553" range="0.5" height="1.5" /> 
+	</container>
+</group>

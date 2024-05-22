@@ -1,0 +1,30 @@
+{
+    "m_Version": 5,
+    "m_TraderID": 1,
+    "m_ClassName": "ExpansionP2PTraderIrena",
+    "m_Position": [
+        12610.200000, 881.073000, 233.981000
+    ],
+    "m_Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_LoadoutFile": "Fence_NPC_Loadout",
+    "m_VehicleSpawnPosition": [
+        0,0,0
+    ],
+    "m_WatercraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_AircraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_DisplayName": "Unknown",
+    "m_DisplayIcon": "Deliver",
+    "m_IsGlobalTrader": 1
+}
