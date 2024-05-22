@@ -26,10 +26,24 @@ thing.obf
 *.ADM
 *.mdmp
 
-# Dont Store the Server Shit in the repo. 
-Missions/Colorful-UI.ChernarusPlus/storage_1/
-Profiles/Colorful-UI/client/
-Profiles/Colorful-UI/server/
+# Your CLient Settings
+Servers/!ClientDiagLogs/
 
-Missions/Colorful-UI/client/
-Missions/Colorful-UI/server/
+# Dont Store your server shit in the repo.
+# Missions 
+Missions/Vanilla/dayzOffline.chernarusplus/storage_1/
+Missions/Vanilla/dayzOffline.enoch/storage_1/
+Missions/Experimental/dayzOffline.chernarusplus/storage_1/
+Missions/Experimental/dayzOffline.enoch/storage_1/
+Missions/Custom/dayzOffline.Rio_Map/storage_1/
+Missions/Custom/dayzoffline.valning/storage_1/
+Missions/Custom/empty.deerisle/storage_1/
+Missions/Custom/empty.melkart/storage_1/
+Missions/Custom/empty.fenix_emptiness/storage_1/
+
+# Profile Folders 
+Servers/Cherno/Profiles/
+Servers/Livonia/Profiles/
+Servers/Others/Empty/Profiles/
+Servers/Others/Melkart/Profiles/
+Servers/Others/Valning/Profiles/
