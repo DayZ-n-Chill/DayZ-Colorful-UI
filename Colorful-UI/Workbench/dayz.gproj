@@ -1,6 +1,6 @@
 GameProjectClass {
- ID "Mod-Name"
- TITLE "Mod-Name"
+ ID "Colorful-UI"
+ TITLE "Colorful-UI"
  Configurations {
   GameProjectConfigClass PC {
    platformHardware PC
@@ -36,7 +36,7 @@ GameProjectClass {
 			Name "core"
 			Paths {
 				"scripts/1_Core"
-				"Mod-Name/scripts/1_Core"
+				"Colorful-UI/scripts/1_Core"
 			}
 			EntryPoint ""
 		}
@@ -51,7 +51,7 @@ GameProjectClass {
 			Name "game"
 			Paths {
 				"scripts/3_Game"
-				"Mod-Name/scripts/3_Game"
+				"Colorful-UI/scripts/3_Game"
 			}
 			EntryPoint "CreateGame"
 		}
@@ -59,7 +59,7 @@ GameProjectClass {
 			Name "world"
 			Paths {
 			 "scripts/4_World"
-			 "Mod-Name/scripts/4_World"
+			 "Colorful-UI/scripts/4_World"
 			 }
 			EntryPoint ""
 		}
@@ -67,14 +67,14 @@ GameProjectClass {
 			Name "mission"
 			Paths {
 			 "scripts/5_Mission"
-			 "Mod-Name/scripts/5_Mission"
+			 "Colorful-UI/scripts/5_Mission"
 			 }
 			EntryPoint "CreateMission"
 		}
 		ScriptModulePathClass {
 			Name "workbench"
 			Paths {
-			 "Mod-Name/Workbench/ToolAddons/Plugins"
+			 "Colorful-UI/Workbench/ToolAddons/Plugins"
 			}
 			EntryPoint ""
 		} 
@@ -91,3 +91,4 @@ GameProjectClass {
   }
  }
 }
+

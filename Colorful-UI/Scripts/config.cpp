@@ -1,7 +1,7 @@
 
 class CfgPatches
 {
-	class Mod-Name_Scripts
+	class Colorful_UI_Scripts
 	{
         requiredVersion = 0.1;
 		requiredAddons[] = {"DZ_Data","DZ_Scripts","DZ_Sounds_Effects"};
@@ -22,12 +22,12 @@ class CfgAddons
 
 class CfgMods 
 {
-	class Mod-Name
+	class Colorful_UI
 	{
-		name = "Project-Mod-Name";
-		dir = "Mod-Name";
-		creditsJson = "Mod-Name/Scripts/Credits.json";
-		inputs = "Mod-Name/Scripts/Inputs.xml";
+		name = "Project-Colorful-UI";
+		dir = "Colorful-UI";
+		creditsJson = "Colorful-UI/Scripts/Credits.json";
+		inputs = "Colorful-UI/Scripts/Inputs.xml";
 		type = "mod";
 
 		dependencies[] =
@@ -40,7 +40,7 @@ class CfgMods
 			{
 				files[] =
 				{
-					"Mod-Name/scripts/1_core"
+					"Colorful-UI/scripts/1_core"
 				};
 			};
 
@@ -48,14 +48,14 @@ class CfgMods
 			{
 				files[] = 
 				{
-					"Mod-Name/scripts/3_Game"
+					"Colorful-UI/scripts/3_Game"
 				};
 			};
 			class worldScriptModule
 			{
 				files[] = 
 				{
-					"Mod-Name/scripts/4_World"
+					"Colorful-UI/scripts/4_World"
 				};
 			};
 
@@ -63,9 +63,10 @@ class CfgMods
 			{
 				files[] = 
 				{
-					"Mod-Name/scripts/5_Mission"
+					"Colorful-UI/scripts/5_Mission"
 				};
 			};
 		};
 	};	
 };
+

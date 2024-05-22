@@ -53,7 +53,7 @@ class KillModTool: DayZTool
     void KillModTool()
 
     {
-		 BatchFile = "P:/Mod-Name/Workbench/ToolAddons/Batch/Sysops/Kill_DayZ-Diag64.bat";
+		 BatchFile = "P:/Colorful-UI/Workbench/ToolAddons/Batch/Sysops/Kill_DayZ-Diag64.bat";
     }
 
     override void Run()
