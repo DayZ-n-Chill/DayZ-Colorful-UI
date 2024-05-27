@@ -81,7 +81,6 @@ class CfgSoundSets
 
 class CfgSoundShaders
 {
-	// Main Music for Colorful UI created by BigDeanO
 	class DZNC_Music_Menu_SoundShader
 	{
 		samples[] = {{"\Colorful-UI\GUI\sounds\MainMenu.ogg", 1}};
