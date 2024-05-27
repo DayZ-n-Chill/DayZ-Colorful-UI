@@ -74,7 +74,7 @@ if exist "%TEMPCFGFILE%" del "%TEMPCFGFILE%"
     if "!key!"=="PROJECTDIR" (
         echo PROJECTDIR=!NEWPROJECTDIR!>> "!TEMPCFGFILE!"
     ) else if "!key!"=="YOURMODDIR" (
-        echo YOURMODDIR=!NEWPROJECTDIR!\Mod-Name>> "!TEMPCFGFILE!"
+        echo YOURMODDIR=!NEWPROJECTDIR!\Colorful-UI>> "!TEMPCFGFILE!"
     ) else (
         echo !key!=!value!>> "!TEMPCFGFILE!"
     )

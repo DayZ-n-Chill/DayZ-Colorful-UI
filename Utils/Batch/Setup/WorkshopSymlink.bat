@@ -2,9 +2,9 @@
 SETLOCAL
 :: Load variables from Globals.cfg and set them with quoted values
 :: Uncomment the below code if you plan to run this on your own and not just with the start.bat
-:: for /f "tokens=1* delims== eol=#" %%i in (..\..\Shared\Globals.cfg) do (
-::     set "%%i=%%j"
-:: )
+for /f "tokens=1* delims== eol=#" %%i in (..\..\Shared\Globals.cfg) do (
+    set "%%i=%%j"
+)
 
 :: Check if the P drive is mounted
 IF NOT EXIST "%PDRIVE%" (
