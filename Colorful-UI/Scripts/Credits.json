@@ -1,10 +1,14 @@
 {
     "Departments": [{
-        "DepartmentName": "DayZ-Project-Template",
+        "DepartmentName": "Colorful-UI",
         "Sections": [
             {
-                "SectionName": "Template",
+                "SectionName": "UX/UI Designer",
                 "SectionLines": ["DayZ n' Chill"]
+            },
+            {
+                "SectionName": "Audio",
+                "SectionLines": ["BigDeano"]
             }
         ]
     }]

@@ -1,0 +1,294 @@
+PanelWidgetClass LoadingFrame {
+ color 0 0 0 1
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 1000
+ style rover_sim_colorable
+ {
+  ImageWidgetClass ImageBackground {
+   visible 1
+   position 0 0
+   size 0.18 0.09
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+   fixaspect outside
+   image0 ""
+   imageTexture "{F3680D43FF90E5A2}Colorful-UI/GUI/textures/loading_screens/CUI2-BG1.edds"
+   mode opaque
+   "src alpha" 0
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
+   filter 1
+   pivot 0 0
+   "Transition width" 0
+   Progress 0
+  }
+  FrameWidgetClass Shaders {
+   visible 1
+   clipchildren 0
+   ignorepointer 1
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass TopShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+    ImageWidgetClass BottomShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1.01 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     "flip v" 1
+    }
+    ImageWidgetClass Vingette {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
+  FrameWidgetClass hint_frame0 {
+   visible 1
+   clipchildren 0
+   ignorepointer 1
+   position 0 0
+   size 1 1
+   halign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+  }
+  FrameWidgetClass SafeZone {
+   ignorepointer 1
+   position 0.96462 0
+   size 0.9 0.9
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass Logo {
+     visible 1
+     inheritalpha 1
+     size 438 261
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     image0 "set:cui image:Logo"
+     imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     filter 1
+     nocache 0
+    }
+    TextWidgetClass txtLabel {
+     ignorepointer 1
+     position 0 0
+     size 0 0
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Load screen message"
+     font "colorful-ui/gui/fonts/GB-ClearnRegular.fnt"
+     "exact text" 1
+     "exact text size" 18
+     "size to text h" 1
+     "size to text v" 1
+     "text halign" center
+     "text valign" center
+    }
+    GridSpacerWidgetClass HintBox {
+     visible 0
+     ignorepointer 1
+     position 0 0
+     size 1 155
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     Padding 0
+     Margin 0
+     "Size To Content V" 1
+     content_halign center
+     content_valign center
+     Columns 1
+     {
+      FrameWidgetClass Icons {
+       visible 0
+       ignorepointer 1
+       position 317.77103 64.6788
+       size 48 24
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       {
+        ImageWidgetClass hintIcon {
+         visible 1
+         disabled 0
+         clipchildren 0
+         inheritalpha 0
+         ignorepointer 1
+         keepsafezone 0
+         size 30 24
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         scaled 1
+         image0 "set:cui image:Bulb"
+         imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
+         mode blend
+         "src alpha" 1
+         "clamp mode" clamp
+         "stretch mode" stretch_w_h
+         "flip u" 0
+         "flip v" 0
+         nocache 0
+         "Transition width" 0.074
+        }
+       }
+      }
+     }
+    }
+    ButtonWidgetClass btnLeave {
+     color 0 0 0 0
+     size 92 40
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass ""
+     style Empty
+     "no focus" 0
+     "next left" ""
+     "next right" ""
+     "next up" ""
+     "next down" ""
+     {
+      ImageWidgetClass Exit {
+       clipchildren 0
+       ignorepointer 1
+       size 27 24
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       image0 "set:cui image:Exit"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       filter 0
+      }
+      TextWidgetClass ExitText {
+       clipchildren 0
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text "Exit"
+       font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+       "shadow size" 3
+       "shadow offset" 3 3
+       "shadow opacity" 0.25
+       "exact text" 1
+       "exact text size" 30
+       "size to text h" 1
+       "size to text v" 0
+       "text halign" right
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  ProgressBarWidgetClass LoadingBar {
+   visible 1
+   ignorepointer 1
+   size 1 8
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   style Stamina
+   current 100
+  }
+ }
+}

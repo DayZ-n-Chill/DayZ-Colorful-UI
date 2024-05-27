@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+ Author "unicron"
+ ChangeDate 993751082
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "CUI2-Vingette.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

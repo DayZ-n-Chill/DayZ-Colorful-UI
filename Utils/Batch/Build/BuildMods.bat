@@ -5,7 +5,7 @@ SETLOCAL
 SET MakePboPath="C:\Program Files (x86)\Mikero\DePboTools\bin\MakePbo.exe"
 SET AddonBuilderPath="C:\Program Files (x86)\Steam\steamapps\common\DayZ Tools\Bin\AddonBuilder\AddonBuilder.exe"
 
-SET ClientSource="P:\Mods\@Colorful-UI"
+SET ClientSource="P:\Colorful-UI"
 SET ClientOutput="P:\Mods\@Colorful-UI\Addons"
 
 @REM Run AddonBuilder to pack the mod files

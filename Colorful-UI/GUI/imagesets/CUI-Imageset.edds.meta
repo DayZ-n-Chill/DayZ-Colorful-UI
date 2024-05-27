@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.tga"
+ Author "unicron"
+ ChangeDate 1783361593
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "CUI-Imageset.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

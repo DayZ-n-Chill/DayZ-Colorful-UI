@@ -1,0 +1,42 @@
+[
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG1.edds",
+      "m_Headline": "Traveling Solo",
+      "m_Description": "In a world filled with challenges, going solo can be risky."
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG2.edds",
+      "m_Headline": "Beware of Zombies",
+      "m_Description": "Zombies are everywhere! Keep your guard up and be prepared to face the undead."
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG3.edds",
+      "m_Headline": "Move Silently to avoid hordes",
+      "m_Description": "Stealth is your ally. Move quietly to avoid attracting hordes of zombies."
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG4.edds",
+      "m_Headline": "Travel in a group",
+      "m_Description": "Strength in numbers! Join forces with fellow survivors to navigate the dangers together."
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG5.edds",
+      "m_Headline": "Water Esenstials",
+      "m_Description": "Stay hydrated to stay alive. Carry sufficient water supplies on your journey."
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG8.edds",
+      "m_Headline": "They Hunger!",
+      "m_Description": "Zombies hate fast food! When in doubt, run!"
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG9.edds",
+      "m_Headline": "Seek Shelter",
+      "m_Description": "In this dangerous world, finding shelter is crucial."
+    },
+    {
+      "m_ImagePath": "Colorful-UI/gui/textures/loading_screens/CUI2-BG10.edds",
+      "m_Headline": "Lost in the apocalypse?",
+      "m_Description": "Use landmarks and navigate wisely. A good sense of direction is vital for surviving the challenges that lie ahead."
+    }
+]

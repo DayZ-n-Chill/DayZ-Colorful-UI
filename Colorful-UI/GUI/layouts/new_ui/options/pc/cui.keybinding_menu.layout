@@ -1,0 +1,571 @@
+FrameWidgetClass keybindings_root {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ priority 951
+ {
+  FrameWidgetClass Shaders {
+   visible 1
+   clipchildren 0
+   ignorepointer 1
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass TopShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+    ImageWidgetClass BottomShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1.01 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     "flip v" 1
+    }
+    ImageWidgetClass Vingette {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
+  TextWidgetClass KeybindingsTextWidget {
+   ignorepointer 1
+   position 0.05 80
+   size 0.3 50
+   halign right_ref
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   priority 1
+   style Normal
+   text "#layout_pc_keybinding_desc"
+   font "colorful-ui/gui/fonts/GB-Regular.fnt"
+   "text color" 0.8157 0.1255 0.7843 1
+   "exact text" 0
+   "text halign" right
+   "text valign" center
+  }
+  PanelWidgetClass keyboard_preset {
+   visible 1
+   clipchildren 0
+   inheritalpha 0
+   ignorepointer 1
+   position 0.05 135
+   size 293 90
+   halign right_ref
+   hexactpos 0
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 1
+   "no focus" 1
+   {
+    TextWidgetClass keyboard_image {
+     clipchildren 0
+     inheritalpha 0
+     ignorepointer 1
+     position 0 10
+     size 150 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#keybinding_profile"
+     font "colorful-ui/gui/fonts/GB-Regular.fnt"
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass keyboard_dropown {
+     visible 0
+     clipchildren 0
+     inheritalpha 0
+     ignorepointer 0
+     color 0.1176 0.1176 0.1176 1
+     position 0 5
+     size 0.95 40
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     fixaspect outside
+     priority 10
+     style rover_sim_colorable
+     "no focus" 1
+    }
+    FrameWidgetClass profile_setting_option {
+     ignorepointer 1
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+    }
+   }
+  }
+  WrapSpacerWidgetClass play_panel_root {
+   visible 1
+   ignorepointer 1
+   position 0.05 0.05
+   size 293 297
+   halign right_ref
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   priority 1
+   Padding 0
+   Margin 0
+   "Size To Content H" 1
+   "Size To Content V" 1
+   content_halign center
+   content_valign bottom
+   {
+    WrapSpacerWidgetClass bottom {
+     color 0 0 0 0.549
+     position 0 0
+     size 1 84
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Empty
+     "no focus" 0
+     "next left" "news_main"
+     "next right" "news_main"
+     "next up" ""
+     "next down" "exit_button"
+     Padding 0
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     {
+      ButtonWidgetClass back {
+       disabled 0
+       ignorepointer 0
+       color 0 0 0 1
+       position 0 88
+       size 1 90
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style Empty
+       "no focus" 0
+       "next up" "apply"
+       "next down" "defaults"
+       text "#layout_pc_keybinding_play_pannel_back"
+       text_proportion 0.6
+       text_halign right
+       font "colorful-ui/gui/fonts/GB-Regular.fnt"
+       switch normal
+      }
+     }
+    }
+    ImageWidgetClass MenuDivider {
+     visible 1
+     ignorepointer 1
+     size 293 3
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "set:cui image:MenuDivider"
+     mode blend
+     "src alpha" 1
+     "flip u" 1
+     "flip v" 0
+    }
+    WrapSpacerWidgetClass top {
+     ignorepointer 1
+     color 0 0 0 0.549
+     position 0 0
+     size 1 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Empty
+     "no focus" 1
+     Padding 0
+     Margin 0
+     "Size To Content V" 1
+     content_valign bottom
+     {
+      ButtonWidgetClass apply {
+       disabled 0
+       ignorepointer 0
+       color 0 0 0 1
+       position 0 88
+       size 1 38
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style Empty
+       "no focus" 0
+       "next up" "reset"
+       "next down" "back"
+       text "#layout_pc_keybinding_apply"
+       text_proportion 0.55
+       text_halign right
+       font "colorful-ui/gui/fonts/GB-Regular.fnt"
+       switch normal
+      }
+      ButtonWidgetClass undo {
+       disabled 0
+       ignorepointer 0
+       color 0 0 0 1
+       position 0 130
+       size 1 38
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style Empty
+       "no focus" 0
+       "next left" ""
+       "next right" ""
+       "next up" "defaults"
+       "next down" "apply"
+       text "#menu_undo_cap"
+       text_proportion 0.55
+       text_halign right
+       font "colorful-ui/gui/fonts/GB-Regular.fnt"
+       switch normal
+      }
+      PanelWidgetClass character {
+       visible 0
+       ignorepointer 0
+       color 0.0392 0.0392 0.0392 1
+       position 0 172
+       size 1 38
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style blank
+       {
+        TextWidgetClass character_name_text {
+         inheritalpha 1
+         ignorepointer 1
+         size 1 0.55
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         font "colorful-ui/gui/fonts/GB-Regular.fnt"
+         "exact text" 0
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      ButtonWidgetClass reset_all {
+       visible 0
+       disabled 0
+       ignorepointer 0
+       color 0 0 0 1
+       position 0 130
+       size 1 38
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style Empty
+       "no focus" 0
+       "next left" ""
+       "next right" ""
+       "next up" "back"
+       "next down" "reset"
+       text "#options_reset_all"
+       text_proportion 0.55
+       text_halign right
+       font "colorful-ui/gui/fonts/GB-Regular.fnt"
+       switch normal
+      }
+     }
+    }
+    PanelWidgetClass group_header {
+     visible 1
+     clipchildren 0
+     inheritalpha 0
+     ignorepointer 1
+     color 0 0 0 0.9412
+     size 293 128
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     priority 10
+     style blank
+     "no focus" 1
+     {
+      ButtonWidgetClass reset {
+       disabled 0
+       ignorepointer 0
+       color 0 0 0 1
+       position 0 90
+       size 1 38
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       priority 666
+       style Empty
+       "no focus" 0
+       "next left" ""
+       "next right" ""
+       "next up" "back"
+       "next down" "reset"
+       text "#str_settings_menu_root_play_panel_root_top_reset0"
+       text_proportion 0.55
+       text_halign right
+       font "colorful-ui/gui/fonts/GB-Regular.fnt"
+       switch normal
+      }
+     }
+    }
+   }
+  }
+  WrapSpacerWidgetClass Licensing {
+   visible 0
+   clipchildren 0
+   position 0.05 0.062
+   size 0.45 30
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   priority 5
+   Padding 8
+   Margin 0
+   "Size To Content H" 1
+   "Size To Content V" 1
+   content_valign center
+   {
+    TextWidgetClass version {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 80 60
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 2
+     text "#main_menu_version"
+     font "colorful-ui/gui/fonts/GB-Regular.fnt"
+     "exact text" 0
+     "text valign" center
+    }
+    TextWidgetClass copyright {
+     visible 1
+     clipchildren 0
+     position 80 40
+     size 1 0.5
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 2
+     text "#copyright_disclamer"
+     font "colorful-ui/gui/fonts/GB-Regular.fnt"
+     "exact text" 0
+     "text valign" center
+    }
+   }
+  }
+  FrameWidgetClass Tabber {
+   ignorepointer 1
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   priority 1
+   scriptclass "TabberUI"
+   {
+    WrapSpacerWidgetClass TabControls {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 80 80
+     size 0.7 60
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     Padding 0
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     {
+      ScrollWidgetClass Tab_Control_Scroller {
+       clipchildren 1
+       position 0 0
+       size 1050 1
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       scaled 1
+       "Scrollbar H" 1
+       {
+        GridSpacerWidgetClass Tab_Control_Container {
+         visible 1
+         ignorepointer 1
+         color 0 0 0 0.549
+         position 0 0
+         size 710 1
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         priority 1
+         style DayZDefaultPanel
+         "no focus" 1
+         Padding 0
+         Margin 0
+         "Size To Content H" 1
+         Columns 50
+         Rows 1
+        }
+       }
+      }
+      FrameWidgetClass ConsoleControls {
+       visible 0
+       clipchildren 0
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       {
+        ImageWidgetClass TabLeftControl {
+         visible 1
+         clipchildren 1
+         ignorepointer 1
+         position -45 0
+         size 40 32
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:xbox_buttons image:LB"
+         mode blend
+         "src alpha" 1
+         "clamp mode" clamp
+        }
+        ImageWidgetClass TabRightControl {
+         visible 1
+         clipchildren 1
+         ignorepointer 1
+         position -45 0
+         size 40 32
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:xbox_buttons image:RB"
+         mode blend
+         "src alpha" 1
+         "clamp mode" clamp
+        }
+       }
+      }
+     }
+    }
+    FrameWidgetClass TabContentsHolder {
+     visible 1
+     ignorepointer 1
+     position 81.4164 160
+     size 1760 800
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+   }
+  }
+ }
+}

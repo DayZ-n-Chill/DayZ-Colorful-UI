@@ -1,0 +1,1393 @@
+WindowWidgetClass LogoutDialogRoot {
+ visible 1
+ clipchildren 1
+ inheritalpha 0
+ color 0.1176 0.1176 0.1176 0.9804
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 960
+ style Default
+ {
+  FrameWidgetClass Shaders {
+   visible 1
+   clipchildren 0
+   ignorepointer 1
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass TopShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+    ImageWidgetClass BottomShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     "flip v" 1
+    }
+    ImageWidgetClass Vingette {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
+  FrameWidgetClass SafeZone {
+   ignorepointer 1
+   position 0 0
+   size 0.9 0.9
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    GridSpacerWidgetClass ActionItems {
+     visible 1
+     ignorepointer 1
+     keepsafezone 1
+     size 293 618.29999
+     halign right_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     Padding 0
+     Margin 0
+     "Size To Content V" 1
+     Columns 1
+     {
+      GridSpacerWidgetClass play_panel_roots {
+       ignorepointer 1
+       position 0 0
+       size 0 0
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       Padding 0
+       Margin 0
+       "Size To Content H" 1
+       "Size To Content V" 1
+       content_halign right
+       Columns 1
+       Rows 5
+       {
+        ButtonWidgetClass restartbtn {
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass restartbtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass restartbtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Exit"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass optionsbtn {
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass optionsbtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass optionsbtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Cancel"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        FrameWidgetClass timer {
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         {
+          PanelWidgetClass timerPadding {
+           ignorepointer 1
+           color 0 0 0 0
+           position 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass txtLogoutTime {
+             clipchildren 0
+             ignorepointer 1
+             position 0 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "time to log"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "italic text" 1
+             "exact text" 1
+             "exact text size" 24
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 42
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass respawn_button_panel {
+           visible 0
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass respawn_button_label {
+             clipchildren 0
+             ignorepointer 1
+             position 8 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Respawn"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_random {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 42
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass respawn_button_random_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass respawn_button_random_label {
+             clipchildren 0
+             ignorepointer 1
+             position 8 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Random Respawn"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      GridSpacerWidgetClass "Btn Area" {
+       ignorepointer 1
+       position 0 0
+       size 0 0
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       Padding 0
+       Margin 0
+       "Size To Content H" 1
+       "Size To Content V" 1
+       content_halign right
+       Columns 1
+       Rows 5
+       {
+        ButtonWidgetClass ExitBtn {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass ExitBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass ExitBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_exit"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass RestartBtn {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass RestartBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass RestartBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_restart"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass OptionsBtn {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass OptionsBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass OptionsBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#layout_xbox_ingame_menu_options"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass ContinueBtn {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass ContinueBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass ContinueBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_continue"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_custom {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass respawn_button_custom_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass respawn_button_custom_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_respawn_custom"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_random0 {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass respawn_button_random_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass respawn_button_random_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_respawn_random"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button0 {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass respawn_button_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass respawn_button_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "#main_menu_respawn"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass QueueBtn {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass QueueBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass QueueBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Priority Queue"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass WebsiteBtn {
+         visible 0
+         color 0 0 0 0
+         position 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass WebsiteBtn_panel {
+           visible 0
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+           {
+            TextWidgetClass WebsiteBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             text "Website"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "text sharpness" 1.5
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      FrameWidgetClass TopSpacer {
+       visible 1
+       ignorepointer 1
+       position 174.92999 0.3113
+       size 48 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ImageWidgetClass MenuDivider {
+       visible 1
+       ignorepointer 1
+       size 293 3
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       image0 "set:cui image:MenuDivider"
+       mode blend
+       "src alpha" 1
+       "flip u" 1
+       "flip v" 0
+      }
+      FrameWidgetClass BottomSpacer {
+       visible 1
+       ignorepointer 1
+       position 174.92999 0.3113
+       size 48 15
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      GridSpacerWidgetClass Socials {
+       ignorepointer 1
+       position 0 0
+       size 0 0
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 1
+       vexactsize 1
+       Padding 0
+       Margin 0
+       "Size To Content H" 1
+       "Size To Content V" 1
+       Columns 1
+       Rows 5
+       {
+        ButtonWidgetClass DiscordBtn {
+         color 0 0 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass DiscordBtn_panel {
+           ignorepointer 1
+           color 0 0 0 0
+           position 0 0
+           size 293 40
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           style DayZDefaultPanel
+           {
+            ImageWidgetClass DiscordBtn_img {
+             clipchildren 0
+             ignorepointer 1
+             size 30 24
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 1
+             vexactsize 1
+             image0 "set:cui image:Discord"
+             mode blend
+             "src alpha" 1
+             "clamp mode" clamp
+             "stretch mode" stretch_w_h
+             filter 0
+            }
+            TextWidgetClass DiscordBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             position 50 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 0
+             vexactsize 0
+             text "Discord"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass YoutubeBtn {
+         visible 1
+         color 0 0 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass YoutubeBtn_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 293 40
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           style DayZDefaultPanel
+           {
+            ImageWidgetClass YoutubeBtn_img {
+             clipchildren 0
+             ignorepointer 1
+             position 0 0
+             size 30 24
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 1
+             vexactsize 1
+             image0 "set:cui image:Youtube"
+             mode blend
+             "src alpha" 1
+             "clamp mode" clamp
+             "stretch mode" stretch_w_h
+             filter 1
+            }
+            TextWidgetClass YoutubeBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             position 50 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 0
+             vexactsize 0
+             text "YouTube"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass TwitterBtn {
+         color 0 0 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass TwitterBtn_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 293 40
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           style DayZDefaultPanel
+           {
+            ImageWidgetClass TwitterBtn_img {
+             clipchildren 0
+             ignorepointer 1
+             position 0 0
+             size 27 24
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 1
+             vexactsize 1
+             image0 "set:cui image:Twitter"
+             mode blend
+             "src alpha" 1
+             "clamp mode" clamp
+             "stretch mode" stretch_w_h
+             filter 1
+            }
+            TextWidgetClass TwitterBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             position 50 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 0
+             vexactsize 0
+             text "Twitter"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass RedditBtn {
+         visible 1
+         color 0 0 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass RedditBtn_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 293 40
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           style DayZDefaultPanel
+           {
+            ImageWidgetClass RedditBtn_img {
+             clipchildren 0
+             ignorepointer 1
+             position 0 0
+             size 27 24
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 1
+             vexactsize 1
+             image0 "set:cui image:Reddit"
+             mode blend
+             "src alpha" 1
+             "clamp mode" clamp
+             "stretch mode" stretch_w_h
+             filter 1
+            }
+            TextWidgetClass RedditBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             position 50 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 0
+             vexactsize 0
+             text "Reddit"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "size to text v" 0
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass FacebookBtn {
+         visible 1
+         color 0 0 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass FacebookBtn_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 293 40
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           style DayZDefaultPanel
+           {
+            ImageWidgetClass FacebookBtn_img {
+             clipchildren 0
+             ignorepointer 1
+             position 0 0
+             size 24 24
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 1
+             vexactsize 1
+             image0 "set:cui image:Facebook"
+             mode blend
+             "src alpha" 1
+             "clamp mode" clamp
+             "stretch mode" stretch_w_h
+             filter 1
+            }
+            TextWidgetClass FacebookBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             position 50 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 0
+             vexactsize 0
+             text "Facebook"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+        ButtonWidgetClass MetaBtn {
+         visible 0
+         color 0 0 0 0
+         size 293 38
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style Empty
+         "no focus" 0
+         "next left" "news_main"
+         "next right" "news_main"
+         "next up" "choose_server"
+         "next down" "play_video"
+         {
+          PanelWidgetClass MetaBtn_Panel {
+           ignorepointer 1
+           color 0 0 0 0
+           size 293 39
+           halign right_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 1
+           vexactsize 1
+           style DayZDefaultPanel
+           {
+            ImageWidgetClass MetaBtn_img {
+             clipchildren 0
+             ignorepointer 1
+             size 39 32
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 1
+             vexactsize 1
+             image0 "set:cui image:Meta"
+             mode blend
+             "src alpha" 1
+             "clamp mode" clamp
+             "stretch mode" stretch_w_h
+             filter 1
+            }
+            TextWidgetClass MetaBtn_label {
+             clipchildren 0
+             ignorepointer 1
+             position 60 0
+             size 1 1
+             halign right_ref
+             valign center_ref
+             hexactpos 1
+             vexactpos 1
+             hexactsize 0
+             vexactsize 0
+             text "Meta"
+             font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+             "exact text" 1
+             "exact text size" 30
+             "size to text h" 1
+             "text halign" right
+             "text valign" center
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    ImageWidgetClass Logo {
+     visible 1
+     inheritalpha 1
+     size 438 261
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     image0 "set:cui image:Logo"
+     imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     filter 1
+     nocache 0
+    }
+   }
+  }
+ }
+}
