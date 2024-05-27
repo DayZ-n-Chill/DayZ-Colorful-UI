@@ -44,9 +44,6 @@ SET "PROFILES=%PROJECTDIR%\Servers\Others\DeerIsle\Profiles"
 :: ====================================================================================================================
 
 :: Start local server.
-start /D "C:\Program Files (x86)\Steam\steamapps\common\DayZServer" DayZServer_x64.exe "-mod=%GLOBALMODS%%MODS%" -filePatching -server "-profiles=%PROFILES%" "-mission=%MISSIONDIR%" "-config=%SERVERCFG%" 
-@REM :: Play on local server.
-
-:: To Solve for BattlEye Kicking you from the game. Join the Lan from the DayZ Luancher. I will work on a fix. 
-
-@REM start /D "%GAMEDIR%\" DayZ_x64.exe "-profiles=%CLIENTLOGSDIR%" "-mod=%GLOBALMODS%%MODS%" -nosplash -noPause -noBenchmark -filePatching -doLogs -scriptDebug=true -connect=127.0.0.1 -port=2302 BattlEye=1
+start /D "%GAMEDIR%\" DayZDiag_x64.exe -server -filePatching "-mod=%GLOBALMODS%%MODS%" "-profiles=%PROFILES%" "-mission=%MISSIONDIR%" "-config=%SERVERCFG%" "-newErrorsAreWarnings=1"
+:: Play on local server.
+start /D "%GAMEDIR%\" DayZDiag_x64.exe  -filePatching -connect=127.0.0.1 -port=2302 "-profiles=%CLIENTLOGSDIR%" "-mod=%GLOBALMODS%%MODS%" "-newErrorsAreWarnings=1"
