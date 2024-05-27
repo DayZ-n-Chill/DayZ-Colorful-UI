@@ -150,11 +150,9 @@ modded class LoadingScreen
 		m_ImageWidgetBackground.Show(true);
 		
 		// Theme the elements. 
-		// To edit these colors see the "Constant.c" file
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
-		m_tipIcon.SetColor(colorScheme.TipIcon());
 		m_loadingMsg.SetColor(colorScheme.LoadingMsg());
 		
 		// I plan to make this timed and show some silly loading comments from the commuinty.
