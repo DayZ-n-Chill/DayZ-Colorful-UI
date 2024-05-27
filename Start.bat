@@ -26,6 +26,10 @@ powershell -Command "$colors = '%COLORS%'.Split(','); $randomColor = Get-Random 
 echo This setup file will help you configure your project with ease so you should only have to do this once.
 echo Please follow along with the prompts and you will be ready to go in no time at all.
 echo.
+powershell -Command  "Write-Host 'NOTE:' -ForegroundColor DarkYellow;"
+powershell -Command  "Write-Host 'If you have installed DayZ on a different drive than C:\, ' -ForegroundColor DarkCyan;"
+powershell -Command  "Write-Host 'please exit this application and and edit the globals.cfg file manually.' -ForegroundColor DarkCyan;"
+echo.
 pause
 
 :: Detect the directory of this batch file
@@ -82,8 +86,8 @@ move /y "%TEMPCFGFILE%" "./Utils/Shared/Globals.cfg" >nul
 
 powershell -Command "Write-Host 'PROJECTDIR updated successfully.' -ForegroundColor Green"
 
-:: Run NameMod.ps1 using PowerShell
-powershell -ExecutionPolicy Bypass -File ".\Utils\Batch\Setup\NameMod.ps1"
+@REM :: Run NameMod.ps1 using PowerShell
+@REM powershell -ExecutionPolicy Bypass -File ".\Utils\Batch\Setup\NameMod.ps1"
 
 :: Reload the configuration from Globals.cfg
 for /f "tokens=1* delims== eol=#" %%i in (.\Utils\Shared\Globals.cfg) do (
