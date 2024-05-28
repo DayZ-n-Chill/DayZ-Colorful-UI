@@ -19,14 +19,14 @@ for /f "tokens=1* delims== eol=#" %%i in (.\Utils\Shared\Globals.cfg) do (
 
 :: Show the DayZ n Chill Dev Logo.
 SET "ASCIIARTPATH=.\Utils\Shared\Branding.txt"
-SET "COLORS=Blue,Green,Cyan,DarkBlue,DarkGreen,DarkCyan"
+SET "COLORS=Blue,Green,Cyan,DarkBlue,DarkGreen,DarkCyan,DarkRed,DarkMagenta,DarkYellow"
 powershell -Command "$colors = '%COLORS%'.Split(','); $randomColor = Get-Random -InputObject $colors; $content = Get-Content -Path '%ASCIIARTPATH%'; $content | ForEach-Object {Write-Host $_ -ForegroundColor $randomColor}"
 
 :: Begin DayZ Project Manager Setup
 echo This setup file will help you configure your project with ease so you should only have to do this once.
 echo Please follow along with the prompts and you will be ready to go in no time at all.
 echo.
-powershell -Command  "Write-Host 'NOTE:' -ForegroundColor DarkYellow;"
+powershell -Command  "Write-Host 'WARNING:' -ForegroundColor DarkYellow;"
 powershell -Command  "Write-Host 'If you have installed DayZ on a different drive than C:\, ' -ForegroundColor DarkCyan;"
 powershell -Command  "Write-Host 'please exit this application and and edit the globals.cfg file manually.' -ForegroundColor DarkCyan;"
 echo.
@@ -98,14 +98,10 @@ echo.
 powershell -Command "Write-Host 'Setting up symlinks.' -ForegroundColor Magenta"
 call .\Utils\Batch\Setup\WorkshopSymlink.Bat 
 echo.
-
 powershell -Command "Write-Host 'Setup is Complete.' -ForegroundColor Green"
-
 echo.
 powershell -Command "Write-Host 'Thank you for using Colorful-UI' -ForegroundColor Magenta"
 powershell -Command "Write-Host 'This Setup uses a modified version of the DayZ Project Template.' -ForegroundColor Black"
 powershell -Command "Write-Host 'https://github.com/DayZ-n-Chill/DayZ-Project-Template' -ForegroundColor Black"
-
-echo.
 timeout /t 30 /nobreak 
 exit
