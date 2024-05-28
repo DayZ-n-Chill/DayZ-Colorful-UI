@@ -86,9 +86,6 @@ move /y "%TEMPCFGFILE%" "./Utils/Shared/Globals.cfg" >nul
 
 powershell -Command "Write-Host 'PROJECTDIR updated successfully.' -ForegroundColor Green"
 
-@REM :: Run NameMod.ps1 using PowerShell
-@REM powershell -ExecutionPolicy Bypass -File ".\Utils\Batch\Setup\NameMod.ps1"
-
 :: Reload the configuration from Globals.cfg
 for /f "tokens=1* delims== eol=#" %%i in (.\Utils\Shared\Globals.cfg) do (
    set "%%i=%%j"
