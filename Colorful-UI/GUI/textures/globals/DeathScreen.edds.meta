@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{456D81012D0E53F1}Colorful-UI/GUI/textures/globals/DeathScreen.edds"
+ Author "unicron"
+ ChangeDate -273289062
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "DeathScreen.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
