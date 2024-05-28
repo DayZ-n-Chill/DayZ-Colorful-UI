@@ -12,7 +12,7 @@ WindowWidgetClass WindowWidget {
  style Default
  font "gui/fonts/sdf_MetronBook24"
  {
-  FrameWidgetClass DeathScreen {
+  FrameWidgetClass GameOverScreen {
    visible 0
    ignorepointer 1
    position -0.93995 0
@@ -24,7 +24,7 @@ WindowWidgetClass WindowWidget {
    hexactsize 0
    vexactsize 0
    {
-    ImageWidgetClass DeadImage {
+    ImageWidgetClass GameOverScreenImage {
      ignorepointer 1
      position 0 0
      size 1 1
