@@ -72,12 +72,10 @@ modded class LoginTimeBase extends LoginScreenBase
  		m_txtDescription.Show(true);
  		layoutRoot.FindAnyWidget("notification_root").Show(false);		
 		// Theme the elements. 
-		// To edit these colors see the "Constant.c" file
 		m_LSBackground.LoadImageFile(0, GetRandomBackground()); 
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
-		// m_tipIcon.SetColor(colorScheme.TipIcon());
 		m_exitIcon.SetColor(colorScheme.TipIcon());
 		m_txtLabel.SetColor(colorScheme.LoadingMsg());
 		return layoutRoot;
@@ -153,7 +151,6 @@ modded class LoadingScreen
 		// CUI 2.0 Elements
 		Class.CastTo(m_tShader, m_WidgetRoot.FindAnyWidget("TopShader"));
 		Class.CastTo(m_bShader, m_WidgetRoot.FindAnyWidget("BottomShader"));
-		// Class.CastTo(m_tipIcon, m_WidgetRoot.FindAnyWidget("hintIcon"));
 		Class.CastTo(m_loadingMsg, m_WidgetRoot.FindAnyWidget("LoadingMsg"));
 		
 		// Load BG and Progress Bar
@@ -175,7 +172,7 @@ modded class LoadingScreen
 
 	override void SetTitle(string title)
 	{
-		// Kill this function, not used anymore.
+		// This function is intentionally left blank because it is no longer used.
 	}
 
 	override void Show()
@@ -186,4 +183,3 @@ modded class LoadingScreen
 		m_Background.LoadImageFile(0, GetRandomBackground()); 
 	}
 };
-

@@ -107,11 +107,8 @@ modded class MainMenu extends UIScriptedMenu
 		string version;
 		
 		GetGame().GetVersion( version );
-		// m_Version.SetText( "#main_menu_version" + " " + version );
 		GetGame().GetUIManager().ScreenFadeOut(0);
 		SetFocus( null );
-		// Refresh();
-		// LoadMods();
 		GetDayZGame().GetBacklit().MainMenu_OnShow();
 		
 		// Colorful UI Theming -----------------------------------------
@@ -148,13 +145,8 @@ modded class MainMenu extends UIScriptedMenu
 
 	override void LoadMods()
 	{
-		// Kill this function, not used anymore.
+		// This function is intentionally left blank because it is no longer used.
 	}	
-
-	override void SetTitle(string title)
-	{
-		// Kill this function, not used anymore.
-	}
 
 	override bool OnClick(Widget w, int x, int y, int button)
 	{
@@ -364,8 +356,7 @@ modded class MainMenu extends UIScriptedMenu
 		}
 		return false;
 	}
-	// I still have not found a good way to globally edit the generated dialog system colors but I feel like I am close
-	// I guess the best way in the meantime is to create a new menu and have it styled as we need.
+
 	override void Exit()
 	{
 		EnterScriptedMenu( COLORFUL_EXIT );
