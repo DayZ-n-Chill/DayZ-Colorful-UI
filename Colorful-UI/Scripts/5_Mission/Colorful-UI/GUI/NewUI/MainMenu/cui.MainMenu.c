@@ -136,7 +136,7 @@ modded class MainMenu extends UIScriptedMenu
 		m_MetaImg.SetColor(UIColor.meta());
 
 		// This progress bar is just used as trim. 
-		m_ProgressLoading      = ProgressBarWidget.Cast( layoutRoot.FindAnyWidget("LoadingBar") );
+		m_ProgressLoading = ProgressBarWidget.Cast( layoutRoot.FindAnyWidget("LoadingBar") );
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 
 		g_Game.SetLoadState( DayZLoadState.MAIN_MENU_CONTROLLER_SELECT );
@@ -147,6 +147,16 @@ modded class MainMenu extends UIScriptedMenu
 	{
 		// This function is intentionally left blank because it is no longer used.
 	}	
+
+	override bool OnMouseLeave(Widget w, Widget enterW, int x, int y)
+	{
+		if (IsFocusable(w))
+		{
+			ColorNormal(w);
+			return true;
+		}
+		return false;
+	}
 
 	override bool OnClick(Widget w, int x, int y, int button)
 	{
