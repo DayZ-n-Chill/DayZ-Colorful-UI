@@ -107,11 +107,11 @@ modded class MainMenu extends UIScriptedMenu
 		string version;
 		
 		GetGame().GetVersion( version );
-		m_Version.SetText( "#main_menu_version" + " " + version );
+		// m_Version.SetText( "#main_menu_version" + " " + version );
 		GetGame().GetUIManager().ScreenFadeOut(0);
 		SetFocus( null );
-		Refresh();
-		LoadMods();
+		// Refresh();
+		// LoadMods();
 		GetDayZGame().GetBacklit().MainMenu_OnShow();
 		
 		// Colorful UI Theming -----------------------------------------
@@ -145,6 +145,16 @@ modded class MainMenu extends UIScriptedMenu
 		g_Game.SetLoadState( DayZLoadState.MAIN_MENU_CONTROLLER_SELECT );
 		return layoutRoot;
 	}	
+
+	override void LoadMods()
+	{
+		// Kill this function, not used anymore.
+	}	
+
+	override void SetTitle(string title)
+	{
+		// Kill this function, not used anymore.
+	}
 
 	override bool OnClick(Widget w, int x, int y, int button)
 	{

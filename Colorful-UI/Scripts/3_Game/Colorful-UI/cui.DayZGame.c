@@ -20,11 +20,10 @@ modded class LoginQueueBase extends LoginScreenBase
 		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
 		m_ProgressLoading = ProgressBarWidget.Cast(layoutRoot.FindAnyWidget("LoadingBar"));
 		
-		m_txtNote.Show(true);
-		layoutRoot.FindAnyWidget("notification_root").Show(false);
+		
+		m_btnLeave.SetColor(colorScheme.TipIcon());
 		m_tShader.SetColor(colorScheme.TopShader());
 		m_bShader.SetColor(colorScheme.BottomShader());
-		m_btnLeave.SetColor(colorScheme.TipIcon());
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 
 		return layoutRoot;
@@ -172,6 +171,11 @@ modded class LoadingScreen
 		
 		// I plan to make this timed and show some silly loading comments from the commuinty.
 		m_loadingMsg.SetText("GAME IS LOADING!");
+	}
+
+	override void SetTitle(string title)
+	{
+		// Kill this function, not used anymore.
 	}
 
 	override void Show()
