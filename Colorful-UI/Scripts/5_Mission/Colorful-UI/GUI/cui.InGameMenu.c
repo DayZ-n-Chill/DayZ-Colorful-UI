@@ -88,10 +88,10 @@ modded class InGameMenu extends UIScriptedMenu
 		// m_shader.SetColor(colorScheme.ShaderColor());
 		// m_Separator.SetColor(colorScheme.SeparatorColor());
 		
-		m_DeadScreen = Widget.Cast(layoutRoot.FindAnyWidget("DeathScreen"));
+		m_DeadScreen = Widget.Cast(layoutRoot.FindAnyWidget("GameOverScreen"));
 		m_DeadScreen.SetAlpha(0);
 		m_DeadScreen.Show(false);
-		m_DeadScreenImage = ImageWidget.Cast(m_DeadScreen.FindAnyWidget("DeadImage"));
+		m_DeadScreenImage = ImageWidget.Cast(m_DeadScreen.FindAnyWidget("GameOverScreenImage"));
 		m_DeadScreenImage.LoadImageFile(0, Images.Death());
 		m_DeadScreenImage.SetAlpha(0);
 
