@@ -37,7 +37,7 @@ IF ERRORLEVEL 1 (
 :: Create a symlink for SYMLDIR on the P drive
 mklink /J "%SYMLDIR%" "%YOURMODDIR%" >nul 2>&1
 IF ERRORLEVEL 1 (
-    powershell -Command "Write-Host 'ERROR:' -ForegroundColor Red -NoNewline; Write-Host ' Failed to create symlink for %SYMLDIR%. Directory is already there.' -ForegroundColor DarkYellow"
+    powershell -Command "Write-Host 'ERROR:' -ForegroundColor Red -NoNewline; Write-Host ' Failed to create symlink for -ForegroundColor DarkYellow;  Write-Host ' %SYMLDIR%.'-ForegroundColor DarkCyan  Write-Host ' Directory is already there.' -ForegroundColor DarkYellow"
     pause
     exit /b
 ) ELSE (
