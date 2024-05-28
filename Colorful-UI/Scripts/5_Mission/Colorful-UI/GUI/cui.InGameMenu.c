@@ -16,8 +16,6 @@ modded class InGameMenu extends UIScriptedMenu
 	private Widget m_MetaImg;
 	private Widget m_MenuDivider;
 	
-	private Widget m_KillCountText;
-	private TextWidget m_PlayerNameText;
 	private Widget m_TopShader;
 	private Widget m_BottomShader;
 
@@ -28,10 +26,7 @@ modded class InGameMenu extends UIScriptedMenu
 	override Widget Init()
 	{
 		layoutRoot = GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.day_z_ingamemenu.layout");
-		
-		m_PlayerNameText            = TextWidget.Cast(layoutRoot.FindAnyWidget("PlayerNameText"));
-		m_KillCountText 			= TextWidget.Cast(layoutRoot.FindAnyWidget("KillCountText"));				
-		
+			
 		m_ContinueButton			= layoutRoot.FindAnyWidget( "ContinueBtn" );
 		m_ExitButton				= layoutRoot.FindAnyWidget( "ExitBtn" );
 		m_MenuDivider				= layoutRoot.FindAnyWidget( "MenuDivider" );
@@ -78,9 +73,7 @@ modded class InGameMenu extends UIScriptedMenu
 
 		HudShow( false );
 		Class.CastTo(m_shader, layoutRoot.FindAnyWidget("Colorful_Shader"));
-		// m_shader.SetColor(colorScheme.ShaderColor());
-		// m_Separator.SetColor(colorScheme.SeparatorColor());
-		
+
 		m_GameOverScreen = Widget.Cast(layoutRoot.FindAnyWidget("GameOverScreen"));
 		m_GameOverScreen.SetAlpha(0);
 		m_GameOverScreen.Show(false);
@@ -119,14 +112,6 @@ modded class InGameMenu extends UIScriptedMenu
 				m_GameOverScreenImage.SetAlpha(Math.Min(m_GameOverScreenImage.GetAlpha() + (1.25 * timeslice), 1));
 			}
 		}
-	}
-
-	void UpdatePlayerName() {
-	    PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
-	    if (player) {
-	        string playerName = player.GetIdentity().GetName();
-	        m_PlayerNameText.SetText(playerName);
-	    }
 	}
 
 	override bool OnClick(Widget w, int x, int y, int button)
@@ -310,7 +295,5 @@ modded class InGameMenu extends UIScriptedMenu
 	
 	override void OnShow() {
 	    super.OnShow();
-	    UpdatePlayerName();
 	}
-
 }
