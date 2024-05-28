@@ -1,6 +1,11 @@
 // Prioity Queue ----------------------------------
 modded class LoginQueueBase extends LoginScreenBase
 {
+
+	protected ImageWidget m_tShader;
+	protected ImageWidget m_bShader;
+	protected ProgressBarWidget m_ProgressLoading;
+
  	override Widget Init()
 	{	
  		// Use CUI Layout	
@@ -10,8 +15,18 @@ modded class LoginQueueBase extends LoginScreenBase
 		m_txtPosition	= TextWidget.Cast(layoutRoot.FindAnyWidget("LoadingMsg"));
 		m_txtNote 		= TextWidget.Cast(layoutRoot.FindAnyWidget("txtNote"));
 		m_btnLeave 		= ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnLeave"));
+		
+		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
+		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
+		m_ProgressLoading = ProgressBarWidget.Cast(layoutRoot.FindAnyWidget("LoadingBar"));
+		
 		m_txtNote.Show(true);
 		layoutRoot.FindAnyWidget("notification_root").Show(false);
+		m_tShader.SetColor(colorScheme.TopShader());
+		m_bShader.SetColor(colorScheme.BottomShader());
+		m_btnLeave.SetColor(colorScheme.TipIcon());
+		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
+
 		return layoutRoot;
 	}
 
@@ -20,7 +35,8 @@ modded class LoginQueueBase extends LoginScreenBase
 		if (position != m_iPosition)
 		{
 			m_iPosition = position;
-			m_txtPosition.SetText("Position in Queue" + position.ToString());
+			m_txtPosition.SetText("Position in Queue " + position.ToString());
+			m_txtPosition.SetColor(colorScheme.LoadingMsg());
 		}
 	}
 
@@ -44,7 +60,6 @@ modded class LoginTimeBase extends LoginScreenBase
 		layoutRoot 			= GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.dialog_login_time.layout");
 		// CUI 2.0 Elements
 		m_LSBackground  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Background"));
-		// m_tipIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("hintIcon"));
 		m_exitIcon  = ImageWidget.Cast(layoutRoot.FindAnyWidget("Exit"));
 		m_tShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("TopShader"));
 		m_bShader  = ImageWidget.Cast(layoutRoot.FindAnyWidget("BottomShader"));
