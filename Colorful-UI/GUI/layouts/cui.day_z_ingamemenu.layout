@@ -5,7 +5,7 @@ FrameWidgetClass InGameMenuRoot {
  valign center_ref
  priority 995
  {
-  FrameWidgetClass DeathScreen {
+  FrameWidgetClass GameOverScreen {
    visible 0
    ignorepointer 1
    position -0.93995 0
@@ -17,7 +17,7 @@ FrameWidgetClass InGameMenuRoot {
    hexactsize 0
    vexactsize 0
    {
-    ImageWidgetClass DeadImage {
+    ImageWidgetClass GameOverScreenImage {
      ignorepointer 1
      position 0 0
      size 1 1
