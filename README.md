@@ -1,4 +1,4 @@
-![Header Image](https://cdn.discordapp.com/attachments/787056181784477777/1202646357362614342/dayznchill_A_logo_for_the_dayz_ui_system_called_face_the_camera_cb5670ce-be43-44ed-890d-2125c6da2674.png?ex=65ce36b3&is=65bbc1b3&hm=d54893d7e230abe6e996a6f08e83ff903918a7c2af466ba4a6b3dfe0fdc9af68&)
+![Header Image](https://cdn.discordapp.com/attachments/1139653291182141540/1246675033389010965/cui25.png?ex=665d401a&is=665bee9a&hm=b62b5028109a9d06752ce4843029db7570e658954efe46cee0c8d3da36621b88&)
 
 # Colorful UI - Community Edition Template
 
