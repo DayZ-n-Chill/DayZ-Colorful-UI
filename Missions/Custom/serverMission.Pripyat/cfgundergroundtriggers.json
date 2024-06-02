@@ -1,0 +1,195 @@
+{
+    "Triggers":
+	[
+		{ 	
+			"Position": [ 7369.549805, 203.175128, 15036.730469 ],
+			"Orientation": [ 2.100000, 0, 0 ],
+			"Size": [ 560, 50, 55 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 7422.040039, 209.648757, 15091.708984 ],
+			"Orientation": [ 2.100000, 0, 0 ],
+			"Size": [ 250, 40, 63 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 6967.618164, 206.572646, 15048.694336 ],
+			"Orientation": [ 2.100000, 0, 0 ],
+			"Size": [ 250, 50, 50 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 7016.510254, 206.236102, 15094.969727 ],
+			"Orientation": [ 2.100000, 0, 0 ],
+			"Size": [ 150, 50, 50 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 7016.009766, 206.236100, 15134.708008 ],
+			"Orientation": [ 2.100000, 0, 0 ],
+			"Size": [ 150, 50, 50 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 6980.291504, 211.419980, 15168.904297 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 20, 20, 20 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 6975.368164, 201.895309, 15011.634766 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 20, 20, 30 ],
+			"EyeAccommodation": 0.4,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 19142.898438, 537.106559, 18327.705078 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 150, 50, 50 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 19142.898438, 539.854545, 18279.195313 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 150, 50, 50 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 17727.718750, 459.619324, 12724.726563 ],
+			"Orientation": [ -151.833435, 0, 0 ],
+			"Size": [ 350, 45, 120 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 17282.623047, 428.099365, 13595.564453 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 150, 50, 100 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},	
+		{ 	
+			"Position": [ 6947.429688, 188.106110, 15179.210938 ],
+			"Orientation": [ 2.023130, 0, 0 ],
+			"Size": [ 50, 50, 50 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{ 	
+			"Position": [ 6934.593262, 183.307846, 15107.936523 ],
+			"Orientation": [ -88.255333, 0, 0 ],
+			"Size": [ 50, 50, 150 ],
+			"EyeAccommodation": 0.1,
+			"Breadcrumbs": []
+		},
+		{"PTSD_Comment" :["Chernobyl Theatre"]},
+		{"Position":[14523.5,200.012,1423.96],"Orientation": [-32.7295,0,0],"Size": [40,6,20],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+
+		{"PTSD_Comment" :["Pripyat Urban Area #5 North"]},
+		{"Position":[3645.42,149.142,17976.5],"Orientation": [-9,0,0],"Size": [140,100,140],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[3615.36,198.154,17977.9],"Orientation": [-9,0,0],"Size": [20,20,20],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+
+		{"PTSD_Comment" :["Sokoly industrial Basement"]},
+		{"Position":[3026.82,199.705,2274.18],"Orientation": [-2.43,0,0],"Size": [10,10,10],"EyeAccommodation": 0,"Breadcrumbs": []},
+		{"Position":[3036.86,199.443,2271.11],"Orientation": [-2.43,0,0],"Size": [12,10,12],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[3037.28,199.438,2264.59],"Orientation": [-2.43,0,0],"Size": [10,10,10],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 3039.13,202.603,2262.16 ],"EyeAccommodation": 0.1,"UseRaycast": 0,"Radius": 2},{"Position": [ 3039.33,202.603,2259.16 ],"EyeAccommodation": 0.3,"UseRaycast": 0,"Radius": 2}]},
+		{"Position":[3045.82,199.448,2276.58],"Orientation": [-2.43,0,0],"Size": [10,10,10],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 3047.84,202.603,2273.37 ],"EyeAccommodation": 0.1,"UseRaycast": 0,"Radius": 2},{"Position": [ 3049.34,203.103,2271.07 ],"EyeAccommodation": 0.3,"UseRaycast": 0,"Radius": 2}]},
+		{"Position":[3050.1,200.156,2267.73],"Orientation": [-2.43,0,0],"Size": [14,10,10],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 3052.37,202.703,2266.86 ],"EyeAccommodation": 0.4,"UseRaycast": 1,"Radius": -1}]},
+		{"PTSD_Comment" :["Sokoly industrial Yuntar_bunker"]},
+		{"Position":[3088.25,200.627,2417.17],"Orientation": [0,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 3098.23,210.643,2427.06 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 3098.23,210.643,2407.06 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 3078.23,210.643,2407.05 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 3078.23,210.643,2427.06 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 3101.76,206.723,2417.08 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["Sidorovich Villa"]},
+		{"Position":[8767.75,194.979,2990.84],"Orientation": [0,0,0],"Size": [20,20,20],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 8761.04,206.953,2992.49 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1},{"Position": [ 8765.61,206.43,2983.96 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"PTSD_Comment" :["Sidorovich Villa North Shelter"]},
+		{"Position":[8746.39,193.842,3018.12],"Orientation": [-9,0,0],"Size": [40,20,40],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[8749.24,201.568,3024.76],"Orientation": [0,0,0],"Size": [2,10,4],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 8749.24,206.606,3023.66 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"PTSD_Comment" :["Sidorovich Villa South Shelter"]},
+		{"Position":[8756.92,193.485,2877.03],"Orientation": [0,0,0],"Size": [40,20,40],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[8755.31,201.262,2869.93],"Orientation": [-9.16726,0,0],"Size": [2,10,4],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 8755.14,206.266,2870.96 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["Dytyatky Yuntar_bunker"]},
+		{"Position":[7697.56,197.695,10005.9],"Orientation": [14.7054,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 7704.69,207.688,10018 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 7709.8,207.688,9998.62 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 7690.42,207.688,9993.57 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 7685.35,207.688,10012.9 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 7711.04,203.812,10009.5 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["Pripyat River Yuntar_bunker"]},
+		{"Position":[15122.1,194.367,4139.3],"Orientation": [-36.9557,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 15136.1,204.38,4137.21 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 15120.1,204.38,4125.19 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 15108.1,204.38,4141.17 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 15124.1,204.38,4153.2 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 15130.3,200.385,4127.93 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["The Brain Scorcher"]},
+		{"Position":[5321.47,169.459,16845.6],"Orientation": [27,0,0],"Size": [300,60,140],"EyeAccommodation": 0,"Breadcrumbs": []},
+		{"Position":[5425.69,189.972,16820.5],"Orientation": [26.2127,0,0],"Size": [60,20,60],"EyeAccommodation": 0,"Breadcrumbs": []},
+		{"Position":[5409.32,199.665,16841.4],"Orientation": [26.3557,0,0],"Size": [6,10,10],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 5411.91,201.987,16836.9 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"Position":[5220.99,200.196,16883.8],"Orientation": [28.748,0,0],"Size": [8,10,9],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 5220.29,202.635,16887.5 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"PTSD_Comment" :["The Brain Scorcher Yuntar_bunker"]},
+		{"Position":[5393.28,196.491,16754.1],"Orientation": [25.5674,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 5388.46,206.683,16767.4 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 5406.55,206.524,16758.7 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 5397.91,206.494,16740.6 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 5379.86,206.473,16749.3 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 5399.03,202.432,16766.1 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"Position":[5415.25,209.982,16748.3],"Orientation": [24.3676,0,0],"Size": [20,20,20],"EyeAccommodation": 1,"Breadcrumbs": []},
+
+		{"PTSD_Comment" :["LAB X4"]},
+		{"Position":[153.385,204.965,963.437],"Orientation": [0,0,0],"Size": [9,9,9],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[136.316,212.539,902.468],"Orientation": [0,0,0],"Size": [100,20,120],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"PTSD_Comment" :["LAB X4 Yuntar_bunker"]},
+		{"Position":[117.014,201.816,1281.53],"Orientation": [-0.859435,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 107.132,211.823,1272.25 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 106.844,211.823,1291.26 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 127.152,211.823,1271.57 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 126.843,211.823,1291.55 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 103.219,208.05,1281.3 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["Rostok Bar"]},
+		{"Position":[7282.25,194.946,8161.99],"Orientation": [15.8997,0,0],"Size": [40,20,40],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[7272.6,205.012,8148.08],"Orientation": [15.7562,0,0],"Size": [9,10,10],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 7270.43,207.213,8144.06 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"PTSD_Comment" :["Rostok Duty"]},
+		{"Position":[7231.2,193.85,7971.9],"Orientation": [15.8997,0,0],"Size": [40,20,40],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[7219.43,203.696,7968.03],"Orientation": [17.3317,0,0],"Size": [9,10,8],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 7214.79,206.225,7964.81 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["Southern100radBar(Chernobyl)"]},
+		{"Position":[15221.2,192.128,2630.16],"Orientation": [19.194,0,0],"Size": [40,20,40],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+		{"Position":[15208.9,202.586,2638.4],"Orientation": [19.3372,0,0],"Size": [9,10,8],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 15204.8,204.182,2641.04 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["Centrale Elettrica di Yaniv Yuntar_bunker"]},
+		{"Position":[2586.01,205.841,15880.3],"Orientation": [111.58,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 2591.54,215.861,15867.4 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 2572.93,215.861,15874.8 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 2598.87,215.861,15886 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 2580.29,215.861,15893.4 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 2573.2,211.76,15885.4 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+
+		{"PTSD_Comment" :["X18 Yuntar_bunker"]},
+		{"Position":[19171.4,563.061,18325],"Orientation": [171.306,0,0],"Size": [25,20,25],"EyeAccommodation": 0.1,"Breadcrumbs": [{"Position": [ 19163,537.081,18313.7 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 19160,573.081,18333.5 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 19182.8,573.081,18316.8 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 19179.8,573.081,18336.5 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": 20},{"Position": [ 19169.2,569.369,18338.6 ],"EyeAccommodation": 1,"UseRaycast": 1,"Radius": -1}]},
+		{"Position":[19192.5,577.012,19329.2],"Orientation": [0,0,0],"Size": [20,20,20],"EyeAccommodation": 1,"Breadcrumbs": []},
+		{"Position":[19162.4,577.012,18304.4],"Orientation": [0,0,0],"Size": [20,20,20],"EyeAccommodation": 1,"Breadcrumbs": []},
+		{"Position":[19181.4,577.012,18306.4],"Orientation": [0,0,0],"Size": [20,20,20],"EyeAccommodation": 1,"Breadcrumbs": []},
+
+		{"PTSD_Comment" :["WIP"]},
+
+		{"PTSD_Comment" :["Pripyat Jupter"]},
+		{"Position":[3106.34,198.098,16695.1],"Orientation": [42,0,0],"Size": [30,10,30],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+
+		{"PTSD_Comment" :["Pripyatcity_central culture center"]},
+		{"Position":[4062.54,190.289,17192.3],"Orientation": [57,0,0],"Size": [30,20,30],"EyeAccommodation": 0.1,"Breadcrumbs": []},
+
+		{"PTSD_Comment" :["Pripyatcity_central parking"]},
+
+		{"PTSD_Comment" :["YanivStation"]},
+
+		{"PTSD_Comment" :["Druganov Airfield South Cave"]},
+		{"Position":[17991.9,315,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.99,"Breadcrumbs": []},
+		{"Position":[17991.9,305,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.81,"Breadcrumbs": []},
+		{"Position":[17991.9,295,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.64,"Breadcrumbs": []},
+		{"Position":[17991.9,285,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.51,"Breadcrumbs": []},
+		{"Position":[17991.9,275,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.41,"Breadcrumbs": []},
+		{"Position":[17991.9,265,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.34,"Breadcrumbs": []},
+		{"Position":[17991.9,255,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.27,"Breadcrumbs": []},
+		{"Position":[17991.9,245,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.21,"Breadcrumbs": []},
+		{"Position":[17991.9,235,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.16,"Breadcrumbs": []},
+		{"Position":[17991.9,225,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.11,"Breadcrumbs": []},
+		{"Position":[17991.9,215,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.07,"Breadcrumbs": []},
+		{"Position":[17991.9,205,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0.03,"Breadcrumbs": []},
+		{"Position":[17991.9,195,11017.3],"Orientation": [0,0,0],"Size": [60,11,100],"EyeAccommodation": 0,"Breadcrumbs": []},
+		
+		{"PTSD_Comment" :["Bunker 536"]},
+		{"Position":[5518.8,161.125,8548.49],"Orientation": [0,0,0],"Size": [140,60,140],"EyeAccommodation": 0,"Breadcrumbs": []},
+		{"Position":[5521.34,193.053,8551.94],"Orientation": [4.10569,0,0],"Size": [6,10,10],"EyeAccommodation": 0.15,"Breadcrumbs": [{"Position": [ 5521.66,196.115,8556.96 ],"EyeAccommodation": 0.3,"UseRaycast": 0,"Radius": -1}]},
+		{"PTSD_Comment" :["Bunker 536 Cave"]},
+		
+		{"PTSD_Comment" :["END(I'm just too lazy to edit comma)"]}
+	]
+}

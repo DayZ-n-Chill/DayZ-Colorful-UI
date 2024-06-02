@@ -1,0 +1,25 @@
+{
+    "m_Version": 0,
+    "Enabled": 1,
+    "Weight": 694.0,
+    "MissionMaxTime": 1200,
+    "MissionName": "Random_Hazelands",
+    "Difficulty": 0,
+    "Objective": 0,
+    "Reward": "",
+    "ShowNotification": 1,
+    "Height": 450.0,
+    "Speed": 25.0,
+    "Container": "Random",
+    "FallSpeed": 4.5,
+    "DropLocation": {
+        "x": 4539.0,
+        "z": 2317.0,
+        "Name": "Hazelands",
+        "Radius": 100.0
+    },
+    "Infected": [],
+    "ItemCount": -1,
+    "InfectedCount": -1,
+    "Loot": []
+}

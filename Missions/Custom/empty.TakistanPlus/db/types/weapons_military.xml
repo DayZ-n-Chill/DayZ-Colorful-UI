@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="RA_MK47">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_9A91">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_AK74">
+    <nominal>9</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>6</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_PPSH">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>6</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Police" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_PP19">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>6</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_AK101">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_AKM">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_AKS74U">
+    <nominal>12</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_FAL">
+    <nominal>1</nominal>
+    <lifetime>14400</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>90</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="FNX45">
+    <nominal>30</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <usage name="Police" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="M16A2">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_M4A1">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_M16A4">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_MK18">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_AR15">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_Scar_L_Black">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_Scar_L_Tan">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_Scar_L_SBR_Black">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_Scar_L_SBR_Tan">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="Mosin9130_Camo">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>20</quantmin>
+    <quantmax>60</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="SKS">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>0</quantmin>
+    <quantmax>60</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="SKS_Black">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>2</min>
+    <quantmin>0</quantmin>
+    <quantmax>60</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SKS_Green">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>2</min>
+    <quantmin>0</quantmin>
+    <quantmax>60</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_OPSKS_Black">
+    <nominal>2</nominal>
+    <lifetime>10800</lifetime>
+    <restock>360</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />    
+  </type>
+  <type name="RA_SVT40">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>2700</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>90</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_Vepr12">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>20</quantmin>
+    <quantmax>90</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_UMP45_Black">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <usage name="Police" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_VSS">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Winchester70_Black">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>20</quantmin>
+    <quantmax>60</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_P90_Black">
+    <nominal>13</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>9</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="RA_ASVal">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_AK12">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_Galil_Tan">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_Galil_Black">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_HK416">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_AUGA3">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_MDR_556_Tan">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_MDR_556_Black">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_MK12">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>99</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_FiveSeven">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_Beretta">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="RA_SV98_Green">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_SV98_Black">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+  </type>
+  <type name="RA_M24_SWS">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>10</quantmin>
+    <quantmax>90</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_DVL">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="Deagle">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>18</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <usage name="Police" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="RA_MP7A1">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_MP7A2">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="St_W_Kedr">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Police" />
+    <usage name="Military" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="Flaregun">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_SVD">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+   <type name="RA_M14_DMR">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Kivaari_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="ax50_black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="ax50_tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_R700_AICSClassic2">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M249">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_RSASS_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_RSASS_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M200_Intervention">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M82A1">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M82A1_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M82A1_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="AX50_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="AX50_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="M300_black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="m300_Greendig">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_DT_SRS_A2">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_C14Timberwolf">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="SR25_Green">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="SR25_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="SR25_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_G28_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_G28_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M110_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M110_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M1A_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M1A_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_M1A_OD">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Scar_20_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Scar_20_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Scar_H_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Scar_H_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Scar_H_SBR_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Scar_H_SBR_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_RPG7">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="M79">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="M32">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_MDR_308_Tan">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_MDR_308_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type> 
+  <type name="RA_McMillan_CS5">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <usage name="HeliLoot" />
+  </type>
+  <type name="RA_ASH12">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_VSSK">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+  <type name="RA_Dracarys_Black">
+    <lifetime>21600</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+  </type>
+</types>

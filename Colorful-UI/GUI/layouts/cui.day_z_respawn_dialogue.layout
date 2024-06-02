@@ -12,6 +12,36 @@ WindowWidgetClass WindowWidget {
  style Default
  font "gui/fonts/sdf_MetronBook24"
  {
+  FrameWidgetClass GameOverScreen {
+   visible 0
+   ignorepointer 1
+   position -0.93995 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass GameOverScreenImage {
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{F3680D43FF90E5A2}Colorful-UI/GUI/textures/loading_screens/CUI2-BG1.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
   FrameWidgetClass Shaders {
    visible 1
    clipchildren 0

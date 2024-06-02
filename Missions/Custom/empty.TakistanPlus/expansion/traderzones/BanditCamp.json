@@ -1,0 +1,14 @@
+{
+    "m_Version": 5,
+    "m_ZoneName": "Bandit Camp",
+    "m_DisplayName": "Bandit Camp",
+    "Position": [
+        1395.640000,
+        217.355000,
+        3542.370000
+    ],
+    "Radius": 150.0,
+    "BuyPricePercent": 100.0,
+    "SellPricePercent": 75.0,
+    "Stock": {}
+}

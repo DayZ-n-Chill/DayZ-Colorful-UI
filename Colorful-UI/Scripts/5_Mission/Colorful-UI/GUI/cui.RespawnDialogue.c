@@ -20,6 +20,10 @@ modded class RespawnDialogue extends UIScriptedMenu
 	private Widget m_BottomShader;
 	private Widget m_MenuDivider;
 
+	private Widget m_GameOverScreen;
+	private ImageWidget m_GameOverScreenImage;
+
+
 	override Widget Init()
 	{
 		layoutRoot 					= GetGame().GetWorkspace().CreateWidgets("colorful-ui/gui/layouts/cui.day_z_respawn_dialogue.layout");
@@ -57,10 +61,32 @@ modded class RespawnDialogue extends UIScriptedMenu
 		m_FacebookImg.SetColor(UIColor.meta());
 		m_MetaImg.SetColor(UIColor.meta());
 
+		m_GameOverScreen = Widget.Cast(layoutRoot.FindAnyWidget("GameOverScreen"));
+		m_GameOverScreen.SetAlpha(0);
+		m_GameOverScreen.Show(false);
+		m_GameOverScreenImage = ImageWidget.Cast(m_GameOverScreen.FindAnyWidget("GameOverScreenImage"));
+		m_GameOverScreenImage.LoadImageFile(0, GameOverScreen.GameOverScreenImage());
+		m_GameOverScreenImage.SetAlpha(0);
 
 		return layoutRoot;
 	}
 	
+	void Update(float timeslice)
+	{
+		if (ShowDeadScreen)
+		{
+			ShowGameOverScreen();
+		}
+		super.Update(timeslice);
+	};
+
+	void ShowGameOverScreen()
+	{
+		m_GameOverScreen.SetAlpha(1);
+		m_GameOverScreenImage.SetAlpha(1);
+		m_GameOverScreen.Show(true);
+	}
+
 	override bool OnClick(Widget w, int x, int y, int button)
 	{
 		super.OnClick(w, x, y, button);
@@ -224,3 +250,4 @@ modded class RespawnDialogue extends UIScriptedMenu
 		ButtonSetTextColor(w, color_lbl);
 	}
 }
+

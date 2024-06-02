@@ -107,11 +107,8 @@ modded class MainMenu extends UIScriptedMenu
 		string version;
 		
 		GetGame().GetVersion( version );
-		m_Version.SetText( "#main_menu_version" + " " + version );
 		GetGame().GetUIManager().ScreenFadeOut(0);
 		SetFocus( null );
-		Refresh();
-		LoadMods();
 		GetDayZGame().GetBacklit().MainMenu_OnShow();
 		
 		// Colorful UI Theming -----------------------------------------
@@ -139,12 +136,27 @@ modded class MainMenu extends UIScriptedMenu
 		m_MetaImg.SetColor(UIColor.meta());
 
 		// This progress bar is just used as trim. 
-		m_ProgressLoading      = ProgressBarWidget.Cast( layoutRoot.FindAnyWidget("LoadingBar") );
+		m_ProgressLoading = ProgressBarWidget.Cast( layoutRoot.FindAnyWidget("LoadingBar") );
 		m_ProgressLoading.SetColor(colorScheme.Loadingbar());
 
 		g_Game.SetLoadState( DayZLoadState.MAIN_MENU_CONTROLLER_SELECT );
 		return layoutRoot;
 	}	
+
+	override void LoadMods()
+	{
+		// This function is intentionally left blank because it is no longer used.
+	}	
+
+	override bool OnMouseLeave(Widget w, Widget enterW, int x, int y)
+	{
+		if (IsFocusable(w))
+		{
+			ColorNormal(w);
+			return true;
+		}
+		return false;
+	}
 
 	override bool OnClick(Widget w, int x, int y, int button)
 	{
@@ -359,8 +371,7 @@ modded class MainMenu extends UIScriptedMenu
 		}
 		return false;
 	}
-	// I still have not found a good way to globally edit the generated dialog system colors but I feel like I am close
-	// I guess the best way in the meantime is to create a new menu and have it styled as we need.
+
 	override void Exit()
 	{
 		EnterScriptedMenu( COLORFUL_EXIT );

@@ -1,0 +1,14 @@
+{
+    "m_Version": 5,
+    "m_ZoneName": "NWAF",
+    "m_DisplayName": "Helicopter Trader",
+    "Position": [
+        8191.810000,
+        296.070000,
+        2044.110000
+    ],
+    "Radius": 100.0,
+    "BuyPricePercent": 100.0,
+    "SellPricePercent": 30.0,
+    "Stock": {}
+}

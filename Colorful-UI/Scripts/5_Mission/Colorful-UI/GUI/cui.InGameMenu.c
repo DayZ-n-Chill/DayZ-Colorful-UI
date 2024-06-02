@@ -1,7 +1,7 @@
 modded class InGameMenu extends UIScriptedMenu
 {
-	private Widget m_Separator
-	private	Widget m_shader
+	private Widget m_Separator;
+	private	Widget m_shader;
 	private Widget m_Discord;
 	private Widget m_Twitter;
 	private Widget m_Youtube;
@@ -16,21 +16,17 @@ modded class InGameMenu extends UIScriptedMenu
 	private Widget m_MetaImg;
 	private Widget m_MenuDivider;
 	
-	private Widget m_KillCountText
-	private Widget DeathScreen;
-	private Widget DeathScreenMsg;
-	private TextWidget m_PlayerNameText;
 	private Widget m_TopShader;
 	private Widget m_BottomShader;
 
+	private Widget m_GameOverScreen;
+	private ImageWidget m_GameOverScreenImage;
+	float m_TimerSlice;
 
 	override Widget Init()
 	{
 		layoutRoot = GetGame().GetWorkspace().CreateWidgets("Colorful-UI/gui/layouts/cui.day_z_ingamemenu.layout");
-		
-		m_PlayerNameText            = TextWidget.Cast(layoutRoot.FindAnyWidget("PlayerNameText"));
-		m_KillCountText 			= TextWidget.Cast(layoutRoot.FindAnyWidget("KillCountText"));				
-		
+			
 		m_ContinueButton			= layoutRoot.FindAnyWidget( "ContinueBtn" );
 		m_ExitButton				= layoutRoot.FindAnyWidget( "ExitBtn" );
 		m_MenuDivider				= layoutRoot.FindAnyWidget( "MenuDivider" );
@@ -77,17 +73,45 @@ modded class InGameMenu extends UIScriptedMenu
 
 		HudShow( false );
 		Class.CastTo(m_shader, layoutRoot.FindAnyWidget("Colorful_Shader"));
-		// m_shader.SetColor(colorScheme.ShaderColor());
-		// m_Separator.SetColor(colorScheme.SeparatorColor());
+
+		m_GameOverScreen = Widget.Cast(layoutRoot.FindAnyWidget("GameOverScreen"));
+		m_GameOverScreen.SetAlpha(0);
+		m_GameOverScreen.Show(false);
+		m_GameOverScreenImage = ImageWidget.Cast(m_GameOverScreen.FindAnyWidget("GameOverScreenImage"));
+		m_GameOverScreenImage.LoadImageFile(0, GameOverScreen.GameOverScreenImage());
+		m_GameOverScreenImage.SetAlpha(0);
+
 		return layoutRoot;
 	}
 
-	void UpdatePlayerName() {
-	    PlayerBase player = PlayerBase.Cast(GetGame().GetPlayer());
-	    if (player) {
-	        string playerName = player.GetIdentity().GetName();
-	        m_PlayerNameText.SetText(playerName);
-	    }
+	override void Update(float timeslice)
+	{
+		if (ShowDeadScreen)
+		{
+			m_TimerSlice += timeslice;
+			if (m_TimerSlice >= 0.01)
+			{
+				GameOverMan(timeslice);
+				m_TimerSlice = 0;
+			}
+		}
+		super.Update(timeslice);
+	};
+
+	void GameOverMan(float timeslice)
+	{
+		if (m_GameOverScreenImage.GetAlpha() < 1)
+		{
+			m_GameOverScreen.Show(true);
+
+			float newAlpha = Math.Min(m_GameOverScreen.GetAlpha() + (1.5 * timeslice), 1);
+			m_GameOverScreen.SetAlpha(newAlpha);
+
+			if (newAlpha > 0.5)
+			{
+				m_GameOverScreenImage.SetAlpha(Math.Min(m_GameOverScreenImage.GetAlpha() + (1.25 * timeslice), 1));
+			}
+		}
 	}
 
 	override bool OnClick(Widget w, int x, int y, int button)
@@ -271,7 +295,5 @@ modded class InGameMenu extends UIScriptedMenu
 	
 	override void OnShow() {
 	    super.OnShow();
-	    UpdatePlayerName();
 	}
-
 }

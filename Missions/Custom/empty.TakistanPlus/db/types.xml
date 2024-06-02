@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="UndergroundStash">
+    <nominal>0</nominal>
+    <lifetime>1209600</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="containers" />
+  </type>
+  <type name="CrateHackCrate">
+    <lifetime>8000000</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+  </type>
+  <type name="ExpansionCarKey">
+    <lifetime>20000</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+  </type>
+</types>

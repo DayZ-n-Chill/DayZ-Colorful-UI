@@ -1,0 +1,78 @@
+{
+    "Areas": [
+		{ 	"AreaName": "Red-Forest-Military-Base", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 7463, 0, 12282 ],
+				"Radius": 150,
+				"PosHeight": 45,
+				"NegHeight": 10,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Duga-Radar-Station-NE", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 4855, 0, 6078 ],
+				"Radius": 250,
+				"PosHeight": 45,
+				"NegHeight": 10,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Duga-Radar-Station-SW", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 4255, 0, 5707 ],
+				"Radius": 250,
+				"PosHeight": 45,
+				"NegHeight": 2,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 60, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[
+		[434, 13624],
+		[4532, 5863]
+	]
+}

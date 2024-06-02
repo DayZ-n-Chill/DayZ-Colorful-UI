@@ -1,0 +1,1 @@
+This is just a simple vpp addon provided to me by FailCoder. It allows usage of VPP Admin Tools to run along side DayZDiag64.Exe just drop the @VPPAdminToolsDiag folder in the P:/mods folder.

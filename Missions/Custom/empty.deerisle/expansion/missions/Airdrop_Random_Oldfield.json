@@ -1,0 +1,25 @@
+{
+    "m_Version": 0,
+    "Enabled": 1,
+    "Weight": 454.0,
+    "MissionMaxTime": 1200,
+    "MissionName": "Random_Oldfield",
+    "Difficulty": 0,
+    "Objective": 0,
+    "Reward": "",
+    "ShowNotification": 1,
+    "Height": 450.0,
+    "Speed": 25.0,
+    "Container": "Random",
+    "FallSpeed": 4.5,
+    "DropLocation": {
+        "x": 6117.0,
+        "z": 7004.0,
+        "Name": "Oldfield",
+        "Radius": 100.0
+    },
+    "Infected": [],
+    "ItemCount": -1,
+    "InfectedCount": -1,
+    "Loot": []
+}

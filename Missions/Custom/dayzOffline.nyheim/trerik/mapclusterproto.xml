@@ -1,0 +1,14 @@
+<!-- TRERIK CLUSTER PROTO from trerik/mapclusterproto.xml -->
+<prototype>
+		<clusters>
+			<export name="WreckHMMWV" shape="DZ\structures\wrecks\Vehicles\Wreck_HMMWV.p3d" />
+		</clusters>
+		<cluster name="WreckHMMWV" lootmax="2" maxinstances="150">
+			<de name="TrajectoryMilitary" />
+			<container name="branch" lootmax="2">
+				<point pos="-0.423920 -0.252928 0.740940" range="0.5" height="1.5" flags="32" /> 
+				<point pos="-1.928430 -0.172898 -0.159913" range="0.5" height="1.5" flags="32" /> 
+				<point pos="0.510000 -0.269898 -0.813300" range="0.5" height="1.5" flags="32" /> 
+			</container>
+		</cluster>
+</prototype>

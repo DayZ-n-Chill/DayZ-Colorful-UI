@@ -74,7 +74,7 @@ modded class LogoutMenu extends UIScriptedMenu
 		m_FacebookImg.SetColor(UIColor.meta());
 		m_MetaImg.SetColor(UIColor.meta());
 
-		m_Separator 		= layoutRoot.FindAnyWidget( "actionItems_separator" );
+		m_Separator = layoutRoot.FindAnyWidget( "actionItems_separator" );
 
 		return layoutRoot;
 	}

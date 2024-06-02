@@ -1,0 +1,29 @@
+{
+    "m_Version": 5,
+    "m_TraderID": 2,
+    "m_ClassName": "RA_P2P_GamingLaptop",
+    "m_Position": [
+        1405.380000, 217.066000, 3539.950000
+    ],
+    "m_Orientation": [
+        1.620024, 0.000000, -0.000000
+    ],
+    "m_LoadoutFile": "",
+    "m_VehicleSpawnPosition": [
+        1393.760000, 216.836000, 3534.280000
+    ],
+    "m_WatercraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_AircraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_DisplayName": "Unknown",
+    "m_DisplayIcon": "Deliver",
+    "m_Faction": "InvincibleObservers",
+    "m_IsGlobalTrader": 1
+}
