@@ -143,11 +143,6 @@ modded class MainMenu extends UIScriptedMenu
 		return layoutRoot;
 	}	
 
-	override void LoadMods()
-	{
-		// This function is intentionally left blank because it is no longer used.
-	}	
-
 	override bool OnMouseLeave(Widget w, Widget enterW, int x, int y)
 	{
 		if (IsFocusable(w))
