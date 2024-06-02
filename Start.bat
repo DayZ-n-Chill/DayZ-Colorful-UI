@@ -98,8 +98,8 @@ echo.
 powershell -Command "Write-Host 'Setup is Complete.' -ForegroundColor Green"
 echo.
 powershell -Command "Write-Host 'Thank you for using Colorful-UI' -ForegroundColor Magenta"
-powershell -Command "Write-Host 'This Setup uses a modified version of the DayZ Project Template.' -ForegroundColor Black"
-powershell -Command "Write-Host 'Get it Here!' -ForegroundColor Black"
-powershell -Command "Write-Host 'https://github.com/DayZ-n-Chill/DayZ-Project-Template' -ForegroundColor Black"
+powershell -Command "Write-Host 'This Setup uses a modified version of the DayZ Project Template.' -ForegroundColor DarkGray"
+powershell -Command "Write-Host 'Get it Here!' -ForegroundColor DarkGray"
+powershell -Command "Write-Host 'https://github.com/DayZ-n-Chill/DayZ-Project-Template' -ForegroundColor DarkGray"
 timeout /t 30 /nobreak 
 exit
