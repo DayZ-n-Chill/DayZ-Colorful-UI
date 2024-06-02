@@ -321,6 +321,11 @@ modded class MainMenu extends UIScriptedMenu
 		ImagenSetColor(w, color_img);	
 	}
 	
+	override void LoadMods()
+	{
+		// Kill this annoying shit
+	}
+	
 	override bool OnMouseEnter( Widget w, int x, int y )
 	{
 		
