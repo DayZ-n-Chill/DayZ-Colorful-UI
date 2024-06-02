@@ -7,9 +7,6 @@ texHeaders.bin
 launch.bin
 build.bin
 
-# DayZ Obfuscation
-thing.obf
-
 # Local Workspace Settings
 **/Workbench/*.bin
 
