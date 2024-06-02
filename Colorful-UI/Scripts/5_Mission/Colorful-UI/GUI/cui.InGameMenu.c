@@ -78,7 +78,7 @@ modded class InGameMenu extends UIScriptedMenu
 		m_GameOverScreen.SetAlpha(0);
 		m_GameOverScreen.Show(false);
 		m_GameOverScreenImage = ImageWidget.Cast(m_GameOverScreen.FindAnyWidget("GameOverScreenImage"));
-		m_GameOverScreenImage.LoadImageFile(0, Images.Death());
+		m_GameOverScreenImage.LoadImageFile(0, GameOverScreen.GameOverScreenImage());
 		m_GameOverScreenImage.SetAlpha(0);
 
 		return layoutRoot;
