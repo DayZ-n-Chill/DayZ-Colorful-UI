@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="BakedBeansCan">
+    <nominal>80</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>65</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="BakedBeansCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="BearSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="BoxCerealCrunchin">
+    <nominal>70</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>55</min>
+    <quantmin>10</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="BrisketSpread">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Office" />
+    <usage name="School" />
+    <value name="Tier1" />
+  </type>
+  <type name="BrisketSpread_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Canteen">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>18</min>
+    <quantmin>10</quantmin>
+    <quantmax>90</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Military" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="CatFoodCan">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="CatFoodCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="ChickenBreastMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="CowSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Crackers">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+  </type>
+  <type name="MFP_SkittlesB">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+  </type>
+  <type name="MFP_Starburst">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+  </type>
+  <type name="DeerSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="DogFoodCan">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="DogFoodCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="GoatSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="GreenBellPepper">
+    <nominal>50</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="Guts">
+    <nominal>0</nominal>
+    <lifetime>120</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Honey">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="HumanSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>10</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Lunchmeat">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Office" />
+    <usage name="School" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="Lunchmeat_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Marmalade">
+    <nominal>70</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>55</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Pajka">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Office" />
+    <usage name="School" />
+    <value name="Tier1" />
+  </type>
+  <type name="Pajka_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Pate">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Office" />
+    <usage name="School" />
+    <value name="Tier1" />
+  </type>
+  <type name="Pate_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="PeachesCan">
+    <nominal>80</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>65</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="PeachesCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="PigSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="PorkCan">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Office" />
+    <usage name="School" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="PorkCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food"  />
+  </type>
+  <type name="PowderedMilk">
+    <nominal>70</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>65</min>
+    <quantmin>10</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Pumpkin">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Rice">
+    <nominal>85</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>60</min>
+    <quantmin>10</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Potato">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Farm" />
+    <usage name="Village" />
+  </type>
+  <type name="SaltySticks">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+  </type>
+  <type name="SardinesCan">
+    <nominal>70</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>60</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="SardinesCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="SheepSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="SlicedPumpkin">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="tools" />
+  </type>
+  <type name="SmallGuts">
+    <nominal>0</nominal>
+    <lifetime>120</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="tools" />
+  </type>
+  <type name="JackDaniels">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Vodka">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_CigarettePack_Chernamorka">
+    <nominal>11</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_CigarettePack_Merkur">
+    <nominal>11</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_CigarettePack_Partyzanka">
+    <nominal>11</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SodaCan_Cola">
+    <nominal>70</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>50</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SodaCan_fronta">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SodaCan_Kvass">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SodaCan_Pipsi">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SodaCan_Spite">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="MFP_CodeRed">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="MFP_CokeZero">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="MFP_LiteBeer">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="MFP_IPABeer">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="MFP_BajaBlast">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>30</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SpaghettiCan">
+    <nominal>80</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>65</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="SpaghettiCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="TacticalBaconCan">
+    <nominal>22</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="CondensedMilkCan">
+    <nominal>25</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>22</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="TacticalBaconCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Tomato">
+    <nominal>40</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Farm" />
+    <usage name="Village" />
+  </type>
+  <type name="TunaCan">
+    <nominal>70</nominal>
+    <lifetime>2700</lifetime>
+    <restock>60</restock>
+    <min>65</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="TunaCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="UnknownFoodCan">
+    <nominal>30</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Office" />
+    <usage name="Prison" />
+  </type>
+  <type name="UnknownFoodCan_Opened">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="WaterBottle">
+    <nominal>90</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>70</min>
+    <quantmin>20</quantmin>
+    <quantmax>70</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Hunting" />
+    <usage name="Village" />
+    <usage name="Town" />
+  </type>
+  <type name="WolfSteakMeat">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="food" />
+  </type>
+  <type name="Zagorky">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Village" />
+    <usage name="Hunting" />
+    <usage name="Office" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="ZagorkyChocolate">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Hunting" />
+  </type>
+  <type name="ZagorkyPeanuts">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Hunting" />
+    <usage name="Office" />
+    <usage name="School" />
+    <usage name="Lunapark" />
+  </type>
+  <type name="Zucchini">
+    <nominal>35</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>20</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="food" />
+    <tag name="shelves" />
+    <usage name="Farm" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="Lard">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+  </type>
+</types>

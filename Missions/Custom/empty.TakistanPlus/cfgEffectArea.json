@@ -1,0 +1,29 @@
+{
+    "Areas": [
+		{ 	"AreaName": "LoyManara Refinery", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 7098.160156, 281.586731, 1031.579102 ],
+				"Radius": 220,
+				"PosHeight": 60,
+				"NegHeight": 30,
+				"InnerRingCount": 3,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 1,
+				"VerticalOffset": 5,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[]
+}

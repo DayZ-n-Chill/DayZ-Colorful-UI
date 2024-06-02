@@ -1,0 +1,258 @@
+{
+    "m_Version": 15,
+    "Enabled": 1,
+    "DespawnTime": 300.0,
+    "RespawnTime": 600.0,
+    "MinDistRadius": 200.0,
+    "MaxDistRadius": 500.0,
+    "DespawnRadius": 500.0,
+    "AccuracyMin": -1.0,
+    "AccuracyMax": -1.0,
+    "ThreatDistanceLimit": -1.0,
+    "DamageMultiplier": -1.0,
+    "ObjectPatrols": [
+        {
+            "Name": "Heli Guards",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "HeliCrashLoadout_RussianSoldier",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 100.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "ClassName": "Wreck_Mi8_Crashed"
+        },
+        {
+            "Name": "Heli Pilot",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "HeliCrashLoadout_RussianPilot",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 100.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "ClassName": "Wreck_Mi8_Crashed"
+        },
+        {
+            "Name": "Heli Guards",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "HeliCrashLoadout_AmericanSoldier",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 100.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "ClassName": "Wreck_UH1Y"
+        },
+        {
+            "Name": "Heli Guards",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "HeliCrashLoadout_RussianSoldier",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 100.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 5.0,
+            "MaxSpreadRadius": 20.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": -2.0,
+            "ClassName": "RA_Land_Wreck_C130J"
+        }
+    ],
+    "Patrols": [
+        {
+            "Name": "Patrolling Guards",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "RaiderLoadout",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 200.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 600.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    6728.592285, 17.428909, 1419.655884
+                ],
+                [
+                    6756.970703, 17.926596, 1416.313965
+                ],
+                [
+                    6750.145020, 17.428926, 1399.389893
+                ],
+                [
+                    6730.688965, 17.428932, 1397.610718
+                ],
+                [
+                    6706.881836, 17.428946, 1386.160522
+                ],
+                [
+                    6699.404297, 17.428890, 1401.216797
+                ],
+                [
+                    6703.459473, 17.428873, 1426.940674
+                ],
+                [
+                    6725.318848, 17.538946, 1431.243774
+                ]
+            ]
+        },
+        {
+            "Name": "Raider Guard Sniper",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "RaiderSniperLoadout",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 200.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 600.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    6746.174316, 38.979946, 1446.099731
+                ],
+                [
+                    6746.487305, 38.978233, 1442.008667
+                ]
+            ]
+        },
+        {
+            "Name": "Pier Walkout Guards",
+            "Faction": "Shamans",
+            "Formation": "Random",
+            "FormationLooseness": 0.0,
+            "LoadoutFile": "RaiderLoadout",
+            "NumberOfAI": 0,
+            "Behaviour": "ALTERNATE",
+            "Speed": "WALK",
+            "UnderThreatSpeed": "SPRINT",
+            "CanBeLooted": 0,
+            "UnlimitedReload": 1,
+            "SniperProneDistanceThreshold": 0.0,
+            "AccuracyMin": -1.0,
+            "AccuracyMax": -1.0,
+            "ThreatDistanceLimit": -1.0,
+            "DamageMultiplier": -1.0,
+            "MinDistRadius": 200.0,
+            "MaxDistRadius": 500.0,
+            "DespawnRadius": 500.0,
+            "MinSpreadRadius": 0.0,
+            "MaxSpreadRadius": 0.0,
+            "Chance": 1.0,
+            "WaypointInterpolation": "",
+            "DespawnTime": -1.0,
+            "RespawnTime": 600.0,
+            "UseRandomWaypointAsStartPoint": 1,
+            "Waypoints": [
+                [
+                    6639.497559, 17.370890, 1405.636597
+                ],
+                [
+                    6688.302246, 17.428928, 1403.527344
+                ],
+                [
+                    6688.997070, 17.428873, 1431.483521
+                ]
+            ]
+        }
+    ]
+}

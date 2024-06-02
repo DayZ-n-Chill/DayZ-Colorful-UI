@@ -40,14 +40,6 @@ class CfgMods
 			{
 				files[]= {"Colorful-UI/GUI/imagesets/CUI.imageset"};
 			};
-			class engineScriptModule
-			{
-				files[] =
-				{
-					"Colorful-UI/scripts/1_core"
-				};
-			};
-
 			class gameScriptModule
 			{
 				files[] = 
@@ -62,7 +54,6 @@ class CfgMods
 					"Colorful-UI/scripts/4_World"
 				};
 			};
-
 			class missionScriptModule 
 			{
 				files[] = 
@@ -76,18 +67,21 @@ class CfgMods
 
 class CfgSoundSets
 {
-	class Main_Music_Menu_SoundSet
+	class Music_Menu_SoundSet
 	{
-		soundShaders[] = {"Main_Music_Menu_SoundShader"};
-		volumeFactor = 1;
-		frequencyFactor = 1;
-		spatial = 0;
+		soundShaders[]=
+		{
+			"DZNC_Music_Menu_SoundShader"
+		};
+		volumeFactor=1;
+		frequencyFactor=1;
+		spatial=0;
 	};
 };	
+
 class CfgSoundShaders
 {
-	// Main Music for Colorful UI created by BigDeanO
-	class Main_Music_Menu_SoundShader
+	class DZNC_Music_Menu_SoundShader
 	{
 		samples[] = {{"\Colorful-UI\GUI\sounds\MainMenu.ogg", 1}};
 		volume = 0.5;

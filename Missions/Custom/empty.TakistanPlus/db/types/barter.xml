@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="GraphicsCard">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="PocketWatch">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="SSD">
+    <nominal>16</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RetroToy">
+    <nominal>45</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>35</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="RA_USB_Stick">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Bitcoin">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="DPhone">
+    <nominal>130</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>100</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Hunting" />
+    <usage name="Coast" />
+    <usage name="Police" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Ophthalmoscope">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Medic" />
+  </type>
+  <type name="IntelFolders">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1200</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Military" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="MoneyRuble">
+    <nominal>160</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>130</min>
+    <quantmin>1</quantmin>
+    <quantmax>4</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="Wallet">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>1</quantmin>
+    <quantmax>4</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <usage name="Hunting" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+</types>

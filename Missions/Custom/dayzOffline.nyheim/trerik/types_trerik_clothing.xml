@@ -1,0 +1,122 @@
+<types>
+  <type name="Trerik_M65Jacket_M90_Winter">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_Mich2001Helmet_M90_Winter">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_MilitaryBeret_Black_Plikt">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_PlateCarrierVest_M90_Winter_Plikt">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_PlateCarrierPouches_M90_Winter">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_PlateCarrierHolster_M90_Winter">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_TTSKOPants_M90_Winter">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_M65Jacket_M90_Summer">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_M65Jacket_Black_Plikt">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+  <type name="Trerik_CargoPants_M90_Summer">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military" />
+  </type>
+</types>

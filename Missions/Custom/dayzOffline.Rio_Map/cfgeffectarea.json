@@ -1,0 +1,52 @@
+{
+    "Areas": [
+		{ 	"AreaName": "Aeroporto-1", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 514, 0, 3032],
+				"Radius": 250,
+				"PosHeight": 25,
+				"NegHeight": 20,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Aeroporto-2", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 439, 0, 2663 ],
+				"Radius": 100,
+				"PosHeight": 11,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[]
+}

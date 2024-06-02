@@ -1,0 +1,29 @@
+{
+    "m_Version": 5,
+    "m_TraderID": 3,
+    "m_ClassName": "RA_P2P_ServerRack",
+    "m_Position": [
+        9398.110000, 402.779000, 4656.410000
+    ],
+    "m_Orientation": [
+        0.0, 0.000000, 0.000000
+    ],
+    "m_LoadoutFile": "",
+    "m_VehicleSpawnPosition": [
+        9376.330000, 402.237000, 4656.100000
+    ],
+    "m_WatercraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_AircraftSpawnPosition": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "m_DisplayName": "Unknown",
+    "m_DisplayIcon": "Deliver",
+    "m_Faction": "InvincibleObservers",
+    "m_IsGlobalTrader": 1
+}

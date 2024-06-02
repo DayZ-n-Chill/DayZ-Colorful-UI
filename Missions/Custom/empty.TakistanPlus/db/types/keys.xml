@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="VL_GuerstPDKey">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+  </type>
+  <type name="VL_NoradeshkoPDKey">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_SmokinkiPDKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_VezerovskyPDKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_GarageKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_WorkshopKey">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_ConstructionKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_RadioKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_AirfieldGarageKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_OfficersKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_WaterplantKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_BlackKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_KemenContainerKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="VL_CastleKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+  </type>
+  <type name="VL_ClinicKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_DadsKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_CampKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_HospitalKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_CultistKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_BlinkaPDKey">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_MiliContainerKey">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="HeliLoot" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_StoreKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_PrisonKey">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="HeliLoot" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_JaggerKey">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_FersenKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="VL_HangerKey">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier1" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="VL_RadarKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_OthaKey">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
+  <type name="VL_GreenKeycard">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="VL_BlueKeycard">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="HeliLoot" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="VL_RedKeycard">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="VL_PurpleKeycard">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="VL_BlackKeycard">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Town" />
+    <usage name="Village" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+</types>

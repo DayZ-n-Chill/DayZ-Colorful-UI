@@ -1,0 +1,245 @@
+{
+    "m_Version": 7,
+    "SpawnLocations": [
+        {
+            "Name": "Smallville",
+            "Positions": [
+                [
+                    10307.98046875,
+                    4.6100029945373539,
+                    4283.03955078125
+                ],
+                [
+                    10481.48046875,
+                    9.250264167785645,
+                    4247.01904296875
+                ],
+                [
+                    10516.4482421875,
+                    12.487309455871582,
+                    4415.49072265625
+                ],
+                [
+                    10813.91015625,
+                    1.8850070238113404,
+                    4589.654296875
+                ],
+                [
+                    10230.1162109375,
+                    3.189570903778076,
+                    4238.67724609375
+                ],
+                [
+                    10098.0966796875,
+                    16.85298728942871,
+                    4507.15380859375
+                ]
+            ],
+            "UseCooldown": 1
+        },
+        {
+            "Name": "Oceanville",
+            "Positions": [
+                [
+                    10501.626953125,
+                    38.44813537597656,
+                    4838.28564453125
+                ],
+                [
+                    10264.2431640625,
+                    29.939361572265626,
+                    4646.568359375
+                ],
+                [
+                    10171.6025390625,
+                    33.86616134643555,
+                    4771.10986328125
+                ],
+                [
+                    10027.609375,
+                    46.279781341552737,
+                    5010.65966796875
+                ],
+                [
+                    10299.7255859375,
+                    43.08234786987305,
+                    5171.11865234375
+                ]
+            ],
+            "UseCooldown": 1
+        },
+        {
+            "Name": "Fisher Camp",
+            "Positions": [
+                [
+                    10451.9248046875,
+                    2.5859930515289308,
+                    5605.49462890625
+                ],
+                [
+                    10493.400390625,
+                    16.89600944519043,
+                    5411.61572265625
+                ],
+                [
+                    10397.962890625,
+                    17.839876174926759,
+                    5373.638671875
+                ],
+                [
+                    10266.1318359375,
+                    8.42817211151123,
+                    5572.642578125
+                ],
+                [
+                    10339.783203125,
+                    7.476208209991455,
+                    5502.1572265625
+                ]
+            ],
+            "UseCooldown": 1
+        },
+        {
+            "Name": "Unnnamed Town",
+            "Positions": [
+                [
+                    8955.4677734375,
+                    30.112319946289064,
+                    5266.0419921875
+                ],
+                [
+                    9130.7509765625,
+                    27.931655883789064,
+                    5132.8720703125
+                ],
+                [
+                    9228.5185546875,
+                    29.03292465209961,
+                    5206.634765625
+                ],
+                [
+                    9179.1171875,
+                    24.79987907409668,
+                    5319.1982421875
+                ],
+                [
+                    9304.708984375,
+                    28.94859504699707,
+                    5198.04541015625
+                ],
+                [
+                    9289.03125,
+                    39.87162780761719,
+                    5421.80126953125
+                ],
+                [
+                    9479.1240234375,
+                    27.024431228637697,
+                    5234.83984375
+                ]
+            ],
+            "UseCooldown": 1
+        }
+    ],
+    "StartingClothing": {
+        "EnableCustomClothing": 1,
+        "SetRandomHealth": 1,
+        "Headgear": [],
+        "Glasses": [],
+        "Masks": [],
+        "Tops": [
+            "TShirt_Green",
+            "TShirt_Blue",
+            "TShirt_Black",
+            "TShirt_Beige",
+            "TShirt_Red",
+            "TShirt_OrangeWhiteStripes",
+            "TShirt_White",
+            "TShirt_Red",
+            "TShirt_Grey",
+            "TShirt_RedBlackStripes"
+        ],
+        "Vests": [],
+        "Gloves": [],
+        "Pants": [
+            "CanvasPants_Beige",
+            "CanvasPants_Blue",
+            "CanvasPants_Grey",
+            "CanvasPants_Red",
+            "CanvasPants_Violet",
+            "CanvasPantsMidi_Beige",
+            "CanvasPantsMidi_Blue",
+            "CanvasPantsMidi_Grey",
+            "CanvasPantsMidi_Red",
+            "CanvasPantsMidi_Violet"
+        ],
+        "Belts": [],
+        "Shoes": [
+            "AthleticShoes_Blue",
+            "AthleticShoes_Grey",
+            "AthleticShoes_Brown",
+            "AthleticShoes_Green",
+            "AthleticShoes_Black"
+        ],
+        "Armbands": [],
+        "Backpacks": [
+            "TaloonBag_Blue",
+            "TaloonBag_Green",
+            "TaloonBag_Orange",
+            "TaloonBag_Violet"
+        ]
+    },
+    "EnableSpawnSelection": 1,
+    "SpawnOnTerritory": 0,
+    "StartingGear": {
+        "EnableStartingGear": 1,
+        "ApplyEnergySources": 1,
+        "SetRandomHealth": 1,
+        "UpperGear": [
+            {
+                "ClassName": "Rag",
+                "Quantity": 4,
+                "Attachments": []
+            },
+            {
+                "ClassName": "Apple",
+                "Quantity": -1,
+                "Attachments": []
+            },
+            {
+                "ClassName": "Chemlight_White",
+                "Quantity": -1,
+                "Attachments": []
+            }
+        ],
+        "PantsGear": [],
+        "BackpackGear": [],
+        "VestGear": [],
+        "PrimaryWeapon": {},
+        "SecondaryWeapon": {}
+    },
+    "UseLoadouts": 0,
+    "MaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "FemaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "SpawnHealthValue": 100.0,
+    "SpawnEnergyValue": 500.0,
+    "SpawnWaterValue": 500.0,
+    "EnableRespawnCooldowns": 1,
+    "RespawnCooldown": 120,
+    "TerritoryRespawnCooldown": 240,
+    "PunishMultispawn": 1,
+    "PunishCooldown": 120,
+    "PunishTimeframe": 300,
+    "CreateDeathMarker": 1,
+    "BackgroundImagePath": "DayZExpansion/SpawnSelection/GUI/textures/wood_background.edds"
+}

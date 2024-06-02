@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="TripwireTrap">
+    <nominal>0</nominal>
+    <lifetime>604800</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    <category name="tools" />
+  </type>
+  <type name="ClaymoreMine">
+    <nominal>2</nominal>
+    <lifetime>604800</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="explosives"/>
+    <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+  </type>
+  <type name="LandMineTrap">
+    <nominal>0</nominal>
+    <lifetime>604800</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+  </type>
+  <type name="FlashGrenade">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="Military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_Black">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_Green">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_Red">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="Ammo_40mm_Explosive">
+    <nominal>1</nominal>
+    <lifetime>27000</lifetime>
+    <restock>360</restock>
+    <min>0</min>
+    <quantmin>10</quantmin>
+    <quantmax>10</quantmax>
+    <cost>90</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="M18SmokeGrenade_Green">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="M18SmokeGrenade_Purple">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="M18SmokeGrenade_Red">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="Military" />
+  </type>
+  <type name="M18SmokeGrenade_White">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="Military" />
+  </type>
+  <type name="M18SmokeGrenade_Yellow">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+  </type>
+  <type name="M67Grenade">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="Military" />
+  </type>
+  <type name="RDG2SmokeGrenade_Black">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="Military" />
+    <usage name="Police" />
+  </type>
+  <type name="RDG2SmokeGrenade_White">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <tag name="shelves" />
+    <usage name="Military" />
+    <usage name="Police" />
+  </type>
+  <type name="RGD5Grenade">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="Military" />
+  </type>
+  <type name="RA_Gunpowder">
+    <nominal>23</nominal>
+    <lifetime>20000</lifetime>
+    <restock>360</restock>
+    <min>18</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="explosives" />
+    <usage name="HeliLoot" />
+    <usage name="Military" />
+  </type>
+  <type name="RemoteDetonator">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>360</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="shelves" />
+    <usage name="Police" />
+    <usage name="Military" />
+    <usage name="Firefighter" />
+    <usage name="Industrial"/>
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+</types>

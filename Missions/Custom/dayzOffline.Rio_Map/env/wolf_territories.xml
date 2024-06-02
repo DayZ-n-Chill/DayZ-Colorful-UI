@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+	<territory color="4291611852">
+		<zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="2439.4" z="2759.3" r="200"/>
+		<zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="7092.4" z="5964.3" r="200"/>
+		<zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="1557.4" z="5168.3" r="200"/>
+		<zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="898.4" z="5718.3" r="200"/>
+		<zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="1465.4" z="5188.3" r="200"/>
+		<zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="440.4" z="2841.3" r="300"/>
+    </territory>
+	 <territory color="4291611852">	
+        <zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2304.9" z="1905.3" r="360"/>		
+        <zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2804.3" z="1687.6" r="200"/>		
+        <zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2869.8" z="1820.79" r="420"/>
+        <zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="4209.06" z="1420.7" r="210"/>		
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="3633.06" z="1257.7" r="210"/>		
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="3626.06" z="1928.7" r="210"/>		
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2878.06" z="2326.7" r="210"/>		
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2792.06" z="1774.7" r="210"/>
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2170.06" z="2059.7" r="210"/>
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="2538.06" z="1849.7" r="210"/>
+		<zone name="HuntingGround" smin="0" smax="0"  dmin="1" dmax="4" x="3457.06" z="2731.7" r="210"/>		
+	</territory>
+	<territory color="4291611852">
+        <zone name="HuntingGround" smin="0" smax="0" dmin="1" dmax="4" x="3566.91" z="2209.2" r="50"/>
+    </territory>
+</territory-type>
