@@ -1,6 +1,3 @@
-# DayZ packed files
-*.pbo
-
 # DayZ SA Private Keys
 *.biprivatekey
 
