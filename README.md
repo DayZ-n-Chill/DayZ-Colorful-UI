@@ -38,16 +38,17 @@ Follow these steps to clone the DayZ Mod Template, set up your project environme
 
 ## Step 1
 
-**Use the Template Repository**:
-- Navigate to the DayZ Mod Template repository on GitHub: [https://github.com/DayZ-n-Chill/DayZ-Colorful-UI/](https://github.com/DayZ-n-Chill/DayZ-Colorful-UI/)
-- Click on the "Use this template" button near the top of the repository page.
-
-## Step 2
-
 **Install Git and Git LFS**:
 - Make sure you have Git and Git LFS installed on your system. If not, get them here:
   - [Git](https://git-scm.com/)
   - [Git LFS](https://git-lfs.github.com/)
+
+## Step 2
+
+**Use the Template Repository**:
+- Navigate to the DayZ Mod Template repository on GitHub: [https://github.com/DayZ-n-Chill/DayZ-Colorful-UI/](https://github.com/DayZ-n-Chill/DayZ-Colorful-UI/)
+- Click on the "Use this template" button near the top of the repository page.
+- https://www.gitkraken.com/download  I would reccomend GitKraken for repo management. But use what you want. 
 
 ## Step 3
 
@@ -80,7 +81,7 @@ Follow these steps to clone the DayZ Mod Template, set up your project environme
 ## Step 8
 
 **Test on Local Server**:
-- Test it on the built-in local server. Choose from one of 7 built-in maps including:
+- Choose from one of 7 built-in maps including:
   - Chernarus
   - Livonia
   - Deer Isle
