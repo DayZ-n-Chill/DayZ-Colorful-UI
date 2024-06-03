@@ -36,10 +36,38 @@ modded class MissionBase
 			menu = new colorfulConfigureDialog;
 			break;
 
+		#ifdef CodeLock
+        case CLMENU.SET_CODE_MENU:
+        	{
+        	    menu = new SetCodeMenu();
+        	    break;
+        	}
+        case CLMENU.GUEST_CODE_MENU:
+        	{
+        	    menu = new GuestCodeMenu();
+        	    break;
+        	}
+        case CLMENU.ENTER_CODE_MENU:
+        	{
+        	    menu = new EnterCodeMenu();
+        	    break;
+        	}
+        case CLMENU.ADMIN_CODE_MENU:
+        	{
+        	    menu = new AdminCodeMenu();
+        	    break;
+        	}
+        case CLMENU.CLAIM_CODE_MENU:
+        	{
+        	    menu = new ClaimCodeMenu();
+        	    break;
+        	}
+		#endif
+
 		#ifdef VPPADMINTOOLS
 			case VPP_ADMIN_HUD:
-				menu = new VPPAdminHud;
-				break;
+			menu = new VPPAdminHud;
+			break;
 		#endif
 		
 		#ifdef VanillaPPMap
@@ -77,7 +105,21 @@ modded class MissionBase
             menu = new BasicSpawnSelectMenu;
             break;
 		#endif
-				
+
+		#ifdef 	KTQuestClient		
+			case KTQuestMenuHandler.MENU_QUEST:
+				menu = new KTQuestMenu;
+			break;
+			case KTQuestAdditionalInfoMenuHandler.MENU_QUEST_ADDITIONAL_INFO_TARGET:
+				menu = new KTQuestAdditionalInfoMenuTarget;
+			break;
+			case KTQuestAdditionalInfoMenuHandler.MENU_QUEST_ADDITIONAL_INFO_REWARD:
+				menu = new KTQuestAdditionalInfoMenuReward;
+			break;
+			default:
+				menu = super.CreateScriptedMenu(id);
+		#endif
+
 		case MENU_STARTUP:
 			menu = new StartupMenu;
 			break;
