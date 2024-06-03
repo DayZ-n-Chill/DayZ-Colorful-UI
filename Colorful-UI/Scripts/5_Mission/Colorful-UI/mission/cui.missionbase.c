@@ -49,11 +49,9 @@ modded class MissionBase
 		#endif
 			
 		#ifdef SERVERPANEL
-			switch (id)	{
-				case SERVER_PANEL:
-				menu = GetServerPanelMenu();
-				break;
-			}
+			case SERVER_PANEL:
+			menu = GetServerPanelMenu();
+			break;
 		#endif
 		
 		#ifdef DayZInformationPanel
