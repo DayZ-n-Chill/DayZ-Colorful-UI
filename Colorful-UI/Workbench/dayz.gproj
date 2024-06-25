@@ -27,6 +27,7 @@ GameProjectClass {
 	  "gui/imagesets/console_toolbar.imageset"
 	  "gui/imagesets/Map2D_UI.imageset"
 	  "Graphics/Textures/postprocess/VignetteFrames.imageset"
+	  "Colorful-UI/GUI/imagesets/CUI.imageset"
 	 }
 	 widgetStyles {
 	  "gui/looknfeel/dayzwidgets.styles"
