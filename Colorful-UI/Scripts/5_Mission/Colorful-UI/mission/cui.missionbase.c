@@ -2,7 +2,7 @@ modded class MissionBase
 {	
 	override UIScriptedMenu CreateScriptedMenu(int id)
 	{
-		UIScriptedMenu menu = NULL;
+		UIScriptedMenu menu = super.CreateScriptedMenu(id);
 
 		switch (id)
 		{
@@ -70,11 +70,11 @@ modded class MissionBase
 			break;
 		#endif
 		
-		#ifdef VanillaPPMap
-		case VPP_MENU_MAP:
-			menu = new VPPMapMenu;
-			break;
-		#endif
+		// #ifdef VanillaPPMap
+		// case VPP_MENU_MAP:
+		// 	menu = new VPPMapMenu;
+		// 	break;
+		// #endif
 			
 		#ifdef SERVERPANEL
 			case SERVER_PANEL:
