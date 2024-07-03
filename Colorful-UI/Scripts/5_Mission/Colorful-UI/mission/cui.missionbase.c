@@ -165,12 +165,12 @@ modded class MissionBase
 		case MENU_HELP_SCREEN:
 			menu = new HelpScreen;
 			break;
-		case MENU_GESTURES:
-			menu = new GesturesMenu;
-			break;
-		case MENU_LOGOUT:
-			menu = new LogoutMenu;
-			break;
+		// case MENU_GESTURES:
+		// 	menu = new GesturesMenu;
+		// 	break;
+		// case MENU_LOGOUT:
+		//	menu = new LogoutMenu;
+		//	break;
 		case MENU_TITLE_SCREEN:
 			menu = new TitleScreenMenu;
 			break;
