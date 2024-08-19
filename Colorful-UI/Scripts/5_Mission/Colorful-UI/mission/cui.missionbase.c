@@ -95,7 +95,6 @@ modded class MissionBase
 			#endif
 		}
 
-		// Default case should be outside the #ifdef blocks
 		if (!menu)
 		{
 			menu = super.CreateScriptedMenu(id);
