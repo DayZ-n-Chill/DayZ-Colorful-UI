@@ -24,8 +24,9 @@ class CfgMods
 {
 	class ColorfulUI
 	{
-		name = "DayZ-Mod-Template";
 		dir = "Colorful-UI";
+		name = "DayZ n' Chill's: Colorful-UI";
+		version = "3.0";
 		creditsJson = "Colorful-UI/Scripts/Credits.json";
 		inputs = "Colorful-UI/Scripts/Inputs.xml";
 		type = "mod";
@@ -34,6 +35,7 @@ class CfgMods
 		{
 			"Game", "World", "Mission"
 		};
+
 		class defs
 		{
 			class imageSets
@@ -42,24 +44,15 @@ class CfgMods
 			};
 			class gameScriptModule
 			{
-				files[] = 
-				{
-					"Colorful-UI/scripts/3_Game"
-				};
+				files[] = {	"Colorful-UI/scripts/3_Game" };
 			};
 			class worldScriptModule
 			{
-				files[] = 
-				{
-					"Colorful-UI/scripts/4_World"
-				};
+				files[] = {	"Colorful-UI/scripts/4_World" };
 			};
 			class missionScriptModule 
 			{
-				files[] = 
-				{
-					"Colorful-UI/scripts/5_Mission"
-				};
+				files[] = {	"Colorful-UI/scripts/5_Mission"	};
 			};
 		};
 	};	
@@ -69,10 +62,7 @@ class CfgSoundSets
 {
 	class Music_Menu_SoundSet
 	{
-		soundShaders[]=
-		{
-			"DZNC_Music_Menu_SoundShader"
-		};
+		soundShaders[]= { "DZNC_Music_Menu_SoundShader" };
 		volumeFactor=1;
 		frequencyFactor=1;
 		spatial=0;
