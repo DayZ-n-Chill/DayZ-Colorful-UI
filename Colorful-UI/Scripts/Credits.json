@@ -7,8 +7,12 @@
                 "SectionLines": ["DayZ n' Chill"]
             },
             {
-                "SectionName": "Audio, Testing, and QA",
+                "SectionName": "Audio Contributions, Testing, and QA",
                 "SectionLines": ["BigDeano"]
+            },
+            {
+                "SectionName": "Code Review, Bug Fixing, and QA",
+                "SectionLines": ["Lothsun"]
             }
         ]
     }]
