@@ -35,6 +35,11 @@ class UIColor
 	static int CUI2DarkBlue()         { return ARGB(155, 0, 0, 32); };
 	static int CUI2SubtleRed()        { return ARGB(255, 100, 35, 35); };
 	static int CUI2BrightRed()        { return ARGB(255, 152, 0, 0); };
+
+	// Your Colors
+	static int NewPink()          { return ARGB(255, 254, 80, 180); };
+	static int NewBlue()          { return ARGB(255, 111, 253, 253); };
+	static int NewPurple()        { return ARGB(255, 93, 93, 182); };
 }
 
 // UI THEME ---------------------------------------------------------------
@@ -42,9 +47,9 @@ class UIColor
 class colorScheme 
 {
 	// Brand Specific (Set your primary & secondary colors)
-	static int BrandColor() 		  { return UIColor.Yellow(); };
-	static int AccentColor()  		  { return UIColor.CUI2SubtleRed(); };
-	static int TertiaryColor()  	  { return ARGB(255, 204, 255, 204); };
+	static int BrandColor() 		  { return UIColor.NewPink(); };
+	static int AccentColor()  		  { return UIColor.NewBlue(); };
+	static int TertiaryColor()  	  { return UIColor.NewPurple(); };
 
 	// Base Typography 
 	static int PrimaryText()          { return UIColor.White(); }; 	

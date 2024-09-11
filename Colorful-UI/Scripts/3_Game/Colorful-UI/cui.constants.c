@@ -38,11 +38,11 @@ class GameOverScreen
 // SOCIALS & LINKS ---------------------------------------------------------------
 // Set your links Here
 class MenuURLS {
-	static string urlDiscord   = "#";
+	static string urlDiscord   = "discord.gg/7QMVZUR6yx";
 	static string urlFacebook  = "#";
 	static string urlTwitter   = "#";
 	static string urlReddit    = "#";
-	static string urlYoutube   = "#";
+	static string urlYoutube   = "https://www.youtube.com/@ByXaRiKUA";
 	static string urlWebsite   = "#"; 
 	static string urlPriorityQ = "#";
 	static string urlCustom    = "#";

@@ -111,24 +111,6 @@ FrameWidgetClass InGameMenuRoot {
    hexactsize 0
    vexactsize 0
    {
-    ImageWidgetClass Logo {
-     visible 1
-     inheritalpha 1
-     size 438 261
-     hexactpos 1
-     vexactpos 1
-     hexactsize 1
-     vexactsize 1
-     fixaspect outside
-     image0 "set:cui image:Logo"
-     imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
-     mode blend
-     "src alpha" 1
-     "clamp mode" clamp
-     "stretch mode" stretch_w_h
-     filter 1
-     nocache 0
-    }
     FrameWidgetClass hint_frame {
      visible 1
      clipchildren 0
@@ -848,6 +830,7 @@ FrameWidgetClass InGameMenuRoot {
          }
         }
         ButtonWidgetClass TwitterBtn {
+         visible 0
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -918,7 +901,7 @@ FrameWidgetClass InGameMenuRoot {
          }
         }
         ButtonWidgetClass RedditBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -989,7 +972,7 @@ FrameWidgetClass InGameMenuRoot {
          }
         }
         ButtonWidgetClass FacebookBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -1130,6 +1113,25 @@ FrameWidgetClass InGameMenuRoot {
        }
       }
      }
+    }
+    ImageWidgetClass Logo {
+     visible 1
+     inheritalpha 1
+     position 0 0
+     size 512 512
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     image0 ""
+     imageTexture "{6890C2B6B5C5096F}Colorful-UI/GUI/textures/globals/LogoRelax.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     filter 1
+     nocache 0
     }
    }
   }

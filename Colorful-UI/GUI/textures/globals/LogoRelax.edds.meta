@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D65EA4999786E259}Colorful-UI/GUI/data/LogoRelax.edds"
+ Author "byxarik"
+ ChangeDate -147033814
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "LogoRelax.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

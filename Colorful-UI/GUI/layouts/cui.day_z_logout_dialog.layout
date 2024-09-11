@@ -1086,6 +1086,7 @@ WindowWidgetClass LogoutDialogRoot {
          }
         }
         ButtonWidgetClass TwitterBtn {
+         visible 0
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -1156,7 +1157,7 @@ WindowWidgetClass LogoutDialogRoot {
          }
         }
         ButtonWidgetClass RedditBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -1227,7 +1228,7 @@ WindowWidgetClass LogoutDialogRoot {
          }
         }
         ButtonWidgetClass FacebookBtn {
-         visible 1
+         visible 0
          color 0 0 0 0
          size 293 38
          halign right_ref
@@ -1372,14 +1373,15 @@ WindowWidgetClass LogoutDialogRoot {
     ImageWidgetClass Logo {
      visible 1
      inheritalpha 1
-     size 438 261
+     position 0 0
+     size 512 512
      hexactpos 1
      vexactpos 1
      hexactsize 1
      vexactsize 1
      fixaspect outside
-     image0 "set:cui image:Logo"
-     imageTexture "{7CD806F5385DC838}Colorful-UI/GUI/imagesets/CUI-Imageset.edds"
+     image0 ""
+     imageTexture "{6890C2B6B5C5096F}Colorful-UI/GUI/textures/globals/LogoRelax.edds"
      mode blend
      "src alpha" 1
      "clamp mode" clamp
