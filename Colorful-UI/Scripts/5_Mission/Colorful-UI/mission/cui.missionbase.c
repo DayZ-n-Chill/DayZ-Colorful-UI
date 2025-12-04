@@ -32,9 +32,9 @@ modded class MissionBase
 			menu = new colorfulExitDialog;
 			break;
 
-		case COLORFUL_CONFIGURE:
-			menu = new colorfulConfigureDialog;
-			break;
+		// case COLORFUL_CONFIGURE:
+		// 	menu = new colorfulConfigureDialog;
+		// 	break;
 
 		#ifdef CodeLock
         case CLMENU.SET_CODE_MENU:

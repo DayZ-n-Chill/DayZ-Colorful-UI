@@ -1,0 +1,237 @@
+FrameWidgetClass MainMenu_Root {
+ visible 1
+ ignorepointer 1
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ priority 951
+ {
+  ImageWidgetClass ImageWidget0 {
+   ignorepointer 1
+   position 1.37598 0.952
+   size 0.16 0.09
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   fixaspect outside
+   imageTexture "{F20AAA14565F80CD}Colorful-UI/GUI/textures/LoadScreens/Cui3-BG4.edds"
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
+  }
+  PanelWidgetClass "Button Test Frame" {
+   ignorepointer 1
+   color 0.3843 0.3843 0.3843 1
+   size 0.39388 0.5204
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style DayZDefaultPanel
+   {
+    ButtonWidgetClass testBtn0 {
+     position 0 -101.62099
+     size 270 48
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultButtonNoBorder
+     {
+      TextWidgetClass testBtn0_label {
+       ignorepointer 1
+       position 12 0
+       size 131.09 48
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Solid Button with Icon"
+       font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+       "text sharpness" 1.5
+       "exact text" 1
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+      ImageWidgetClass testBtn0_img {
+       ignorepointer 1
+       size 24 24
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       image0 "set:cui image:Exit"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+      }
+     }
+    }
+    ButtonWidgetClass testBtn1 {
+     position 0 -41.6207
+     size 200 48
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultButtonNoBorder
+     {
+      TextWidgetClass testBtn1_label {
+       ignorepointer 1
+       size 131.08701 48
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Solid Button"
+       font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+       "text sharpness" 1.5
+       "exact text" 1
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    ButtonWidgetClass testBtn2 {
+     position 0 18.3793
+     size 180 48
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass testBtn2_label {
+       ignorepointer 1
+       size 131.08701 48
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Text Button"
+       font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+       "text sharpness" 1.5
+       "exact text" 1
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    ButtonWidgetClass testBtn3 {
+     position 0 78.3793
+     size 180 48
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass testBtn3_label {
+       ignorepointer 1
+       position 12 0
+       size 131.09 48
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Text Button"
+       font "Colorful-UI/gui/fonts/GB-Regular.fnt"
+       "text sharpness" 1.5
+       "exact text" 1
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+      ImageWidgetClass testBtn3_img {
+       ignorepointer 1
+       size 24 24
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       image0 "set:cui image:Exit"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+      }
+     }
+    }
+    ButtonWidgetClass testBtn4 {
+     position 0 128.37903
+     size 24 24
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      ImageWidgetClass testBtn4_img {
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       image0 "set:cui image:Exit"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+      }
+     }
+    }
+    ButtonWidgetClass testBtn5 {
+     position 0 -162.78102
+     size 200 48
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Default
+     text "Vanilla Btn"
+     text_proportion 0.5
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,317 @@
+FrameWidgetClass DialogRoot {
+ visible 1
+ clipchildren 1
+ inheritalpha 0
+ color 0.1176 0.1176 0.1176 0.9804
+ position 0 -0.00096
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ scaled 1
+ priority 1000
+ {
+  ImageWidgetClass ImageBackground {
+   visible 0
+   position 0.00068 0
+   size 0.16 0.09
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+   fixaspect outside
+   image0 ""
+   imageTexture "{BCDEF8AF12180544}Colorful-UI/gui/textures/loading_screens/Colorful-BG-11.edds"
+   mode opaque
+   "src alpha" 1
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
+   filter 0
+   "Transition width" 1
+   Progress 0
+  }
+  FrameWidgetClass Shaders {
+   visible 1
+   clipchildren 0
+   ignorepointer 1
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass BottomShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1.01 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+     "flip v" 1
+    }
+    ImageWidgetClass Vingette {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position -1.2358 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{D8F330A5E09774AE}Colorful-UI/GUI/textures/globals/CUI2-Vingette.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+    ImageWidgetClass TopShader {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position -1.08116 0
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{73620301808D311B}Colorful-UI/GUI/textures/globals/shader.edds"
+     mode blend
+     "src alpha" 1
+     "clamp mode" clamp
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
+  WindowWidgetClass DialogBox {
+   ignorepointer 1
+   color 0.1176 0.1176 0.1176 1
+   size 500 200
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    PanelWidgetClass DialogBoxPanel {
+     visible 1
+     color 0.1176 0.1176 0.1176 1
+     position 0 -1.08357
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scaled 1
+     style DayZDefaultPanel
+     "no focus" 0
+     {
+      ButtonWidgetClass bYes {
+       visible 1
+       inheritalpha 0
+       color 1 0 0 1
+       position 35.9546 15.3
+       size 230 40
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style EmptyHighlight
+       "no focus" 1
+       text "#message_dialog_yes"
+       text_proportion 0.5
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+       {
+        ImageWidgetClass XboxHintYes {
+         visible 0
+         ignorepointer 1
+         size 21 21
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:ccgui_enforce image:XBoxA"
+         mode blend
+         "src alpha" 1
+         filter 0
+        }
+       }
+      }
+      ButtonWidgetClass bNo {
+       visible 1
+       inheritalpha 0
+       color 1 0 0 1
+       position 33.4766 15.3
+       size 230 40
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style EmptyHighlight
+       text "#message_dialog_no"
+       text_proportion 0.5
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+       {
+        ImageWidgetClass XboxHintNo {
+         visible 0
+         ignorepointer 1
+         size 21 21
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:ccgui_enforce image:XBoxB"
+         mode blend
+         "src alpha" 1
+         filter 0
+        }
+       }
+      }
+      ButtonWidgetClass bOK {
+       visible 0
+       inheritalpha 0
+       color 1 0 0 1
+       position 144.5 14
+       size 120.5 40
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style EmptyHighlight
+       text "#message_dialog_ok"
+       text_proportion 0.5
+       font "gui/fonts/sdf_MetronBook24"
+       {
+        ImageWidgetClass XboxHintOk {
+         visible 0
+         ignorepointer 1
+         size 21 21
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:ccgui_enforce image:XBoxA"
+         mode blend
+         "src alpha" 1
+         filter 0
+        }
+       }
+      }
+      ButtonWidgetClass bCancel {
+       visible 0
+       inheritalpha 0
+       color 1 0 0 1
+       position 405.5 14
+       size 120.5 40
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style EmptyHighlight
+       text "#dialog_cancel"
+       text_proportion 0.45
+       font "gui/fonts/sdf_MetronBook24"
+       {
+        ImageWidgetClass XboxHintCancel {
+         visible 0
+         ignorepointer 1
+         size 21 21
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:ccgui_enforce image:XBoxY"
+         mode blend
+         "src alpha" 1
+         filter 0
+        }
+       }
+      }
+      RichTextWidgetClass Text {
+       clipchildren 1
+       color 1 1 1 1
+       position 0 72.5
+       size 0.95 59.44
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#menu_default_desc"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+       "exact text" 0
+       "exact text size" 22
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       wrap 1
+      }
+      TextWidgetClass Caption {
+       visible 1
+       clipchildren 0
+       position 0 20
+       size 0.95 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style Bold
+       text "#menu_default_cap"
+       font "Colorful-ui/gui/fonts/GB-Regular.fnt"
+       "text color" 1 1 1 1
+       "exact text" 0
+       "text halign" center
+       "text valign" center
+      }
+      PanelWidgetClass SeparatorPanel {
+       color 0.7569 0.0941 0.0941 0.7843
+       position 0 60
+       size 0.85 2
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       scaled 1
+       priority 10
+       style rover_sim_colorable
+      }
+     }
+    }
+   }
+  }
+ }
+}

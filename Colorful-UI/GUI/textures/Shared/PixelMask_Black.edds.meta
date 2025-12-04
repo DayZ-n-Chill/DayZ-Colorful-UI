@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4E8235B002169A51}Colorful-UI/GUI/textures/Shared/PixelMask_Black.edds"
+ Author "unicron"
+ ChangeDate -721210845
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "PixelMask_Black.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

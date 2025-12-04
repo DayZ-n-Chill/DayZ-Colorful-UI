@@ -1,29 +1,29 @@
-modded class OptionSelectorEditbox extends OptionSelectorBase
-{
-	override void ColorHighlight( Widget w )
-	{
-		if( !w )
-			return;
+// modded class OptionSelectorEditbox extends OptionSelectorBase
+// {
+// 	override void ColorHighlight( Widget w )
+// 	{
+// 		if( !w )
+// 			return;
 		
-		if ( m_EditBox )
-		{
-			SetFocus( m_EditBox );
-			m_EditBox.SetColor( colorScheme.OptionInputColors() );
-		}
+// 		if ( m_EditBox )
+// 		{
+// 			SetFocus( m_EditBox );
+// 			m_EditBox.SetColor( colorScheme.OptionInputColors() );
+// 		}
 		
-		super.ColorHighlight( w );
-	}
+// 		super.ColorHighlight( w );
+// 	}
 	
-	override void ColorNormal( Widget w )
-	{
-		if( !w )
-			return;
+// 	override void ColorNormal( Widget w )
+// 	{
+// 		if( !w )
+// 			return;
 		
-		if ( m_EditBox )
-		{
-			m_EditBox.SetColor( UIColor.SemiTransparentWhite() );
-		}
+// 		if ( m_EditBox )
+// 		{
+// 			m_EditBox.SetColor( UIColor.SemiTransparentWhite() );
+// 		}
 		
-		super.ColorNormal( w );
-	}
-}
+// 		super.ColorNormal( w );
+// 	}
+// }

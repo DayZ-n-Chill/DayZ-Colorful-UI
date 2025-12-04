@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BBD2BF0B2499F4A7}Colorful-UI/GUI/textures/LoadScreens/Cui3-BG3.edds"
+ Author "unicron"
+ ChangeDate 138113366
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Cui3-BG3.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

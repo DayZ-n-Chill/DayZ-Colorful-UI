@@ -1,0 +1,104 @@
+PanelWidgetClass DropzoneX {
+ visible 1
+ clipchildren 0
+ ignorepointer 1
+ color 1 1 1 0
+ size 511 1
+ halign right_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 0
+ priority 10
+ scriptclass ""
+ style Outline
+ {
+  ScrollWidgetClass Scroller {
+   visible 1
+   clipchildren 0
+   ignorepointer 0
+   color 0.1961 0.1961 0.1961 0.3922
+   position -11 0
+   size 506 0.96
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   scriptclass ""
+   style blank
+   "Ignore invisible" 0
+   "Scrollbar V" 1
+   {
+    PanelWidgetClass DropzoneXa {
+     visible 0
+     clipchildren 0
+     ignorepointer 1
+     size 1 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 10
+     style dashed
+    }
+    FrameWidgetClass ContentParent {
+     visible 0
+     clipchildren 0
+     ignorepointer 1
+     size 491 0
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass "SizeToChild"
+     {
+      ScriptParamsClass {
+       m_ChildName "Content"
+       m_ResizeVertical 1
+      }
+     }
+    }
+    GridSpacerWidgetClass Content {
+     clipchildren 0
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass ""
+     style Colorable
+     Padding 8
+     Margin 0
+     "Size To Content V" 1
+     Columns 1
+     Rows 100
+    }
+    PanelWidgetClass Down {
+     clipchildren 0
+     ignorepointer 1
+     position 0 50
+     size 36 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    PanelWidgetClass Up {
+     clipchildren 0
+     ignorepointer 1
+     size 40 150
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+   }
+  }
+ }
+}
